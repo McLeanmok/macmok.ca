@@ -1,0 +1,166 @@
+/* 
+  The grid plug-in is a collection of classes to help quickly create grid content.
+  It includes classes for grid templates, alignment, justification, and auto-fit grids.
+
+  Here's a breakdown of the classes:
+  - `.grid`: used to create a blank grid containing block.
+  - '.grid-stack' creates a grid containing block with a gap in it
+  - `.grid-2`, `.grid-3`, `.grid-4`, `.grid-5`: used to create grids with 2, 3, 4, or 5 columns respectively. Each grid has a default gap of --grid-gap. NOTE: each grid template is backed by the associated CSS variable. 
+  - `.grid-flow`: used to create a grid with a flow layout, allowing items to wrap.
+  - `.grid-auto-fit`: used to create a grid that automatically fits items based on the available space, with a minimum column size and gap defined by CSS variables.
+  - Alignment classes: `.grid-align-start`, `.grid-align-end`, `.grid-align-center`, `.grid-align-stretch`, `.grid-align-baseline`: used to align items within the grid.
+  - Justification classes: `.grid-justify-start`, `.grid-justify-end`, `.grid-justify-center`, `.grid-justify-between`, `.grid-justify-around`, `.grid-justify-evenly`: used to justify items within the grid.
+  - Auto rows and columns classes: `.grid-auto-rows-min`, `.grid-auto-rows-max`, `.grid-auto-rows-auto`, `.grid-auto-cols-min`, `.grid-auto-cols-max`, `.grid-auto-cols-auto`: used to set the size of auto-generated rows and columns.
+  - Template areas classes: `.grid-template-areas-header-main-footer`, `.grid-template-areas-sidebar-main`, `.grid-template-areas-header-sidebar-main-footer`: used to define specific grid layouts with named areas for headers, sidebars, main content, and footers.
+  This plug-in is useful for quickly setting up grid layouts without needing to write custom CSS for each layout. NOTE, if you use a certain setting over and over again, it's better to build a custom class for it.
+
+  As with all the ChampCSS plugins, the content is added into a cascade layer, so it's added with 0 specificity. You can easily override the content in this plug-in in the custom layer whitch takes precedence over all the default content.
+*/
+
+@layer champ-grid, custom-grid;
+
+@layer champ-grid {
+  /* Grid container styles */
+  .grid {
+    display: grid;
+  }
+  .grid-stack {
+    display: grid;
+    gap: var(--grid-gap);
+  }
+
+  /* Grid templates */
+  .grid-2 {
+    display: grid;
+    gap: var(--grid-gap);
+    grid-template-columns: var(--grid-2);
+  }
+  .grid-3 {
+    display: grid;
+    gap: var(--grid-gap);
+    grid-template-columns: var(--grid-3);
+  }
+  .grid-4 {
+    display: grid;
+    gap: var(--grid-gap);
+    grid-template-columns: var(--grid-4);
+  }
+  .grid-5 {
+    display: grid;
+    gap: var(--grid-gap);
+    grid-template-columns: var(--grid-5);
+  }
+
+  /* Flow */
+  .grid-flow {
+    display: grid;
+    gap: var(--grid-flow-gap, 1rem);
+
+    > * {
+      margin: 0;
+    }
+  }
+
+  /* grid auto fit */
+  .grid-auto-fit {
+    --grid-auto-fit-min-column-size: 200px;
+    --grid-auto-fit-gap: 1rem;
+
+    display: grid;
+    gap: var(--grid-auto-fit-gap);
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(min(var(--grid-auto-fit-min-column-size), 100%), 1fr)
+    );
+  }
+
+  /* Grid alignment */
+  .grid-align-start {
+    align-items: start;
+  }
+
+  .grid-align-end {
+    align-items: end;
+  }
+
+  .grid-align-center {
+    align-items: center;
+  }
+
+  .grid-align-stretch {
+    align-items: stretch;
+  }
+
+  .grid-align-baseline {
+    align-items: baseline;
+  }
+
+  /* Grid justify */
+  .grid-justify-start {
+    justify-content: start;
+  }
+
+  .grid-justify-end {
+    justify-content: end;
+  }
+
+  .grid-justify-center {
+    justify-content: center;
+  }
+
+  .grid-justify-between {
+    justify-content: space-between;
+  }
+
+  .grid-justify-around {
+    justify-content: space-around;
+  }
+
+  .grid-justify-evenly {
+    justify-content: space-evenly;
+  }
+
+  /* Grid auto rows and columns */
+  .grid-auto-rows-min {
+    grid-auto-rows: min-content;
+  }
+
+  .grid-auto-rows-max {
+    grid-auto-rows: max-content;
+  }
+
+  .grid-auto-rows-auto {
+    grid-auto-rows: auto;
+  }
+
+  .grid-auto-cols-min {
+    grid-auto-columns: min-content;
+  }
+
+  .grid-auto-cols-max {
+    grid-auto-columns: max-content;
+  }
+
+  .grid-auto-cols-auto {
+    grid-auto-columns: auto;
+  }
+
+  /* Grid template areas */
+  .grid-template-areas-header-main-footer {
+    grid-template-areas:
+      "header"
+      "main"
+      "footer";
+  }
+
+  .grid-template-areas-sidebar-main {
+    grid-template-areas: "sidebar main";
+  }
+
+  .grid-template-areas-header-sidebar-main-footer {
+    grid-template-areas:
+      "header header"
+      "sidebar main"
+      "footer footer";
+  }
+}

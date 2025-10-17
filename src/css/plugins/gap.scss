@@ -1,0 +1,41 @@
+/* 
+    The gap plug-in is a collection of classes that are used to set gaps between elements. 
+    It includes classes for setting gaps between block elements, inline elements, and between block and inline elements.
+    These utility classes are added in the "champ-gap" layer which adds zero specificity. If you need to override these classes, add them to the "custom-gap" layer in this file.
+
+    Here's how it works:
+    - gaps are defined by the 'gap' prefix, followed by the size of the gap. The sizes are sm, md, lg and xl. For example, if I wanted to set a small gap between elements, I would use the class `gap-sm`.
+    - there's also classes for contextual gaps like: contaner-gap, card-gap, and grid-gap. These classes are used to set gaps between elements in specific contexts. for example, if I wanted to add a gap within my grid, I would use the class `grid-gap`.
+*/
+@layer champ-gap, custom-gap;
+
+@layer custom-gap {
+    /* Add your custom gap classes here */
+}
+
+@layer champ-gap {
+    /* Gaps */
+    .gap-sm {
+        gap: var(--gap-sm);
+    }
+    .gap-md {
+        gap: var(--gap-md);
+    }
+    .gap-lg {
+        gap: var(--gap-lg);
+    }
+    .gap-xl {
+        gap: var(--gap-xl);
+    }
+    
+    /* Contextual Gaps */
+    .content-gap {
+        gap: var(--content-gap);
+    }
+    .grid-gap {
+        gap: var(--grid-gap);
+    }
+    .card-gap {
+        gap: var(--card-gap);
+    }
+}

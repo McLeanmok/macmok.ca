@@ -1,0 +1,23 @@
+/* 
+    ChampCSS plugins are little tools that look at your HTML, it'and apply styles for components, and stuff like that. If you don't like the idea of ChampCSS having an impact on your HTML, you can simply delete this directory from your project, and go back to using the core CSS variables just like you did before.
+
+    This is just a work in progress, and I will develop new plugins as time goes on. If you have any suggestions, please let me know via our website (https://champcss.com/contact). I will be happy to add them to the list.
+
+    So far, my ideas are:
+    - sections 
+    - cards
+    - buttons
+    - forms
+    
+
+    and more to come……
+
+    plugins are using datattributes. This is because it adds zero specificity, so that you can override plugin settings easily. Please review individual plugin files for more information on how to use them.
+*/
+
+@forward 'section';
+@forward 'cards';
+@forward 'buttons';
+@forward 'gap';
+@forward 'flex';
+@forward 'grid'

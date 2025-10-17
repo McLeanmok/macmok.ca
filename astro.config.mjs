@@ -1,5 +1,18 @@
-// @ts-check
+import purgecss from 'astro-purgecss';
+
 import { defineConfig } from 'astro/config';
 
-// https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+  // Add purgecss support to Astro
+  integrations: [
+    purgecss({
+      fontFace: true,
+     variables: true,
+    })
+  ],
+  outDir: 'build',
+  build: {
+    format: 'preserve',
+    inlineStylesheets: 'never'
+  }
+});

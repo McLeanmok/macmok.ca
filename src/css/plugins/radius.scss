@@ -1,0 +1,22 @@
+/* 
+    The radius plug-in is a collection of classes that can be used to apply border-radius styles to Content on your page. Here's how it works:
+    Any radius class is prefixed with `.br-` followed by the size, such as `.br-sm`, `.br-md`, etc. These classes are backed by the radius variables in the library, so when you update the tokens, these classes will automatically update.
+    These utility classes are added in the "champ-radius" layer which adds zero specificity. If you need to override these classes, add them to the "custom-radius" layer in this file.
+
+    For example, if I wanted to add a border-radius of 50% to an element, I would add the "br-circle" class to the element.
+*/
+
+/* Initializing layers */
+@layer champ-radius, custom-radius;
+
+@layer custom-radius {
+    /* Add your custom radius classes here */
+}
+
+@layer champ-radius {
+    .br-sm {border-radius: var(--radius-sm);}
+    .br-md {border-radius: var(--radius-md);}
+    .br-lg {border-radius: var(--radius-lg);}
+    .br-xl {border-radius: var(--radius-xl);}
+    .br-circle {border-radius: var(--radius-circle);}
+}

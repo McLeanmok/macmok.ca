@@ -1,0 +1,114 @@
+/* 
+    The type plug-in is a collection of classes that can be used to apply typographic styles to elements.
+    These classes are backed by the type variables in the library, so when you update the tokens, these classes will automatically update.
+    These utility classes are added in the "champ-type" layer which adds zero specificity. If you need to override these classes, add them to the "custom-type" layer in this file.
+
+    Here's how it works:
+    - Font weights: `.fw-ultrathin`, `.fw-thin`, etc.: used to set the font-weight of an element.
+    - Font sizes: `.fs-h1`, `.fs-h2`, etc.: used to set the font-size of an element.
+    - Line heights: `.lh-p`, `.lh-headings`: used to set the line-height of an element.
+    - Font families: `.ff-headings`, `.ff-body`: used to set the font-family of an element.
+
+    You can easily override the content in this plug-in in the custom layer which takes precedence over all the default content.
+
+*/
+@layer champ-type, custom-type;
+
+@layer custom-type {
+  /* Add your custom type classes here */
+}
+
+@layer champ-type {
+  /* Font weights  */
+  .fw-ultrathin {
+    font-weight: var(--fw-ultrathin);
+  }
+  .fw-thin {
+    font-weight: var(--fw-thin);
+  }
+  .fw-light {
+    font-weight: var(--fw-light);
+  }
+  .fw-regular {
+    font-weight: var(--fw-regular);
+  }
+  .fw-medium {
+    font-weight: var(--fw-medium);
+  }
+  .fw-bold {
+    font-weight: var(--fw-bold);
+  }
+  .fw-semibold {
+    font-weight: var(--fw-semibold);
+  }
+  .fw-ultrabold {
+    font-weight: var(--fw-ultrabold);
+  }
+  .fw-black {
+    font-weight: var(--fw-black);
+  }
+  .fw-ultrathin {
+    font-weight: var(--fw-ultrathin);
+  }
+  /* Font sizes  */
+  .fs-h1 {
+    font-size: var(--fs-h1);
+  }
+  .fs-h2 {
+    font-size: var(--fs-h2);
+  }
+  .fs-h3 {
+    font-size: var(--fs-h3);
+  }
+  .fs-h4 {
+    font-size: var(--fs-h4);
+  }
+  .fs-h5 {
+    font-size: var(--fs-h5);
+  }
+  .fs-h6 {
+    font-size: var(--fs-h6);
+  }
+  .Fs-links {
+    font-size: var(--fs-links);
+  }
+  .fs-p {
+    font-size: var(--fs-p);
+  }
+
+  /* Line height */
+  .lh-p {
+    line-height: var(--lh-p);
+  }
+  .lh-headings {
+    line-height: var(--lh-headings);
+  }
+
+  /* Font families */
+  .ff-headings {
+    font-family: var(--ff-headings);
+  }
+  .ff-body {
+    font-family: var(--ff-body);
+  }
+
+  /* Text styles */
+  .uppercase {
+    text-transform: uppercase;
+  }
+  .lowercase {
+    text-transform: lowercase;
+  }
+  .capitalize {
+    text-transform: capitalize;
+  }
+  .italic {
+    font-style: italic;
+  }
+  .underline {
+    text-decoration: underline;
+  }
+  .line-through {
+    text-decoration: line-through;
+  }
+}

@@ -1,0 +1,30 @@
+/* Font Configuration  */
+@font-face {
+    font-family: "Kanit";
+    font-weight: 400;
+    src: url(../fonts/kanit-light.woff2) format(woff2), url(../fonts/kanit-light.woff) format(woff), url(../fonts/kanit-light.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "Kanit";
+    font-weight: 800;
+    src: url(../fonts/kanit-bold.woff2) format(woff2), url(../fonts/kanit-bold.woff) format(woff), url(../fonts/kanit-bold.ttf) format(truetype);
+}
+
+/* Variable Overrides */
+:root {
+    --ff-headings: 'Kanit', sans-serif;
+    --ff-body: 'Kanit', sans-serif;
+
+    --primary-h: 14;
+    --primary-s: 74%;
+    --primary-l: 55%;
+
+    --secondary-h: 185;
+    --secondary-s: 65%;
+    --secondary-l: 27%;
+
+    --tertiary-h: 43;
+    --tertiary-s: 85%;
+    --tertiary-s: 71%
+}

@@ -1,0 +1,5 @@
+@use 'sass:math';
+// pixel 
+@function pixel($input) {
+    @return math.div(  $input , 16 ) + rem;
+}
