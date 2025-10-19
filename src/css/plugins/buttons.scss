@@ -57,6 +57,7 @@
         background-color: var(--surface-300);
       }
     }
+    
 
     // outline variant
     @if $outline == "primary" {
@@ -117,7 +118,7 @@
   }
   .standard-btn--neutral {
     @include btn("neutral");
-
+  }
     /* Outlines */
     .btn-outline__primary {
       --btn-theme: var(--primary-400);
@@ -187,4 +188,4 @@
       padding: calc(var(--btn-padding__block) * 1);
     }
   }
-}
+

@@ -1,5 +1,4 @@
 ---
-import "../css/index.scss"
 import { string } from 'astro:schema';
 import HeadTag from "./head-tag.astro";
 interface Props {
@@ -17,6 +16,9 @@ const {title, description, author, keywords} = Astro.props;
 	<body>
     <main>
         <slot />
+        <style is:global lang="scss">
+            @import '../css/index.scss';
+        </style>
     </main>
 	</body>
 </html>

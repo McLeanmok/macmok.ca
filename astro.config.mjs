@@ -8,11 +8,15 @@ export default defineConfig({
     purgecss({
       fontFace: true,
      variables: true,
-    })
+    }),
+    
   ],
   outDir: 'build',
   build: {
     format: 'preserve',
     inlineStylesheets: 'never'
+  },
+  assets: {
+    basePath: "/",
   }
 });

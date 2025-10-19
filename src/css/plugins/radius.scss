@@ -10,13 +10,23 @@
 @layer champ-radius, custom-radius;
 
 @layer custom-radius {
-    /* Add your custom radius classes here */
+  /* Add your custom radius classes here */
 }
 
 @layer champ-radius {
-    .br-sm {border-radius: var(--radius-sm);}
-    .br-md {border-radius: var(--radius-md);}
-    .br-lg {border-radius: var(--radius-lg);}
-    .br-xl {border-radius: var(--radius-xl);}
-    .br-circle {border-radius: var(--radius-circle);}
+  .br-sm {
+    border-radius: var(--radius-sm);
+  }
+  .br-md {
+    border-radius: var(--radius-md);
+  }
+  .br-lg {
+    border-radius: var(--radius-lg);
+  }
+  .br-xl {
+    border-radius: var(--radius-xl);
+  }
+  .br-circle {
+    border-radius: var(--radius-circle);
+  }
 }

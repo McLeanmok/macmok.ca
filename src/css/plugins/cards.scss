@@ -20,7 +20,7 @@
     
     - .standard-card__lead - for a lead element, which is styled to be uppercase and bold. This is completely optional.
 */
-
+// bringing in buttons
 /* Initiating layers */
 @layer champ-cards, card-mods, custom-cards;
 
@@ -29,68 +29,85 @@
 }
 
 @layer champ-cards {
-  /* Standard Card */
-  .standard-card {
+  @mixin card($theme) {
+    // Locally Scoped Card Variables
+    --btn-hover-lightness: 90%;
+    --btn-hover-opacity: 0.8;
+
     display: grid;
     gap: var(--card__gap);
     background-color: var(--primary-card__bg);
     color: var(--primary-card__color);
-    padding: var(--primary-card__padding);
+    padding: var(--card__padding);
     border-radius: var(--primary-card__radius);
-  }
-  .standard-card__heading {
-    font-size: var(--card__heading-font-size);
-  }
-  .standard-card__body {
-    font-size: var(--card__body-font-size);
-    margin: auto 0;
-  }
-  .standard-card__btn {
-    justify-self: flex-start;
-    background-color: var(--white);
-    color: var(--black);
-    padding: var(--btn-padding);
-    font-weight: var(--btn-font-weight);
-    border-radius: var(--btn-radius);
-
-    &:hover,
-    &:focus {
-      background-color: var(--primary-900__trans-900);
-      transition: var(--btn-animation);
+    &__heading {
+      font-size: var(--card__heading-font-size);
     }
+    &__body {
+      font-size: var(--card__body-font-size);
+      margin: auto 0;
+    }
+    &__btn {
+      background: var(--white);
+      color: var(--black);
+      padding: var(--btn-padding);
+      font-weight: var(--btn-font-weight);
+      border-radius: var(--btn-radius);
+      justify-self: start;
+      transition: var(--btn-animation);
+      &:hover,
+      &:focus {
+        background: hsl(
+          var(--primary-h) var(--primary-s) var(--btn-hover-lightness) / 08
+        );
+      }
+    }
+
+    @if $theme == "secondary" {
+      background-color: var(--secondary-card__bg);
+      color: var(--secondary-card__color);
+      padding: var(--secondary-card__padding);
+      border-radius: var(--secondary-card__radius);
+      &__btn {
+        &:hover,
+        &:focus {
+          background: hsl(
+            var(--secondary-h)
+              var(--secondary-s)
+              var(--btn-hover-lightness) /
+              08
+          );
+        }
+      }
+    } @else if $theme == "tertiary" {
+      background-color: var(--tertiary-card__bg);
+      color: var(--tertiary-card__color);
+      padding: var(--tertiary-card__padding);
+      border-radius: var(--tertiary-card__radius);
+      &__btn {
+        &:hover,
+        &:focus {
+          background: hsl(
+            var(--secondary-h)
+              var(--secondary-s)
+              var(--btn-hover-lightness) /
+              08
+          );
+        }
+      }
+    }
+  }
+  /* Standard Card */
+  .standard-card {
+    @include card("primary");
   }
 
   /* Variants */
   .standard-card--secondary {
-    display: grid;
-    gap: var(--card__gap);
-    background-color: var(--secondary-card__bg);
-    color: var(--secondary-card__color);
-    padding: var(--secondary-card__padding);
-    border-radius: var(--secondary-card__radius);
+    @include card("secondary");
   }
   .standard-card--tertiary {
-    display: grid;
-    gap: var(--card__gap);
-    background-color: var(--tertiary-card__bg);
-    color: var(--tertiary-card__color);
-    padding: var(--tertiary-card__padding);
-    border-radius: var(--tertiary-card__radius);
-  }
-
-  /* Automatic Card Styling */
-  [class$="-card"] {
-    padding: var(--card-padding);
-    display: grid;
-    gap: var(--card-gap);
-    border-radius: var(--card-radius);
-  }
-  [class$="-card__heading"] {
-    font-size: var(--card__heading-font-size);
-  }
-  [class$="-card__body"] {
-    font-size: var(--card__body-font-size);
-    margin: auto 0;
+    @include card("tertiary");
   }
 }
 
