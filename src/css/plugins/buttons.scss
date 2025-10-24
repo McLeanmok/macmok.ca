@@ -105,7 +105,7 @@
         color: var(--white);
       }
     }
-  } // end mixin
+  }; // end mixin
 
   .standard-btn {
     @include btn("primary");

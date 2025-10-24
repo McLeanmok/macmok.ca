@@ -1,0 +1,24 @@
+[
+    {
+        "text": "Home",
+        "href":"/",
+        "title":"Go to my homepage"
+    },
+  {
+    "text":"About",
+    "href":"/about",
+    "title": "Learn more about me and what I do"
+  },
+  {
+    "text": "Services",
+    "href": "/services",
+    "title": "Check out my media production services"
+  },
+ 
+  {
+    "text":"Get In Touch",
+    "href":"/contact",
+    "title":"Get in touch with me"
+  }
+
+]

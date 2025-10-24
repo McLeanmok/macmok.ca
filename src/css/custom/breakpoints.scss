@@ -1,1 +1,31 @@
-/* @custom-media --bp-standard 768px; */
+// importing functions 
+@use 'sass:map';
+@use "./functions.scss" as *;
+// site breakpoints 
+$breakpoints: (
+    'sm': pixel(500),
+    'md': pixel(730),
+    'lg': pixel(1000),
+);
+
+// mixins
+@mixin bp-down($size) {
+    $breakpoint-value: map.get($breakpoints, $size);
+    @if $breakpoint-value {
+        @media (width < $breakpoint-value) {
+            @content;
+        }
+    } @else {
+        @warn "No value found for breakpoint `#{$size}`.";
+    }
+}
+@mixin bp-up($size) {
+    $breakpoint-value: map.get($breakpoints, $size);
+    @if $breakpoint-value {
+        @media (width > $breakpoint-value) {
+            @content;
+        }
+    } @else {
+        @warn "No value found for breakpoint `#{$size}`.";
+    }
+}

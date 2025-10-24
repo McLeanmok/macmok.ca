@@ -1,10 +1,12 @@
 /* 
   This is a reset that controls the entire website 
 */
+
+// Grabbing abstracts 
 @layer champ-reset, custom-reset;
 
 @layer custom-reset {
-  /* Add your custom reset styles here */
+  
 }
 @layer champ-reset {
   
@@ -92,8 +94,8 @@ figcaption {
 }
 
 /* List styles */
-ul[role="list"],
-ol[role="list"] {
+ul[class],
+ol[class] {
   list-style: none;
   margin: 0px;
 }

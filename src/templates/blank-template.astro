@@ -1,7 +1,6 @@
 ---
-// Component imports
+import { string } from 'astro:schema';
 import HeadTag from "./head-tag.astro";
-import Header from "../components/header/index.astro"
 interface Props {
     title: string;
     description?: string;
@@ -16,7 +15,6 @@ const {title, description, author, keywords} = Astro.props;
 	<HeadTag {title} {description} {author} {keywords}/>
 	<body>
     <main>
-        <Header />
         <slot />
         <style is:global lang="scss">
             @import '../css/index.scss';

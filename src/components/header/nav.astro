@@ -1,0 +1,31 @@
+---
+import NavData from "../../loops/nav.json";
+import NavLink from "./nav-link.astro"; 
+---
+<nav class="site-header__nav">
+    <ul class="site-header__nav-links">
+        {
+            NavData.map((link) => (
+                <li class="site-header__nav-link">
+                    <NavLink navLink={link} />
+                </li>
+            ))
+        }
+    </ul>
+</nav>
+
+<script>
+   // Get all nav links
+const navLinks = document.querySelectorAll('nav a');
+
+// Loop through each link and apply aria-current
+navLinks.forEach((link) => {
+  const linkUrl = link.href;
+  const currentPageUrl = window.location.href;
+  if (linkUrl === currentPageUrl) {
+    link.setAttribute('aria-current', 'page');
+  } else {
+    link.removeAttribute('aria-current');
+  }
+});
+</script>

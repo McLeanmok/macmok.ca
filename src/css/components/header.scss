@@ -1,0 +1,88 @@
+// Grabbing stuff
+@use "../custom/index.scss" as *;
+
+// locally scoped variables
+:root {
+  --navlink__clickabale-area: 0.5em;
+  --menu-gap: var(--sp-100);
+}
+// active state
+[aria-current="page"] {
+  color: var(--primary-base);
+  font-weight: var(--fw-bold);
+
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: pixel(2);
+    background: var(--primary-base);
+    margin-top: var(--sp-50);
+  }
+}
+
+.site-header {
+  padding: var(--section-padding-sm);
+  position: sticky;
+  top: 0;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include bp-down("md") {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+}
+// nav menu
+.site-header__nav-links {
+  display: flex;
+  gap: calc(-var(--menu-gap) - --navlink__clickabale-area);
+  // making the navlinks a column on mobile
+  @include bp-down("md") {
+    flex-direction: column;
+  } // end media query
+  li {
+    // link styles
+    a {
+      padding: var(--navlink__clickabale-area);
+      transition: 0.3s ease-in-out;
+      &:hover,
+      &:focus {
+        color: var(--primary-base);
+        transform: scale(1.1);
+      }
+    }
+    // active state
+  }
+} // end link styles
+.site-header__nav-links > :last-child {
+  @include bp-up("md") {
+    margin-inline-start: 20em;
+    a {
+      color: var(--white);
+      background-color: var(--primary-base);
+      padding: var(--primary-btn__padding);
+      font-weight: var(--btn-font-weight);
+      border-radius: var(--primary-btn__radius);
+      transition: var(--primary-btn__animation);
+
+      &:hover,
+      &:focus {
+        background-color: var(--primary-btn__hover-bg);
+        color: var(--white);
+      }
+    } // end link syles
+  } // end media query
+} // end overall selector
+// hiding the checkbox on desktop
+@include bp-up("md") {
+  .site-header {
+    &__nav-toggle,
+    &__nav-toggle-label {
+      display: none;
+    }
+  }
+}
