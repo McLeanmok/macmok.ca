@@ -1,7 +1,9 @@
 ---
 // Component imports
 import HeadTag from "./head-tag.astro";
-import Header from "../components/header/index.astro"
+import Header from "../components/header/index.astro";
+import Footer from "../components/footer/index.astro";
+
 interface Props {
     title: string;
     description?: string;
@@ -18,6 +20,7 @@ const {title, description, author, keywords} = Astro.props;
     <main>
         <Header />
         <slot />
+        <Footer />
         <style is:global lang="scss">
             @import '../css/index.scss';
         </style>

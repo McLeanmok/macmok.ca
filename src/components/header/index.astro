@@ -14,19 +14,27 @@ import brand from "../../media/brand/logo-dark.svg"
                 <Image src={brand} alt="My Logo. My name in Orange with my last name bolded" title="Click to go home"/>
             </figure></a>
             <!-- Checkbox for mobile navigation  -->
-             <input type="checkbox" class="site-header__nav-toggle" id="nav-toggle" />
-             <label for="nav-toggle" aria-expanded="false" class="site-header__nav-toggle-label"></label>
+             <input type="checkbox" class="site-header__nav-toggle" id="nav-toggle"  />
+             <label for="nav-toggle" aria-expanded="false" class="site-header__nav-toggle-label" aria-label="toggle the mobile menu">
+              <span></span>
+              <span></span>
+              <span></span>
+             </label>
             <Nav />
         </div>
     </Container>
 </header>
 <script>
-    const checkbox = document.querySelector('input[type="checkbox"]');
+   const checkbox = document.querySelector('input[type="checkbox"]');
 checkbox.addEventListener('change', function() {
   if (this.checked) {
     this.nextElementSibling.setAttribute('aria-expanded', 'true');
   } else {
-    this.nextElementSibling.setAttribute('aria-expanded', 'false');
+    this.this.nextElementSibling.setAttribute('aria-label', 'Open navigation');
   }
 });
+  
+const navLabel = document.querySelector('imput[type="checkbox"] ');
+
+
 </script>

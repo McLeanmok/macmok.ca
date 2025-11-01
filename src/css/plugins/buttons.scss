@@ -17,6 +17,7 @@
 
 @layer chapmp-btns {
   @mixin btn($theme, $outline: null) {
+    place-self: flex-start;
     background-color: var(--primary-btn__bg);
     color: var(--primary-btn__color);
     padding: var(--primary-btn__padding);
@@ -121,55 +122,19 @@
   }
     /* Outlines */
     .btn-outline__primary {
-      --btn-theme: var(--primary-400);
-      border: 3px solid var(--btn-theme);
-      background-color: transparent;
-      color: var(--btn-theme);
-
-      &:hover,
-      &:focus {
-        background-color: var(--btn-theme);
-        color: var(--white);
-      }
+      @include btn("primary", "primary");
     }
 
     .btn-outline__secondary {
-      --btn-theme: var(--secondary-400);
-      border: 3px solid var(--btn-theme);
-      background-color: transparent;
-      color: var(--btn-theme);
-
-      &:hover,
-      &:focus {
-        background-color: var(--btn-theme);
-        color: var(--white);
-      }
+   @include btn("secondary", "secondary");
     }
 
     .btn-outline__tertiary {
-      --btn-theme: var(--tertiary-400);
-      border: 3px solid var(--btn-theme);
-      background-color: transparent;
-      color: var(--btn-theme);
-
-      &:hover,
-      &:focus {
-        background-color: var(--btn-theme);
-        color: var(--white);
-      }
+      @include btn("tertiary", "tertiary");
     }
 
     .btn-outline__neutral {
-      --btn-theme: var(--surface-200);
-      border: 3px solid var(--btn-theme);
-      background-color: transparent;
-      color: var(--btn-theme);
-
-      &:hover,
-      &:focus {
-        background-color: var(--btn-theme);
-        color: var(--white);
-      }
+      @include btn("neutral", "neutral");
     }
 
     /* Utility classes  */
@@ -186,6 +151,9 @@
     }
     .btn-size__lg {
       padding: calc(var(--btn-padding__block) * 1);
+    }
+    .btn-radius__standard {
+      border-radius: var(--btn-radius);
     }
   }
 

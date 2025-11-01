@@ -1,0 +1,18 @@
+---
+import socialData from "../loops/socials.json";
+const { social } = Astro.props;
+---
+
+<ul class="social-menu" aria-label="My Socials">
+    {
+        socialData.map((link) => {
+            return (
+                <li class="social-menu__item">
+                    <a href={link.url}>
+                        <img src={link.icon} alt={link.alt} title={link.title} />
+                    </a>
+                </li>
+            )
+        })
+    }
+</ul>

@@ -1,0 +1,14 @@
+[
+    {
+        "icon":"/icons/spotify.svg",
+        "url":"https://open.spotify.com/user/gpemzt18h3jvibrl9mt6qv4hi?si=29922a716de64cea",
+        "title":"go to my spotify profile",
+        "alt":"spotify icon"
+    },
+    {
+        "icon":"/icons/facebook.svg",
+        "url": "https://www.facebook.com/mac.mok.2025",
+        "title": "go to my facebook profile",
+        "alt": "facebook icon"
+    }
+]

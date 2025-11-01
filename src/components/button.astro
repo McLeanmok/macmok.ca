@@ -3,17 +3,17 @@ interface Props {
     text: string;
     href: string;
     theme: "primary" | "secondary" | "tertiary" | "neutral";
-    filled?: boolean;
+    outline?: boolean;
     customClasses?: string;
 }
-const { text, href, theme, customClasses, filled, ...rest } = Astro.props;
-const themeClass = theme === "primary" ? "standard-btn" : `standard-btn--${theme}`;
+const { text, href, theme, customClasses, outline, ...rest } = Astro.props;
+const themeClass = outline ? `btn-outline__${theme}` : (theme === "primary" ? "standard-btn" : `standard-btn--${theme}`);
 ---
 <a 
  href={href}
  class:list={[
     themeClass,
-    { "button--filled": filled },
+    { "button--filled": outline },
     customClasses,
  ]},
  {...rest}

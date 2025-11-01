@@ -1,0 +1,20 @@
+// grabbing abstracts
+@use "../../custom/index" as *;
+
+.content-kelowna__heading {
+  @include bp-up("md") {
+    text-align: center;
+  }
+}
+
+.content-kelowna__grid {
+  display: grid;
+  grid-template-columns: var(--grid-2);
+  gap: var(--grid-gap);
+  align-items: center;
+}
+
+.content-kelowna__media {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}

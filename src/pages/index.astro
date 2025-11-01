@@ -3,8 +3,45 @@ import MainTemplate from "../templates/main-template.astro";
 import Button from "../components/button.astro";
 import Container from "../components/container.astro";
 import Card from "../components/card.astro";
----
 
+// image stuff
+import Image from "astro/components/Image.astro";
+import hero from "../media/index/hero.jpg"
+import about from "../media/index/about.jpg"
+import Work from "../media/index/work.jpeg"
+---
+ 
 <MainTemplate title="McLean Mylymok | Home" description="Welcome to my personal website! I'm McLean Mylymok, a media producer based in Parksville, BC. Explore my projects, blog posts, and get in touch with me." >
-	<h1>hi</h1>
+	<!-- Hero section -->
+	 <section class="home-hero">
+		<Container width="standard" customClass="home-hero__inner">
+			<div class="home-hero__content">
+				<h1 class="home-hero__heading">A Music Loving, Humorous, and Hard Working Media Producer</h1>
+				<p class="home-hero__body">Hello, my name is McLean Mylymok, and I’m a media student at Vancouver Island University. I have a strong passion for digital media. I am a well-rounded individual, who’s interested in many things. On this website, you can find out more about me and my projects, and find lots of content around media, and music. </p>
+				<div class="button-row">
+					<Button theme="primary" text="About Me" href="/about" />
+					<Button theme="primary" text="Get In Touch" href="/contact" outline customClasses="btn-radius__standard"/>
+				</div>
+			</div> <!-- end hero content -->
+			<figure class="home-hero__media-wrapper">
+				<Image src={hero}  class="home-hero__media" alt="a headshot of me taken at the North Island Wildlife Recreational Area Center in Errington, BC" title="A picture of me" />
+			</figure>
+		</Container>
+	 </section>
+
+	 <!-- About section ( using the content section Kelowna frame) -->
+	  <div class="content-kelowna">
+		  <Container width="standard" smartSpacing>
+			<h2 class="content-kelowna__heading">About Me</h2>
+			<div class="content-kelowna__grid">
+				<div class="content-kelowna__content">
+					<p class="hero-kelowna__body"> I am passionate about Digital media. My main medium is web, but I am comfortable with photography, and audio design. Outside of media, my primary passion is music. I listen to various genres, and I’m open to most music. I should warn you however, if you play Taylor Swift, things won’t go well.</p>
+					<Button theme="primary" href="/about" text="Get to Know Me Better"/>
+				</div> <!-- end about content -->
+				<figure class="content-kelowna__media-wrapper">
+					<Image src={about} class="content-kelowna__media" alt="me at the Sidney pier" title="A picture of me at the Sidney pier takeen April 20th, 2024" />
+				</figure>
+			</div>
+		  </Container>
+	  </div>
 </MainTemplate>

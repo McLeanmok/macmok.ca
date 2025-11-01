@@ -1,6 +1,9 @@
-// this folder contains styling content for substantial components such as the header, footer, etc
+// this folder contains styling content for components that are not part of ChampCSS plugins
 // last updated: 2025-10-21
 // Status: Working as intended
 
 @forward 'header';
-// @forward 'footer';
+@forward 'footer';
+@forward 'socials';
+@forward 'button-row.scss';
+@forward 'frames/'

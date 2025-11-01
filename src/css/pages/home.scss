@@ -1,0 +1,24 @@
+// grabbing abstracts 
+@use "../custom/index" as *;
+
+// hero
+.home-hero {
+    @include section-theme(var(--black), var(--primary-900));
+    padding-block: var(--section-padding-xl);
+}
+
+.home-hero__inner {
+    display: grid;
+    grid-template-columns: var(--grid-2);
+    gap: var(--grid-gap);
+    align-items: center;
+}
+
+.home-hero__content {
+    display: grid;
+    gap: var(--content-gap);
+}
+
+.home-hero__media {
+    @include img-fit
+}

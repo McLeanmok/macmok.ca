@@ -1,0 +1,16 @@
+---
+import Container from "../components/container.astro";
+import BlankTemplate from "../templates/blank-template.astro";
+import Button from "../components/button.astro";
+---
+
+<BlankTemplate title="Page Not Found ">
+    <section class="error-section">
+        <Container width="standard" smartSpacing customClass="error-section__inner">
+            <span class="error-section__lede">Umm, Awkward</span>
+            <h1 class="error-section__title">Page Not Found</h1>
+            <p class="error-section__description">The page you are looking for does not exist. Check the url to see if you typed the address correctly. If it's correct, it's very likely that the item that you were trying to access doesn't exist anymore</p>
+            <Button theme="primary" text="Go Home" href="/" />
+            </Container>
+    </section>
+</BlankTemplate>

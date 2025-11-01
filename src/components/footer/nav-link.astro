@@ -1,0 +1,6 @@
+---
+import NavData from "../../loops/nav.json"
+const { navLink } = Astro.props;
+---
+
+<a href={navLink.href} title={navLink.title} class="site-footer__link">{navLink.text}</a>

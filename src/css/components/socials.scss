@@ -1,0 +1,6 @@
+// this file is responsible for styling related to the social navigation 
+
+.social-menu {
+    display: flex;
+    gap: calc(var(--content-gap) / 2);
+}

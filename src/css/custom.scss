@@ -26,5 +26,11 @@
 
     --tertiary-h: 43;
     --tertiary-s: 85%;
-    --tertiary-s: 71%
+    --tertiary-s: 71%;
+
+--lh-p: clamp(1.3rem, 0.956vw + 0.694rem, 1.7rem);}
+// smart spacing 
+[ data-smart-spacing] {
+    display: grid;
+    gap: var(--content-gap);
 }

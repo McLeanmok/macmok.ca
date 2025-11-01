@@ -1,0 +1,44 @@
+// this file is responsible for styling related to the site footer
+
+// Grabbing abstracts 
+@use "../custom/index" as *;
+// containing block styles
+.site-footer {
+    @include section-theme(var(--white), var(--primary-300));
+    padding: var(--section-padding-md) 0;
+}
+
+// inner wrapper ( whitch is also the primary container for the section.
+.site-footer__inner {
+    display: grid;
+    gap: var(--content-gap);
+    grid-template-columns: var(--grid-3);
+    align-items: center;
+
+    @include bp-down("md") {
+        grid-template-columns: repeat(1, minmax(0px, 1fr));
+    }
+}
+// content group
+.site-footer__content-group {
+    display: grid;
+    gap: calc(var(--content-gap) / 1.8);
+    
+    > * {
+        margin: 0;
+        padding: 0;
+    }
+
+    &-heading {
+        font-size: var(--fs-h4);
+    }
+}
+
+// resetting the nav for some reason
+.site-footer__nav {
+    padding: 0;
+    margin: 0;
+    &-links {
+        padding: 0;
+    }
+}

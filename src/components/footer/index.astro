@@ -1,0 +1,39 @@
+---
+// component imports
+import Container from "../container.astro";
+import Nav from "./nav.astro";
+import Socials from "../socials.astro";
+
+import Image from "astro/components/Image.astro";
+import Logo from "../../media/brand/logo-light.svg"
+---
+
+<footer class="site-footer">
+    <Container width="standard" customClass="site-footer__inner">
+        <div class="site-footer__content-group">
+            <a href="/">
+            <figure class="site-footer__brand">
+            <Image src={Logo} alt="My Logo. My name in white with my last name bolded" title="Click to go home"/>    
+        </figure>
+    </a>
+        <p class="site-footer__copyright">&copy; <span id="year"></span> All rights reserved</p>
+        </div> <!-- end first content group -->
+
+        <!-- Site links -->
+         <div class="site-footer__content-group">
+            <h3 class="site-footer__content-group-heading">Site Links</h3>
+            <Nav />
+         </div> <!-- end second content group -->
+
+         <div class="site-footer__content-group">
+            <h3 class="site-footer__content-group-heading">Socials</h3>
+            <Socials />
+         </div>
+    </Container>
+</footer>
+<script>
+    const currentYear = new Date().getFullYear();
+    document.getElementById("year").textContent = currentYear;
+    console.log(data); // where data is the JSON data loaded from the file
+
+</script>
