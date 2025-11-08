@@ -25,7 +25,18 @@
 @layer champ-cards, card-mods, custom-cards;
 
 @layer custom-cards {
-  /* Custom card classes, or overrides go here */
+  // icon card (may get extracted as a componentat some point)
+  .icon-card {
+    background: var(--primary-900);
+  }
+ 
+  .icon-card__icon-wrapper {
+    background: var(--primary-300);
+    padding: var(--sp-100);
+    border-radius: 50vw;
+    order: -1;
+    place-self: flex-start;
+  }
 }
 
 @layer champ-cards {
@@ -108,6 +119,21 @@
   }
   .standard-card--tertiary {
     @include card("tertiary");
+  }
+
+  /* Automatic Card Styling */
+  [class$="-card"] {
+    padding: var(--card__padding);
+    display: grid;
+    gap: var(--card-gap);
+    border-radius: var(--card-radius);
+  }
+  [class$="-card__heading"] {
+    font-size: var(--card__heading-font-size);
+  }
+  [class$="-card__body"] {
+    font-size: var(--card__body-font-size);
+    margin: auto 0;
   }
 }
 

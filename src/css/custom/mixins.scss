@@ -8,10 +8,8 @@
 // section theme mixin
 @mixin section-theme($forground, $background) {
   color: $forground;
-  background-color: $background;
-  a:not([class$="btn"]) {
-    color: $forground;
-  }
+  background: $background
+ 
 }
 
 // Image sizing
@@ -26,4 +24,5 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  place-items: center;
 }

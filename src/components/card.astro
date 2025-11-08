@@ -10,7 +10,7 @@ interface Props {
 const { title, body, theme, hasBtn, btnText, btnLink } = Astro.props;
 const themeClass = theme === 'primary' ? 'standard-card' : `card--${theme}`;
 ---
-<div class:list={[
+<artilce class:list={[
     themeClass,
     { 'standard-card--secondary': theme === 'secondary' },
     { 'standard-card--tertiary': theme === 'tertiary' },
@@ -19,5 +19,4 @@ const themeClass = theme === 'primary' ? 'standard-card' : `card--${theme}`;
     class="'standard-card__heading">{title}</h2>
     <p class="'standard-card__body">{body}</p>
     {hasBtn && <a href={btnLink} class="standard-card__btn">{btnText}</a>}
-</div>
----
+</artilce>

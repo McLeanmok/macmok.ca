@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Audio Production",
+    "icon": {
+      "src": "/loop-media/icons/headphones.svg",
+      "alt": "a pair of headphones"
+    },
+    "body": "I am quite good at editing photos. I can take an okay picture, and really take it to the next level. With aid to Photoshop, I have full control over sizing, effects and filters, and style. It is important to transform a photo to get the most out of it.",
+    "img": {
+      "src": "/loop-media/services/audio.jpg",
+      "alt": "a microphone set up in a studio "
+    }
+  },
+  {
+    "title": "Web Production",
+    "icon": {
+      "src": "/loop-media/icons/browser.svg",
+      "alt": "A web browser"
+    },
+    "body": "I handcraft all of my sites by hand.  Whenever I craft a website, it’s important that I make my experiences accessible. I take care of all aspects of the project, from design to deployment. I look forward to producing your next website.",
+    "img": {
+      "src": "/loop-media/services/web.jpg",
+      "alt": "Some web code on a computer screen"
+    }
+  },
+  {
+    "title": "Photography",
+    "icon": {
+      "src": "/loop-media/icons/camera.svg",
+      "alt": "a camera"
+    },
+    "body": "I am quite good at editing photos. I can take an okay picture, and really take it to the next level. With aid to Photoshop, I have full control over sizing, effects and filters, and style. It is important to transform a photo to get the most out of it.",
+    "img": {
+      "src": "/loop-media/services/photography.jpg",
+      "alt": "a camera setup by the sea"
+    }
+  }
+]

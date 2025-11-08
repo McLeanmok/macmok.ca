@@ -1,10 +1,10 @@
 ---
 import Container from "../components/container.astro";
-import BlankTemplate from "../templates/blank-template.astro";
 import Button from "../components/button.astro";
+import MainTemplate from "../templates/main-template.astro";
 ---
 
-<BlankTemplate title="Page Not Found ">
+<MainTemplate noContact noFooter noHeader title="Page Not Found ">
     <section class="error-section">
         <Container width="standard" smartSpacing customClass="error-section__inner">
             <span class="error-section__lede">Umm, Awkward</span>
@@ -13,4 +13,4 @@ import Button from "../components/button.astro";
             <Button theme="primary" text="Go Home" href="/" />
             </Container>
     </section>
-</BlankTemplate>
+</MainTemplate>

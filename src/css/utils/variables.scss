@@ -16,9 +16,7 @@
   - `--font-family__secondary`: This variable defines the secondary font family used in the framework. You can change this value to use a different font family.
   
 */
-  /* Importing Google font - you really want to swap this out to suit your needs. I would strongly recommend using @font-face and load the fonts in locally, I'm using the CDN just for the sake of convenience */
-  @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-  /* Varibles */
+ 
   :root {
     /* =====
   COLOURS
@@ -2787,7 +2785,7 @@
     --tertiary-btn__hover-border-radius: var(--btn-hover-radius);
 
     /* Cards */
-    --card__padding-block: var(--sp-550);
+    --card__padding-block: var(--sp-200);
     --card__padding-inline: var(--sp-150);
     --card__padding: var(--card__padding-inline) var(--card__padding-block);
     --card-radius: var(--radius-md);

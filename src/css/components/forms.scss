@@ -1,0 +1,12 @@
+// FORM FEILD STYLING 
+.form-feild {
+    background: var(--surface-900);
+    padding: var(--input-padding);
+    font-size: var(--input-font-size);
+    border: 0;
+    border-radius: var(--input-radius);
+    transition: var(--input-transition);
+    &:focus, &:focus-visible {
+        border: var(--input-focus-line);
+    } // end of focus styles
+}

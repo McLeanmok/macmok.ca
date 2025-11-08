@@ -3,24 +3,28 @@
 import HeadTag from "./head-tag.astro";
 import Header from "../components/header/index.astro";
 import Footer from "../components/footer/index.astro";
+import ContactAlpha from "../components/frames/contact-alpha.astro";
 
 interface Props {
     title: string;
     description?: string;
     author?: string;
     keywords?: string[];
-
+    noContact?: boolean;
+    noHeader?: boolean;
+    noFooter?: boolean;
 }
-const {title, description, author, keywords} = Astro.props;
+const { title, description, author, keywords, noContact = false , noHeader = false, noFooter = false} = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="en">
 	<HeadTag {title} {description} {author} {keywords}/>
 	<body>
     <main>
-        <Header />
+        {!noHeader && <Header />}
         <slot />
-        <Footer />
+        {!noContact && <ContactAlpha /> }
+        {!noFooter && <Footer />}
         <style is:global lang="scss">
             @import '../css/index.scss';
         </style>

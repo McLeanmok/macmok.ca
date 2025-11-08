@@ -6,7 +6,9 @@
 @layer champ-reset, custom-reset;
 
 @layer custom-reset {
-  
+  p {
+    font-weight: var(--fw-light);
+  }
 }
 @layer champ-reset {
   
@@ -97,6 +99,7 @@ figcaption {
 ul[class],
 ol[class] {
   list-style: none;
+  padding: 0px;
   margin: 0px;
 }
 /* Default section padding */

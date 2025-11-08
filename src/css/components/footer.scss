@@ -6,6 +6,9 @@
 .site-footer {
     @include section-theme(var(--white), var(--primary-300));
     padding: var(--section-padding-md) 0;
+    a {
+        color: var(--white);
+    }
 }
 
 // inner wrapper ( whitch is also the primary container for the section.

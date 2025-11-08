@@ -1,6 +1,7 @@
 // grabbing abstracts
 @use "../../custom/index" as *;
 
+// overalls container styling
 .content-kelowna__heading {
   @include bp-up("md") {
     text-align: center;
@@ -13,7 +14,12 @@
   gap: var(--grid-gap);
   align-items: center;
 }
-
+// Elements
+.content-kelowna__content {
+  display: grid;
+  gap: var(--content-gap);
+}
+// media 
 .content-kelowna__media {
     aspect-ratio: 16/9;
     object-fit: cover;
