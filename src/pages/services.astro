@@ -1,10 +1,66 @@
 ---
+import Container from "../components/container.astro";
 import MainTemplate from "../templates/main-template.astro";
+
+// image stuff
+import Image from "astro/components/Image.astro";
+import hero from "../media/services/hero.jpg";
+
+// Loops
+import services from "../loops/services.json";
 ---
 
-<MainTemplate title="McLean Mylymok | Services" description="Welcome to my New page!." >
-    <section>
-        <h1>Hi Services </h1>
-        <p>I'm McLean Mylymok, a media producer based in Parksville, BC. Cheesecake, cheesekake, jellybean boom!</p>
+<MainTemplate title="McLean Mylymok | Services" description="Discover my media production services, and how I can provide the most value to your project. I do web production, audio production, and photography." author="McLean Mylymok" keywords={[
+    "Services",
+    "Production",
+    "Production Services",
+    "Media Production",
+    "Audio Production",
+    "Web Production",
+    "Photography",
+    "photo editing and retouching",
+    "Web design",
+    "Web development",
+    "Audio design",
+    "McLean Mylymok",
+    "Mac Mylymok",
+    "Mclean Mylymok",
+    "Mac",
+    "Mclean,",
+    "Mac Mylymok media production",
+    "Mclean Mylymok media production",
+]} >
+    <section class="hero-duncan">
+        <Container width="standard" smartSpacing customClass="hero-duncan__inner">
+            <h1 class="hero-duncan__heading">Streaming Smarts (With a Side of Sass).</h1>
+            <p class="hero-duncan__body">Discover my media production services. I create high-quality content across web, audio, and photo production using professional-grade tools like Adobe Creative Suite, Audition and custom development environmentsEvery project reflects a commitment to creativity, technical excellence, and attention to detail.</p>
+            <figure class="hero-duncan__media-wrapper">
+            <Image src={hero} class="hero-duncan__media" alt="A computer screen running the Adobe Premiere Pro video editing software" title="taken by Onur Binay on April 13th, 2021. On unsplash.com -https://unsplash.com/photos/black-flat-screen-computer-monitor-O2-EZNGZIyk"/>
+            </figure>
+        </Container>
+    </section>
+
+    <!-- Services -->
+    <section class="services">
+        <Container width="standard" smartSpacing customClass="services__inner">
+            <h2 class="services__heading">My Services</h2>
+            <div class="services__list">
+                {
+                    services.map((s) => (
+                        
+                            <article class="service">
+                                <div class="service__content">
+                                <h3 class="service-title">{s.title}</h3>
+                                <p class="service__body">{s.body}</p>
+                                </div> <!-- End content -->
+                                <figure class="service__media-wrapper">
+                                    <Image src={s.img.src} alt={s.img.alt} title={s.img.citation} class="service__media" width={700} height={650}/>
+                                </figure>
+                            </article>
+                    )
+                        )
+                }
+            </div>
+        </Container>
     </section>
 </MainTemplate>

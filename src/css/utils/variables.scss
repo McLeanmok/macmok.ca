@@ -2829,7 +2829,7 @@
     --input-radius: var(--radius-md);
     --input-radius__focus: var(--radius-lg);
     --input-transition: border-radius 0.3s ease-in;
-    --input-focus-line: 3px solid;
+    --input-focus-line: 3px solid var(--secondary-base);
 
     /* Primary Input Styles */
     --primary-input__bg: var(--primary-900);

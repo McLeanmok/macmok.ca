@@ -1,10 +1,91 @@
 ---
 import MainTemplate from "../templates/main-template.astro";
+
+// image stuff
+import Image from "astro/components/Image.astro";
+import hero from "../media/about/hero.jpg"
+import about from "../media/about/about.webp"
+import music from "../media/about/music.jpg"
+import adventure from "../media/about/adventure.webp"
+import media from "../media/about/media.jpg"
+import Container from "../components/container.astro";
 ---
 
-<MainTemplate title="McLean Mylymok | About" description="Welcome to my New page!." >
-    <section>
-        <h1>Hi About </h1>
-        <p>I'm McLean Mylymok, a media producer based in Parksville, BC. Cheesecake, cheesekake, jellybean boom!</p>
+<MainTemplate title="McLean Mylymok | About" description="Learn more about me. Find out about my hobbies, and interests. " author="McLean Mylymok" keywords={[
+    "about",
+    "me",
+    "hobbies",
+    "interests"
+  ]} />
+    <section class="hero-ladysmith">
+        <figure class="hero-ladymith__media-wrapper">
+            <Image src={hero} class="hero-ladysmith__media" alt="Me in front of some flowers at Vancouver Island University" />
+        </figure>
+        <Container width="standard" smartSpacing customClass="hero-ladysmith__inner">
+            <h1 class="hero-ladysmith__heading">Meet the Dude Who Outsmarts His Wheelchair!</h1>
+            <p class="hero-ladysmith__body"> Here, you'll get a closer look at who I am through my passions, interests, and the journey that shaped me. Dive into my hobbies and my personal story to learn what drives me.</p>
+
+        </Container>
     </section>
+
+    <!-- About section -->
+     <section class="content-kelowna content-kelowna--about">
+		  <Container width="standard" smartSpacing>
+			<h2 class="content-kelowna__heading">About Me</h2>
+			<div class="content-kelowna__grid">
+				<div class="content-kelowna__content">
+					<p class="hero-kelowna__body">My name is McLean Mylymok. I am a media student at Vancouver Island University. I do mostly web production, but I feel comfortable with audio and photo. I live with Cerebral Palsy, which, for me, affects my physical functions. I require help with tasks such as toileting, eating, and bathing. Although my body doesn’t work the same as everyone else’s, I am wickedly smart. I get exceptional grades in school making Principle’s List, and Dean’s Honor. I put full effort into everything that I produce.</p>
+				</div> <!-- end about content -->
+				<figure class="content-kelowna__media-wrapper">
+					<Image src={about} class="content-kelowna__media" alt="me going on a walk on my street in my walker" title="I love going on walks with my walker. It's a good way to move around, and keep active." />
+				</figure>
+			</div>
+		  </Container>
+	  </section>
+
+      <!-- Hobbies -->
+       <section class="hobbies">
+        <Container width="standard" smartSpacing customClass="hobbies__inner">
+                <h2 class="hobbies__heading">My Hobbies</h2>
+
+                <ul class="hobbies__list">
+
+                        <article class="hobby">
+                            <div class="hobby__content">
+                                <h3 class="hobby-heading">Media Production
+                                </h3>
+                                <p class="hobby-body">I am so passionate about media production. My main medium is web, however  I’m comfortable with audio, and photography. I use industry standard software, and I produce my content with quality in mind.</p>
+                            </div> <!-- end hobby content -->
+                            <figure class="hobby__media-wrapper">
+                                <Image src={media} class="hobby__media" alt="a picture of a camera"  title="by Billy Freeman on unsplash.com taken on September 26th, 2023  https://unsplash.com/photos/a-man-holding-a-camera-up-to-his-face-vcue7q-6tYY" />
+                            </figure>
+                        </article>
+                    <!-- and hobby -->
+
+                        <article class="hobby">
+                            <div class="hobby__content">
+                                <h3 class="hobby-heading">Music
+                                </h3>
+                                <p class="hobby-body">I am very musical. I find enjoyment in listening to various styles such as indie, country, and rock and roll. My collection of CDs is something that I take pride in. I own all sorts of albums. Over the years, I seen all sorts of acts such as The Bahamas, Snow Patrol, and Blue Rodeo.</p>
+                            </div> <!-- end hobby content -->
+                            <figure class="hobby__media-wrapper">
+                                <Image src={music} class="hobby__media" alt="Me smiling inside  Ameoba records in Hollywood."  title="Ameoba records is very cool. You should definitely check it out!" />
+                            </figure>
+                        </article>
+                    <!-- and hobby -->
+
+                        <article class="hobby">
+                            <div class="hobby__content">
+                                <h3 class="hobby-heading">Adventuring
+                                </h3>
+                                <p class="hobby-body">I also enjoy adventuring and travel. I have been camping for as long as I can remember. My camping adventures include Filongley, Shelter Point, Alder Bay, and Miracle Beach. I also enjoy traveling. I have been to Nashville, Memphis, Seattle, Saskatchewan, Calgary, and everywhere in between.</p>
+                            </div> <!-- end hobby content -->
+                            <figure class="hobby__media-wrapper">
+                                <Image src={adventure} class="hobby__media" alt="Me paddlboarding on Lake Okanagan with my parents, and my brother."  title="paddlboarding is super fun. You should try it out!" />
+                            </figure>
+                        </article>
+                    <!-- and hobby -->
+                    </div>
+        </Container>
+        </section>
 </MainTemplate>

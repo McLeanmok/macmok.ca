@@ -3,7 +3,7 @@
 
 // hero
 .home-hero {
-    @include section-theme(var(--black), var(--primary-900));
+    @include section-theme(var(--black), var(--primary-bg__ultra-light));
     padding-block: var(--section-padding-xl);
 }
 
@@ -25,7 +25,8 @@
 
 // Audience 
 .audience {
-    @include section-theme(var(--white), var(--secondary-base))
+    --secondary-bg__mid: var(--secondary-base);
+    @include section-theme(var(--white), var(--secondary-bg__mid))
 }
 .audience__heading {
     @include bp-up("md") {
@@ -41,7 +42,7 @@
 
 // SKILLS
 .skills {
-    @include section-theme(var(--black), var(--secondary-900))
+    @include section-theme(var(--black), var(--secondary-bg__ultra-light))
 }
 
 .skills__heading { 

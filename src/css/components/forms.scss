@@ -1,12 +1,36 @@
-// FORM FEILD STYLING 
+// styles related to forms across the website 
+// Grabbing abstracts 
+@use "../custom/index.scss" as *;
+
+// FORM FEILD STYLING
 .form-feild {
-    background: var(--surface-900);
-    padding: var(--input-padding);
-    font-size: var(--input-font-size);
-    border: 0;
-    border-radius: var(--input-radius);
-    transition: var(--input-transition);
-    &:focus, &:focus-visible {
-        border: var(--input-focus-line);
-    } // end of focus styles
+  background: var(--surface-900);
+  padding: var(--input-padding);
+  font-size: var(--input-font-size);
+  border: 0;
+  border-radius: var(--input-radius);
+  transition: var(--input-transition);
+  &:focus,
+  &:focus-visible {
+    border: var(--input-focus-line);
+    border-color: var(--primary-base);
+  } // end of focus styles
+}
+
+// SITE FORM
+.site-form {
+  --form-gap: var(--content-gap);
+
+  display: grid;
+  gap: var(--form-gap);
+
+  &__input-row {
+    --grid-2: repeat(2, minmax(0px, 1fr));
+    display: grid;
+    gap: var(--form-gap);
+    grid-template-columns: var(--grid-2, --site-form-row-grid-template);
+    @include bp-down("md") {
+        grid-template-columns: repeat(1, minmax(0px, 1fr));
+    }
+}
 }

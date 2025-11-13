@@ -14,6 +14,7 @@ const { type, name, id, placeholder, required, value, customClasses , ariaLabel}
 ---
 
 
+<label for={id} class="sr-only">{ariaLabel}</label>
 {
 
 type === "textarea" ? <textarea name={name} id={id} placeholder={placeholder} required={required} class={customClasses || "form-feild"} value={value} aria-label={ariaLabel} title={ariaLabel} /> 

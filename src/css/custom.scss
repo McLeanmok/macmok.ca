@@ -26,7 +26,20 @@
   //   Card retheming
   --primary-card__bg: var(--primary-500);
   --secondary-card__bg: var(--secondary-500);
+
+  --primary-btn__bg: var(--primary-base);
+  --secondary-btn__bg: var(--secondary-base);
+  --tertiary-btn__bg: var(--tertiary-base);
   
+  // grid
+  --grid-2-static: repeat(2, minmax(0, 1fr));
+  --grid-3-static: repeat(3, minmax(0, 1fr));
+  --grid-4-static: repeat(4, minmax(0, 1fr));
+  --grid-5-static: repeat(5, minmax(0, 1fr));
+  
+  // heading width
+  --heading-width: 30ch;
+  --heading-width-sm: 15ch;
 }
 // smart spacing
 [data-smart-spacing] {

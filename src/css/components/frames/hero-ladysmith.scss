@@ -1,0 +1,39 @@
+// this file is responsible for styling content related to the hero ladysmith frame
+// Grabbing abstracts
+@use "../../custom/index" as *;
+.hero-ladysmith {
+  position: relative;
+  padding-block: calc(var(--section-padding-xl) * 2);
+}
+
+.hero-ladymith__media-wrapper {
+// local variable
+--hero-overlay-percentage: 75%;
+--hero-overlay-color: var(--white);
+
+  position: absolute;
+  inset: 0;
+  block-size: 100%;
+  inline-size: 100%;
+  z-index: -1;
+  object-fit: contain;
+  overflow: hidden;
+
+//   might need to review this
+  // psedo element for background overlay 
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: color-mix(in srgb, var(--hero-overlay-color) var(--hero-overlay-percentage), transparent );
+  }
+}
+
+.hero-ladysmith__inner {
+    @include bp-up("md") {
+        @include text-align();
+    }
+}
+.hero-ladysmith__heading {
+    max-inline-size: var(--heading-width);
+}

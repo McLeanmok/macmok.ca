@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Phone",
+    "icon": {
+      "src": "/loop-media/icons/phone.svg",
+      "alt": "A phone "
+    },
+    "detail": "236-436-0313"
+  },
+  {
+    "title": "Email",
+    "icon": {
+      "src": "/loop-media/icons/email.svg",
+      "alt": "An email icon"
+    },
+    "detail": "macmylymok@gmail.com"
+  }
+]

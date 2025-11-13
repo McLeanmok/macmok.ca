@@ -8,14 +8,16 @@
     "body": "I am quite good at editing photos. I can take an okay picture, and really take it to the next level. With aid to Photoshop, I have full control over sizing, effects and filters, and style. It is important to transform a photo to get the most out of it.",
     "img": {
       "src": "/loop-media/services/audio.jpg",
-      "alt": "a microphone set up in a studio "
+      "alt": "a microphone set up in a studio ",
+      "citation":"taken by Thomas Lee on June 17th, 2028. On unsplash.com - https://unsplash.com/photos/gray-condenser-microphone-with-pop-filter-in-closeup-photography-HFWahRo6l4Q"
     }
   },
   {
     "title": "Web Production",
     "icon": {
       "src": "/loop-media/icons/browser.svg",
-      "alt": "A web browser"
+      "alt": "A web browser",
+      "citation": "taken by FONG on October 19th, 2021. On unsplash.com - http://unsplash.com/photos/"
     },
     "body": "I handcraft all of my sites by hand.  Whenever I craft a website, it’s important that I make my experiences accessible. I take care of all aspects of the project, from design to deployment. I look forward to producing your next website.",
     "img": {
@@ -32,7 +34,8 @@
     "body": "I am quite good at editing photos. I can take an okay picture, and really take it to the next level. With aid to Photoshop, I have full control over sizing, effects and filters, and style. It is important to transform a photo to get the most out of it.",
     "img": {
       "src": "/loop-media/services/photography.jpg",
-      "alt": "a camera setup by the sea"
+      "alt": "a camera setup by the sea",
+      "citation": "taken by Alexander Wang on March 4th, 2017. On unsplash.com - https://unsplash.com/photos/shallow-focus-photography-of-black-canon-dslr-camera-KjyrxSHwqTg"
     }
   }
 ]

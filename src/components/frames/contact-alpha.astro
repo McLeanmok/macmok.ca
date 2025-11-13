@@ -1,15 +1,26 @@
 ---
 import Container from "../container.astro";
+import Input from "../input.astro";
 ---
 
 <section class="contact-alpha">
-    <Container width="standard" smartSpacing customClass="contact-alpha__inner">
+    <Container width="narrow" smartSpacing customClass="contact-alpha__inner">
 
         <!-- top -->
-         <h1>Hi</h1>
+         <div class="contact-alpha__content" data-smart-spacing>
+            <h2 class="contact-alpha__heading">Let's Chat</h2>
+            <p class="contact-alpha__body">if you have any questions, or just want to chat, please feel free to fill out the form below. I’m usually quick to respond.</p>
+         </div>
         <!--Contact Form -->
-         <form action="" class="contact-alpha__form">
-
-         </form>
+         <form action="" class="site-form">
+            <div class="site-form__input-row">
+                <Input type="text" name="first_name" id="first_name" placeholder="First Name" ariaLabel="Enter your first name" />
+                <Input type="text" name="last_name" id="last_name" placeholder="Last Name" ariaLabel="Enter your Last name" />
+            </div> <!-- end input row -->
+            <Input type="text" name="subject" id="subject" placeholder="Subject" ariaLabel="Enter a subject" />
+            <Input type="email" name="email" id="email" placeholder="Email" ariaLabel="Enter your email" />
+            <Input type="textarea" name="message" id="message" placeholder="Message" ariaLabel="Enter your message" />
+        </form>
+        <button type="submit" class="standard-btn">Send Message</button>
     </Container>
 </section>

@@ -1,0 +1,35 @@
+// this file contains all the styling related to the about page 
+// Grabbing abstracts 
+@use "../custom/index" as *;
+
+// customizing the content Kelowna frame 
+.content-kelowna--about {
+    background: var(--secondary-bg__ultra-light);
+}
+
+// hobbies
+.hobbies__heading {
+    @include bp-up("md") {
+        text-align: center;
+    }
+}
+
+.hobbies__list {
+    display: grid;
+    gap: var(--content-gap);
+}
+.hobby {
+    display: grid;
+    gap: var(--grid-gap);
+    grid-template-columns: var(--grid-2-static);
+    align-items: center;
+}
+
+.hobby__content {
+    display: grid;
+    gap: var(--content-gap);
+}
+
+.hobby:nth-child(even) > .hobby__media-wrapper {
+    order: -1;
+}

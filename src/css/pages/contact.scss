@@ -1,0 +1,32 @@
+// this file is responsible for styling related to the contact page
+// Grabbing abstracts 
+@use "../custom/index" as *;
+
+// hero section
+.contact-hero__inner {
+    @include bp-up("md") {
+        @include text-align();
+    }
+}
+.contact-hero__heading {
+    max-inline-size: calc(var(--heading-width) - 1rem);
+} 
+.methods {
+    background: var(--secondary-800);
+}
+
+.methods__inner {
+    display: grid;
+    gap: var(--grid-gap);
+}
+
+.methods__heading {
+    @include bp-up("md") {
+        @include text-align();
+    }
+}
+.methods__list {
+    display: grid;
+    grid-template-columns: var(--grid-2);
+    gap: var(--grid-gap);
+}
