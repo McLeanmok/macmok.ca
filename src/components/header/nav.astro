@@ -3,7 +3,7 @@ import NavData from "../../loops/nav.json";
 import NavLink from "./nav-link.astro"; 
 ---
 <nav class="site-header__nav">
-    <ul class="site-header__nav-links">
+    <ul class="site-header__nav-links" id="nav">
         {
             NavData.map((link) => (
                 <li class="site-header__nav-link">

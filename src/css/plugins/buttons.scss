@@ -23,6 +23,7 @@
     padding: var(--primary-btn__padding);
     font-weight: var(--primary-btn__font-weight);
     border-radius: var(--primary-btn__radius);
+    border: 0;
     transition: var(--primary-btn__animation);
 
     &:hover,
@@ -58,7 +59,6 @@
         background-color: var(--surface-300);
       }
     }
-    
 
     // outline variant
     @if $outline == "primary" {
@@ -106,7 +106,7 @@
         color: var(--white);
       }
     }
-  }; // end mixin
+  } // end mixin
 
   .standard-btn {
     @include btn("primary");
@@ -120,40 +120,39 @@
   .standard-btn--neutral {
     @include btn("neutral");
   }
-    /* Outlines */
-    .btn-outline__primary {
-      @include btn("primary", "primary");
-    }
-
-    .btn-outline__secondary {
-   @include btn("secondary", "secondary");
-    }
-
-    .btn-outline__tertiary {
-      @include btn("tertiary", "tertiary");
-    }
-
-    .btn-outline__neutral {
-      @include btn("neutral", "neutral");
-    }
-
-    /* Utility classes  */
-    .btn-radius__block {
-      border-radius: 0;
-    }
-
-    .btn-radius__pill {
-      border-radius: var(--radius-xl);
-    }
-
-    .btn-size__sm {
-      padding: calc(var(--btn-padding__block) / 3);
-    }
-    .btn-size__lg {
-      padding: calc(var(--btn-padding__block) * 1);
-    }
-    .btn-radius__standard {
-      border-radius: var(--btn-radius);
-    }
+  /* Outlines */
+  .btn-outline__primary {
+    @include btn("primary", "primary");
   }
 
+  .btn-outline__secondary {
+    @include btn("secondary", "secondary");
+  }
+
+  .btn-outline__tertiary {
+    @include btn("tertiary", "tertiary");
+  }
+
+  .btn-outline__neutral {
+    @include btn("neutral", "neutral");
+  }
+
+  /* Utility classes  */
+  .btn-radius__block {
+    border-radius: 0;
+  }
+
+  .btn-radius__pill {
+    border-radius: var(--radius-xl);
+  }
+
+  .btn-size__sm {
+    padding: calc(var(--btn-padding__block) / 3);
+  }
+  .btn-size__lg {
+    padding: calc(var(--btn-padding__block) * 1);
+  }
+  .btn-radius__standard {
+    border-radius: var(--btn-radius);
+  }
+}

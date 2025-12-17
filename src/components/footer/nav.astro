@@ -2,7 +2,7 @@
 import NavData from "../../loops/nav.json";
 import NavLink from "./nav-link.astro"; 
 ---
-<nav class="site-footer__nav">
+<nav class="site-footer__nav" aria-label="Footer Navigation">
     <ul class="site-footer__nav-links">
         {
             NavData.map((link) => (

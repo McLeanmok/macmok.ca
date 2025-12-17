@@ -1,14 +1,14 @@
 ---
 import MainTemplate from "../templates/main-template.astro";
-
-// image stuff
-import Image from "astro/components/Image.astro";
-import hero from "../media/about/hero.jpg"
-import about from "../media/about/about.webp"
-import music from "../media/about/music.jpg"
-import adventure from "../media/about/adventure.webp"
-import media from "../media/about/media.jpg"
 import Container from "../components/container.astro";
+import { Image } from "astro:assets";
+
+// Media imports
+import hero from "../media/about/hero.jpg";
+import about from "../media/about/about.webp";
+import media from "../media/about/media.jpg";
+import music from "../media/about/music.jpg";
+import adventure from "../media/about/adventure.webp";   
 ---
 
 <MainTemplate title="McLean Mylymok | About" description="Learn more about me. Find out about my hobbies, and interests. " author="McLean Mylymok" keywords={[
@@ -16,15 +16,15 @@ import Container from "../components/container.astro";
     "me",
     "hobbies",
     "interests"
-  ]} />
+  ]} >
     <section class="hero-ladysmith">
         <figure class="hero-ladymith__media-wrapper">
             <Image src={hero} class="hero-ladysmith__media" alt="Me in front of some flowers at Vancouver Island University" />
         </figure>
         <Container width="standard" smartSpacing customClass="hero-ladysmith__inner">
-            <h1 class="hero-ladysmith__heading">Meet the Dude Who Outsmarts His Wheelchair!</h1>
+            <h1 class="hero-ladysmith__seo-heading">About</h1>
+            <span class="hero-ladysmith__heading">Meet the Dude Who Outsmarts His Wheelchair!</span>
             <p class="hero-ladysmith__body"> Here, you'll get a closer look at who I am through my passions, interests, and the journey that shaped me. Dive into my hobbies and my personal story to learn what drives me.</p>
-
         </Container>
     </section>
 

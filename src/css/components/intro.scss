@@ -1,0 +1,15 @@
+// Abstracts 
+@use "../custom/index" as *;
+
+// base styles 
+[class*="intro"] {
+    display: grid;
+    gap: var(--content-gap);
+}
+
+// centered variant
+[data-intro-style="center"] {
+    @include bp-up("md") {
+        @include text-align();
+    }
+}

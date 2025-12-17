@@ -6,10 +6,17 @@
   --navlink__clickabale-area: 0.5em;
   --menu-gap: var(--sp-100);
 
+  // Nav theme properties. Note, most of these have to do with the popout, however some are global.
+  --nav-bg-opacity: 75%;
+  --nav-bg-color: var(--white);
+  --nav-bg: color-mix(in srgb, var(--nav-bg-color) var(--nav-bg-opacity), transparent);
+  --nav-transition: 0.9s;
+  --nav-blur: 16px;
+
   // burger variables
   --burger-height: 3px;
   --burger-width: 46px;
-  --burger-gap: 6px;
+  --burger-gap: 7px;
 }
 // active state
 [aria-current="page"] {
@@ -18,8 +25,10 @@
 }
 
 .site-header {
+  --nav-opacity: 60%;
   padding: var(--section-padding-sm);
-  background: var(--white);
+  background: var(--nav-bg);
+  backdrop-filter: blur(var(--nav-blur));
   position: sticky;
   top: 0;
   z-index: 3;
@@ -44,7 +53,7 @@
 // nav menu
 .site-header__nav-links {
   display: flex;
-  gap: calc(-var(--menu-gap) - --navlink__clickabale-area);
+  gap: calc(-var(--menu-gap) - var(--navlink__clickabale-area));
   // making the navlinks a column on mobile
   @include bp-down("md") {
     flex-direction: column;
@@ -72,7 +81,7 @@
       padding: var(--primary-btn__padding);
       font-weight: var(--btn-font-weight);
       border-radius: var(--primary-btn__radius);
-      transition: var(--primary-btn__animation);
+      transition: 0.3s ease-in-out;
 
       &:hover,
       &:focus {
@@ -96,44 +105,46 @@
 // styling the nav label
 .site-header__nav-toggle-label {
   @include bp-down("md") {
-    width: 28px;
+    cursor: pointer;
+    inline-size: 28px;
     aspect-ratio: 1/1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 7px;
+    gap: var(--burger-gap);
     span {
       display: flex;
       justify-content: flex-end;
-      width: 100%;
-      height: 3px;
-      min-width: 0;
-      min-height: 0;
+      inline-size: 100%;
+      block-size: var(--burger-height);
+      min-inline-size: 0;
+      min-block-size: 0;
       background: var(--primary-200);
       border-radius: 50px;
       transition-property: scale, rotate, translate;
       transition-duration: 0.5s;
       transition-timing-function: ease-in-out;
       &:nth-child(2) {
-        width: 50%;
+        inline-size: 50%;
       }
     }
   } // end media query
+  
 }
-.site-header__nav-toggle:checked ~ .site-header__nav-toggle-label {
+.site-header__nav-toggle:checked~ .site-header__nav-toggle-label {
   span {
     z-index: 2;
   }
   span:nth-child(1) {
     rotate: 45deg;
-    translate: 0 10px;
+    translate: 0 calc(var(--burger-gap) + var(--burger-height));
   }
   span:nth-child(2) {
     scale: 0;
   }
   span:nth-child(3) {
     rotate: -45deg;
-    translate: 0 -10px;
+    translate: 0 calc((var(--burger-gap) + var(--burger-height)) * -1);
   }
 }
 .site-header__nav-toggle {
@@ -148,15 +159,19 @@
     position: absolute;
     inset: 0;
     height: 100vh;
-    background: var(--primary-800__trans-800);
+    background: var(--nav-bg);
+    backdrop-filter: blur(var(--nav-blur)); 
     padding: var(--section-padding-md);
     text-align: center;
     transform: translateX(-200vw);
-    transition: 0.7s;
+    transition: var(--nav-bg-transition);
   }
 }
 // Showing the nav
 .site-header__nav-toggle:checked ~ .site-header__nav {
   display: flex;
   transform: translateX(0vw);
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.7s;
+  transition-duration: background, backdrop-filter;
 }

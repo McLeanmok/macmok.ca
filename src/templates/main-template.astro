@@ -20,7 +20,9 @@ const { title, description, author, keywords, noContact = false , noHeader = fal
 <html lang="en">
 	<HeadTag {title} {description} {author} {keywords}/>
 	<body>
-    <main>
+        <a href="#main" class="skip">Skip to Main content</a>
+        <a href="#footer" class="skip">Skip to footer</a>
+    <main id="main">
         {!noHeader && <Header />}
         <slot />
         {!noContact && <ContactAlpha /> }

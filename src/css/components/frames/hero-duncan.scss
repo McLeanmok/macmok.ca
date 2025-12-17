@@ -19,7 +19,12 @@
         @include text-align();
     }
 }
+// element styles
+.hero-duncan__seo-heading {
+    @include seo-heading();
+}
 .hero-duncan__heading {
+    @include heading("h1");
     max-inline-size: var(--heading-width-sm);
 }
 // styles for the next section down

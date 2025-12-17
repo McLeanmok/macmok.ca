@@ -8,8 +8,7 @@
 // section theme mixin
 @mixin section-theme($forground, $background) {
   color: $forground;
-  background: $background
- 
+  background: $background;
 }
 
 // Image sizing
@@ -30,6 +29,61 @@
 // Has me
 @mixin has-me() {
   :has(> &) {
+    @content;
+  }
+}
+// seo heading
+@mixin seo-heading() {
+  --heading-letter-spacing: 0.35rem;
+
+  font-size: var(--fs-p);
+  letter-spacing: var(--heading-letter-spacing);
+  font-weight: var(--fw-regular);
+  order: -1;
+}
+
+// heading
+@mixin heading($setting) {
+  font-weight: var(--fw-bold);
+  @if $setting == "h1" {
+    font-size: var(--fs-h1);
+    line-height: var(--lh-headinsgs);
+  } @else if $setting == "h2" {
+    font-size: var(--fs-h2);
+    line-height: var(--lh-headings);
+  } @else if $setting == "h3" {
+    font-size: var(--fs-h3);
+    line-height: var(--lh-headings);
+  }
+}
+
+// width
+@mixin width($val) {
+  inline-size: pixel($val);
+}
+@mixin height($val) {
+  block-size: pixel($val);
+}
+
+// background image
+@mixin bg-image {
+  @include has-me {
+    position: relative
+  }
+  position: absolute;
+  inset: 0;
+  block-size: 100%;
+  inline-size: 100%;
+  z-index: -1;
+  object-fit: contain;
+  overflow: hidden;
+
+  //   might need to review this
+  // psedo element for background overlay
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
     @content;
   }
 }

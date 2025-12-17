@@ -1,39 +1,42 @@
 // this file is responsible for styling content related to the hero ladysmith frame
 // Grabbing abstracts
 @use "../../custom/index" as *;
+
+// Container styles
 .hero-ladysmith {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   padding-block: calc(var(--section-padding-xl) * 2);
 }
 
 .hero-ladymith__media-wrapper {
-// local variable
---hero-overlay-percentage: 75%;
---hero-overlay-color: var(--white);
+  // local variable
+  --hero-overlay-percentage: 85%;
+  --hero-overlay-color: var(--primary-900);
 
-  position: absolute;
-  inset: 0;
-  block-size: 100%;
-  inline-size: 100%;
-  z-index: -1;
-  object-fit: contain;
-  overflow: hidden;
+@include bg-image {
+   background-color: color-mix(
+      in srgb,
+      var(--hero-overlay-color) var(--hero-overlay-percentage),
+      transparent
+    );
+}
+}
 
-//   might need to review this
-  // psedo element for background overlay 
-  &::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-color: color-mix(in srgb, var(--hero-overlay-color) var(--hero-overlay-percentage), transparent );
+// Element styles
+.hero-ladysmith__inner {
+  @include bp-up("md") {
+    @include text-align();
   }
 }
-
-.hero-ladysmith__inner {
-    @include bp-up("md") {
-        @include text-align();
-    }
+.hero-ladysmith__seo-heading {
+  @include seo-heading();
 }
 .hero-ladysmith__heading {
-    max-inline-size: var(--heading-width);
+  @include heading("h1");
+  max-inline-size: var(--heading-width);
+}
+.hero-ladysmith__media {
+  block-size: 100%;
 }

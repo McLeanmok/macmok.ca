@@ -1,11 +1,13 @@
 [
   {
     "title": "Audio Production",
+    "id": "audio-production",
+    "shortName": "audio",
     "icon": {
       "src": "/loop-media/icons/headphones.svg",
       "alt": "a pair of headphones"
     },
-    "body": "I am quite good at editing photos. I can take an okay picture, and really take it to the next level. With aid to Photoshop, I have full control over sizing, effects and filters, and style. It is important to transform a photo to get the most out of it.",
+    "body": "I am very versed in the audio production sphere. I use professional technology to capture audio content. Once I get all my content, I splice it together in industry standard software. I know how to blend music with voice samples to create a seamless audio experience.",
     "img": {
       "src": "/loop-media/services/audio.jpg",
       "alt": "a microphone set up in a studio ",
@@ -13,6 +15,8 @@
     }
   },
   {
+    "id": "web-production",
+    "shortName": "web",
     "title": "Web Production",
     "icon": {
       "src": "/loop-media/icons/browser.svg",
@@ -26,6 +30,8 @@
     }
   },
   {
+    "id": "photography",
+    "shortName": "photo",
     "title": "Photography",
     "icon": {
       "src": "/loop-media/icons/camera.svg",

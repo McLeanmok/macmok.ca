@@ -8,7 +8,13 @@
         @include text-align();
     }
 }
+
+// element styles
+.contact-hero__seo-heading {
+    @include seo-heading();
+}
 .contact-hero__heading {
+    @include heading("h1");
     max-inline-size: calc(var(--heading-width) - 1rem);
 } 
 .methods {

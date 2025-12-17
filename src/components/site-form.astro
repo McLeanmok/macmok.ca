@@ -1,0 +1,30 @@
+---
+import Input from './input.astro';
+
+// loop
+import services from '../loops/services.json';
+import { optional } from 'astro:schema';
+---
+ 
+ <form action="" class="site-form">
+            <div class="site-form__input-row">
+                <Input type="text" name="first_name" id="first_name" placeholder="First Name" ariaLabel="Enter your first name" />
+                <Input type="text" name="last_name" id="last_name" placeholder="Last Name" ariaLabel="Enter your Last name" />
+            </div> <!-- end input row -->
+            <Input type="text" name="subject" id="subject" placeholder="Subject" ariaLabel="Enter a subject" />
+                <select name="category" id="category" id="category-listbox"    class="form-feild form-feild--select" aria-haspopup="listbox" aria-controls="category-listbox" aria-label="Select Category">
+                    <!-- <selectedcontent></selectedcontent> -->
+                    <option value="" disabled selected>Select Category</option>
+                    <option value="support">Support</option>
+                    <option value="feedback">Feedback</option>  
+                        {
+                            services.map((s) => (
+                                <option value={s.id.toLocaleLowerCase()}>I need help with a {s.shortName} project</option>
+                            ))
+                        }
+                </select>
+            
+            <Input type="email" name="email" id="email" placeholder="Email" ariaLabel="Enter your email" />
+            <Input type="textarea" name="message" id="message" placeholder="Message" ariaLabel="Enter your message" />
+            <button type="submit" class="standard-btn">Send Message</button>
+        </form>

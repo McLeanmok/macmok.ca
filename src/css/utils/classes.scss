@@ -27,7 +27,7 @@
   /* Classes -- not every prop will get its own utility class. We only offer classes that would benefit you in building sites faster with best practices in mind */
 
   /* Accessibility  */
-  .skip-to-main {
+  .skip {
     position: absolute;
     z-index: 999;
     left: -9999px;
@@ -42,7 +42,7 @@
       background-color: var(--site-hover-color);
     }
   }
-  .skip-to-main:focus {
+  .skip:focus {
     left: 8%;
     margin: var(--sp-100);
     transform: translateX(-50%);

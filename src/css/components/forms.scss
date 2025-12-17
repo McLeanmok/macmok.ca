@@ -1,5 +1,5 @@
-// styles related to forms across the website 
-// Grabbing abstracts 
+// styles related to forms across the website
+// Grabbing abstracts
 @use "../custom/index.scss" as *;
 
 // FORM FEILD STYLING
@@ -20,17 +20,67 @@
 // SITE FORM
 .site-form {
   --form-gap: var(--content-gap);
-
+  --grid-2: 1fr 1fr;
   display: grid;
   gap: var(--form-gap);
 
   &__input-row {
-    --grid-2: repeat(2, minmax(0px, 1fr));
     display: grid;
     gap: var(--form-gap);
-    grid-template-columns: var(--grid-2, --site-form-row-grid-template);
+    grid-template-columns: var(--grid-2);
+
     @include bp-down("md") {
-        grid-template-columns: repeat(1, minmax(0px, 1fr));
+      grid-template-columns: 1fr;
     }
+  }
 }
+ 
+// SELECT
+.form-feild--select {
+  // Variables
+  --selectbox-inner-padding: var(--sp-200);
+  --selectbox-option-padding: 1.3rem;
+  --selectbox-timing-function: ease-in-out;
+  --selectbox-transition-duration: 0.4s;
+  --selectbox-hover-bg-color: var(--primary-base);
+  --selectbox-hover-bg-percent: 40%;
+  --selectbox-hover-bg: color-mix(
+    in srgb,
+    var(--selectbox-hover-bg-color) var(--selectbox-hover-bg-percent),
+    transparent
+  );
+  // appearance: none;
+  // -webkit-appearance: none;
+
+  // opting into styling for select element - Reference codepen https://codepen.io/web-dot-dev/pen/gbOKyRZ
+  &,
+  &::picker(select) {
+    appearance: base-select;
+  }
+
+  // styles for the open state
+  &::picker(select) {
+    background-color: var(--white);
+    
+  }
+  option {
+    padding: var(--selectbox-option-padding);
+    transition: var(--selectbox-transition-duration)
+      var(--selectbox-timing-function);
+    cursor: pointer;
+
+    &:is(:focus) {
+      border: var(--primary-base) solid 2px;
+      background-color: var(--selectbox-hover-bg);
+    }
+  }
+
+  option:is(:checked, :hover) {
+    background-color: var(--selectbox-hover-bg);
+  }
+  
+  // styling the placeholder option
+  option[disabled] {
+   background: color-mix(in srgb, grey var(--selectbox-bg-percent), transparent);
+  }
 }
