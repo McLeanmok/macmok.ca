@@ -15,21 +15,22 @@
 }
 // service styles
 .service {
-
   display: grid;
   grid-template-columns: var(--grid-2);
   gap: var(--grid-gap);
   align-items: center;
-
 }
-
 // element styles
 .service__content {
     display: grid;
     gap: var(--content-gap);
 }
-.service:nth-child(even) >.service__media-wrapper {
-  @include bp-up("md") {
-    order: -1;
+
+.services__list li:nth-child(even) {
+  .service__media-wrapper {
+    @include bp-up("md") {
+      order: -1;
+    }
   }
 }
+

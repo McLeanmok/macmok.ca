@@ -3,18 +3,18 @@
 import HeadTag from "./head-tag.astro";
 import Header from "../components/header/index.astro";
 import Footer from "../components/footer/index.astro";
-import ContactAlpha from "../components/frames/contact-alpha.astro";
+import CtaParksville from "../components/frames/cta-parksville.astro";
 
 interface Props {
     title: string;
     description?: string;
     author?: string;
     keywords?: string[];
-    noContact?: boolean;
+    noCta?: boolean;
     noHeader?: boolean;
     noFooter?: boolean;
 }
-const { title, description, author, keywords, noContact = false , noHeader = false, noFooter = false} = Astro.props;
+const { title, description, author, keywords, noCta = false , noHeader = false, noFooter = false} = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -25,7 +25,7 @@ const { title, description, author, keywords, noContact = false , noHeader = fal
     <main id="main">
         {!noHeader && <Header />}
         <slot />
-        {!noContact && <ContactAlpha /> }
+        {!noCta && <CtaParksville /> }
         {!noFooter && <Footer />}
         <style is:global lang="scss">
             @import '../css/index.scss';

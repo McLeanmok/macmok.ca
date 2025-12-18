@@ -45,23 +45,24 @@ import services from "../loops/services.json";
     <section class="services">
         <Container width="standard" smartSpacing customClass="services__inner">
             <h2 class="services__heading">My Services</h2>
-            <div class="services__list">
+            <ul class="services__list">
                 {
                     services.map((s) => (
-                        
-                            <article class="service">
-                                <div class="service__content">
-                                <h3 class="service-title">{s.title}</h3>
-                                <p class="service__body">{s.body}</p>
-                                </div> <!-- End content -->
-                                <figure class="service__media-wrapper">
-                                    <Image src={s.img.src} alt={s.img.alt} title={s.img.citation} class="service__media" width={700} height={650}/>
-                                </figure>
-                            </article>
+                        <li class="services__list-item">
+                                <article class="service">
+                                    <div class="service__content">
+                                    <h3 class="service-title">{s.title}</h3>
+                                    <p class="service__body">{s.body}</p>
+                                    </div> <!-- End content -->
+                                    <figure class="service__media-wrapper">
+                                        <Image src={s.img.src} alt={s.img.alt} title={s.img.citation} class="service__media" width={700} height={650}/>
+                                    </figure>
+                                </article>
+                        </li>
                     )
                         )
                 }
-            </div>
+            </ul>
         </Container>
     </section>
 </MainTemplate>

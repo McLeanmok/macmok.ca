@@ -9,7 +9,7 @@ import methods from "../loops/contact-methods.json"
 import { Image } from "astro:assets";
 ---
 
-<MainTemplate title="McLean Mylymok | Contact" description="If you want get in touch with me, you can do so here. I would love to hear from you, and hear about your projects. " noContact author="McLean Mylymok" keywords={[
+<MainTemplate title="McLean Mylymok | Contact" description="If you want get in touch with me, you can do so here. I would love to hear from you, and hear about your projects. " noCta author="McLean Mylymok" keywords={[
     "Contact",
     "Get in touch",
     "Contact McLean Mylymok",
@@ -33,7 +33,7 @@ import { Image } from "astro:assets";
      <section class="methods">
         <Container width="standard" customClass="methods__inner">
             <h2 class="methods__heading">Other Ways You Can Reach Me</h2>
-            <div class="methods__list">
+            <ul class="methods__list">
                 {
                     methods.map((m) => (
                         <li>
@@ -47,7 +47,7 @@ import { Image } from "astro:assets";
                         </li>
                     ))
                 }
-            </div>
+            </ul>
         </Container>
      </section>
 </MainTemplate>

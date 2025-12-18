@@ -49,7 +49,7 @@ import adventure from "../media/about/adventure.webp";
                 <h2 class="hobbies__heading">My Hobbies</h2>
 
                 <ul class="hobbies__list">
-
+                    <li>
                         <article class="hobby">
                             <div class="hobby__content">
                                 <h3 class="hobby-heading">Media Production
@@ -60,30 +60,35 @@ import adventure from "../media/about/adventure.webp";
                                 <Image src={media} class="hobby__media" alt="a picture of a camera"  title="by Billy Freeman on unsplash.com taken on September 26th, 2023  https://unsplash.com/photos/a-man-holding-a-camera-up-to-his-face-vcue7q-6tYY" />
                             </figure>
                         </article>
+                    </li>
+                    <!-- and hobby -->
+                        <li>
+                            <article class="hobby">
+                                <div class="hobby__content">
+                                    <h3 class="hobby-heading">Music
+                                    </h3>
+                                    <p class="hobby-body">I am very musical. I find enjoyment in listening to various styles such as indie, country, and rock and roll. My collection of CDs is something that I take pride in. I own all sorts of albums. Over the years, I seen all sorts of acts such as The Bahamas, Snow Patrol, and Blue Rodeo.</p>
+                                </div> <!-- end hobby content -->
+                                <figure class="hobby__media-wrapper">
+                                    <Image src={music} class="hobby__media" alt="Me smiling inside  Ameoba records in Hollywood."  title="Ameoba records is very cool. You should definitely check it out!" />
+                                </figure>
+                            </article>
+                        </li>
                     <!-- and hobby -->
 
-                        <article class="hobby">
-                            <div class="hobby__content">
-                                <h3 class="hobby-heading">Music
-                                </h3>
-                                <p class="hobby-body">I am very musical. I find enjoyment in listening to various styles such as indie, country, and rock and roll. My collection of CDs is something that I take pride in. I own all sorts of albums. Over the years, I seen all sorts of acts such as The Bahamas, Snow Patrol, and Blue Rodeo.</p>
-                            </div> <!-- end hobby content -->
-                            <figure class="hobby__media-wrapper">
-                                <Image src={music} class="hobby__media" alt="Me smiling inside  Ameoba records in Hollywood."  title="Ameoba records is very cool. You should definitely check it out!" />
-                            </figure>
-                        </article>
-                    <!-- and hobby -->
-
-                        <article class="hobby">
-                            <div class="hobby__content">
-                                <h3 class="hobby-heading">Adventuring
-                                </h3>
-                                <p class="hobby-body">I also enjoy adventuring and travel. I have been camping for as long as I can remember. My camping adventures include Filongley, Shelter Point, Alder Bay, and Miracle Beach. I also enjoy traveling. I have been to Nashville, Memphis, Seattle, Saskatchewan, Calgary, and everywhere in between.</p>
-                            </div> <!-- end hobby content -->
-                            <figure class="hobby__media-wrapper">
-                                <Image src={adventure} class="hobby__media" alt="Me paddlboarding on Lake Okanagan with my parents, and my brother."  title="paddlboarding is super fun. You should try it out!" />
-                            </figure>
-                        </article>
+                        <li>
+                            <article class="hobby">
+                                <div class="hobby__content">
+                                    <h3 class="hobby-heading">Adventuring
+                                    </h3>
+                                    <p class="hobby-body">I also enjoy adventuring and travel. I have been camping for as long as I can remember. My camping adventures include Filongley, Shelter Point, Alder Bay, and Miracle Beach. I also enjoy traveling. I have been to Nashville, Memphis, Seattle, Saskatchewan, Calgary, and everywhere in between.</p>
+                                </div> <!-- end hobby content -->
+                                <figure class="hobby__media-wrapper">
+                                    <Image src={adventure} class="hobby__media" alt="Me paddlboarding on Lake Okanagan with my parents, and my brother."  title="paddlboarding is super fun. You should try it out!" />
+                                </figure>
+                            </article>
+                        </li>
+                    </ul>
                     <!-- and hobby -->
                     </div>
         </Container>

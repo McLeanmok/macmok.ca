@@ -30,6 +30,8 @@
     gap: var(--content-gap);
 }
 
-.hobby:nth-child(even) > .hobby__media-wrapper {
-    order: -1;
+.hobby__item:nth-child(even) .hobby__media-wrapper {
+    @include bp-up("md") {
+        order: -1;
+    }
 }

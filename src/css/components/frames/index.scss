@@ -1,5 +1,9 @@
 // this is the bundler file for all the frames. These are reusable section patterns that you can use over and over again..
+// Content sections 
 @forward "./content-kelowna";
 @forward "./contact-alpha";
 @forward "./hero-ladysmith";
-@forward "./hero-duncan"
+@forward "./hero-duncan";
+
+// Others
+@forward "./cta-parksville"
