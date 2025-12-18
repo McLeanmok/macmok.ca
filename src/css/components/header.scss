@@ -65,13 +65,15 @@
       transition: 0.3s ease-in-out;
       &:hover,
       &:focus {
+        transform: scale(0.8);
         color: var(--primary-base);
-        transform: scale(1.1);
       }
     }
     // active state
   }
 } // end link styles
+
+// styling the last nav link as a button on desktop
 .site-header__nav-links > :last-child {
   @include bp-up("md") {
     margin-inline-start: 20em;
@@ -87,6 +89,7 @@
       &:focus {
         background-color: var(--primary-btn__hover-bg);
         color: var(--white);
+        transform: scale(none);
       }
     } // end link syles
   } // end media query
