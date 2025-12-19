@@ -15,17 +15,23 @@ import NavLink from "./nav-link.astro";
 </nav>
 
 <script>
-   // Get all nav links
+
 const navLinks = document.querySelectorAll('nav a');
 
-// Loop through each link and apply aria-current
-navLinks.forEach((link) => {
-  const linkUrl = link.href;
-  const currentPageUrl = window.location.href;
-  if (linkUrl === currentPageUrl) {
-    link.setAttribute('aria-current', 'page');
-  } else {
-    link.removeAttribute('aria-current');
-  }
-});
+if (navLinks.length > 0) {
+  document.addEventListener('DOMContentLoaded', () => {
+    navLinks.forEach((link) => {
+      const linkUrl = link.href.trim();
+      const currentPageUrl = window.location.href.trim();
+      const currentPageHash = currentPageUrl.split('#').pop();
+      const linkHash = linkUrl.split('#').pop();
+
+      if (linkUrl === currentPageUrl || (linkHash && linkHash === currentPageHash)) {
+        link.setAttribute('aria-current', 'page');
+      } else {
+        link.removeAttribute('aria-current');
+      }
+    });
+  });
+}
 </script>

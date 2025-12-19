@@ -1,5 +1,4 @@
 ---
-import { ClientRouter } from "astro:transitions";
 
 const { title, description, author, keywords } = Astro.props;
 ---
@@ -9,7 +8,7 @@ const { title, description, author, keywords } = Astro.props;
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 
-		<ClientRouter />
+		
         <meta  name="description" content={description}/>
         <meta name="author" content={author}/>
         {keywords && <meta name="keywords" content={keywords.join(', ')}/>}
