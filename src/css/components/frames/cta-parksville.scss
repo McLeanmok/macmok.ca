@@ -7,7 +7,9 @@
 
 
 .cta-parksville__heading {
-    width: var(--heading-width)
+    @include bp-up("md"){
+        inline-size: var(--heading-width);
+    }
 }
 .cta-parksville__inner {
     @include bp-up("md") {

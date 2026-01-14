@@ -3,6 +3,8 @@
 */
 
 // Grabbing abstracts 
+@import "custom/index.scss";
+
 @layer champ-reset, custom-reset;
 
 @layer custom-reset {
@@ -15,6 +17,7 @@
 }
 @layer champ-reset {
   
+
 /* Universal selector reset */
 *,
 *::before,
@@ -32,11 +35,14 @@ html {
 
 /* Body Tag Defaults */
 body {
+
   margin: 0;
   padding: 0;
-  color: var(--text-color);
-  background-color: var(--body-color);
+  color: var(--black);
+  background-color: var(--white);
+  position: relative;
 }
+
 
 /* Removing Bottom Margins from elements */
 h1,
