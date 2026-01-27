@@ -46,3 +46,18 @@
   display: grid;
   gap: var(--content-gap);
 }
+
+// inline link
+.inline-link {
+  color: var(--primary-base);
+  display: inline;
+  
+  &:hover {
+    background: var(--primary-base);
+    color: var(--white);
+  }
+}
+// highlight
+.highlight {
+  color: var(--secondary-base);
+}

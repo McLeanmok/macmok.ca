@@ -1,0 +1,18 @@
+// Grabbing abstracts
+@use "../../custom/index.scss" as *;
+
+// hero section
+.content-hardy__inner {
+  @include bp-up("md") {
+    @include text-align();
+  }
+}
+
+// element styles
+.content-hardy__seo-heading {
+  @include seo-heading();
+}
+.content-hardy__heading {
+  @include heading("h1");
+  max-inline-size: calc(var(--heading-width) - 1rem);
+}

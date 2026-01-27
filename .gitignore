@@ -29,3 +29,4 @@ pnpm-debug.log*
 # lab page
 src/pages/lab.astro
 /build
+notes.md

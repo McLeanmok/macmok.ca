@@ -12,6 +12,7 @@ import Work from "../media/index/work.webp"
 
 // Loops
 import skills from "../loops/services.json";
+import ContactAlpha from "../components/frames/contact-alpha.astro";
 ---
  
 <MainTemplate title="McLean Mylymok | Home" description="Welcome to my personal website! I'm McLean Mylymok, a media producer based in Parksville, BC. Explore my projects, blog posts, and get in touch with me." author="McLean Mylymok" keywords={[
@@ -28,7 +29,7 @@ import skills from "../loops/services.json";
 		<Container width="standard" customClass="home-hero__inner">
 			<div class="home-hero__content">
 				<h1 class="home-hero__heading">A Music Loving, Humorous, and Hard Working Media Producer</h1>
-				<p class="home-hero__body">Hello, my name is McLean Mylymok, and I’m a media student at Vancouver Island University. I have a strong passion for digital media. I am a well-rounded individual, who’s interested in many things. On this website, you can find out more about me and my projects, and find lots of content around media, and music. </p>
+				<p class="home-hero__body">I am a media student at Vancouver Island University with a strong passion for crafting narrative and solving problems through a variety of digital formats. My interests include music, skiing, adventuring, and media production. On this website you can find out more about me and my projects, while exploring created content around media and music. </p>
 				<div class="button-row">
 					<Button theme="primary" text="About Me" href="/about" />
 					<Button theme="secondary" text="Get In Touch" href="/contact" outline customClasses="btn-radius__standard"/>
@@ -43,10 +44,10 @@ import skills from "../loops/services.json";
 	 <!-- About section ( using the content section Kelowna frame) -->
 	  <section class="content-kelowna">
 		  <Container width="standard" smartSpacing>
-			<h2 class="content-kelowna__heading">About Me</h2>
+			<h2 class="content-kelowna__heading">A Little Bit About Me</h2>
 			<div class="content-kelowna__grid">
 				<div class="content-kelowna__content">
-					<p class="hero-kelowna__body"> I am passionate about Digital media. My main medium is web, but I am comfortable with photography, and audio design. Outside of media, my primary passion is music. I listen to various genres, and I’m open to most music. I should warn you however, if you play Taylor Swift, things won’t go well.</p>
+					<p class="hero-kelowna__body">My passion is digital media. While I am very confident in working with web-based media, I am also enthusiastic about photography, and audio production. Outside of media, my primary passion is music. I listen to various genres, and love when I am introduced to something I have never heard before.  I continually strive to explore a wider range of content. I value music that comes across as authentic and has a unique quality to it.</p>
 					<Button theme="primary" href="/about" text="Get to Know Me Better"/>
 				</div> <!-- end about content -->
 				<figure class="content-kelowna__media-wrapper">
@@ -56,25 +57,14 @@ import skills from "../loops/services.json";
 		  </Container>
 	  </section>
 
-	  <!-- Audience  -->
-	   <section class="audience">
-		  <Container width="standard" smartSpacing>
-			<h2 class="audience__heading">Who's This Site For?</h2>
-
-			<div class="audience__grid">
-				<Card title="For Those of you Who Want to Work With Me" body="If you wish to work with me, you’re in the right place. You are able to view my portfolio and find out about my personality. I can either take on individual projects or work for your business" theme="primary" />
-				<Card title=" For Those of You Who Are Creative" body="If you call yourself the creative type, you are in luck. You are able to download my media resources absolutely free of charge. Aside from the templates, you will be able to find many of blog posts that cover everything from media to music reviews"  theme="primary"/>
-			<!-- </div> end of audience grid -->
-		  </Container>
-	   </section>
-
+	  
 	    <!-- Work  section ( using the content section Kelowna frame) -->
 	   <section class="content-kelowna">
 		  <Container width="standard" smartSpacing>
 			<h2 class="content-kelowna__heading">Why You Should Work With Me</h2>
 			<div class="content-kelowna__grid">
 				<div class="content-kelowna__content">
-					<p class="hero-kelowna__body">I am really hard working. I get all my projects done on time, and I do not procrastinate. The quality of my work is very high. I put all my effort in. All of my projects look good. I pay special attention to design and detail.</p>
+					<p class="hero-kelowna__body">I am very hard working, planning and organizing in a way that allows me to get all my projects done on time, without procrastination. The quality of my work is very high. When constructing a project, my main goal is to ensure that the message resonates with the intended audience. You could have a pretty looking website, or an amazingly produced podcast, but if the content is not up to standard, it is a failure. My aim is for high quality productions as the end result, every time.</p>
 				</div> <!-- end about content -->
 				<figure class="content-kelowna__media-wrapper">
 					<Image src={Work} class="content-kelowna__media" alt="me doing some digital audio production on my eyegaze. It's my first day of work at 101.7 CHLY fm" title="Me on my first day of work at 101.7 CHLY fm" />
@@ -104,4 +94,6 @@ import skills from "../loops/services.json";
 			<Button theme="primary" href="/services" text="Learn More About What I Can Do" customClasses="skills__action"/>
 		</Container>
 	 </section>
+	 
+	 <ContactAlpha />
 </MainTemplate>

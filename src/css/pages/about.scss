@@ -6,6 +6,14 @@
 .content-kelowna--about {
     background: var(--secondary-bg__ultra-light);
 }
+// content in the section 
+.content-kelowna--about__text {
+    display: grid;
+    gap: var(--content-gap);
+    @include bp-up("md") {
+        max-width: 50ch;
+    }
+}
 
 // hobbies
 .hobbies__heading {
@@ -23,6 +31,12 @@
     gap: var(--grid-gap);
     grid-template-columns: var(--grid-2-static);
     align-items: center;
+    :has(>&) {
+        container-type: inline-size;
+    }
+    @container (width < 730px ) {
+        grid-template-columns: 1fr;
+    }
 }
 
 .hobby__content {
@@ -33,5 +47,25 @@
 .hobby__item:nth-child(even) .hobby__media-wrapper {
     @include bp-up("md") {
         order: -1;
+    }
+}
+
+// music 
+.music {
+    @include section-theme(var(--white), color-mix(in srgb, var(--primary-base) 80%, var(--white) 20%));
+}
+.music__inner {
+    display: grid;
+    gap: var(--grid-gap);
+    @include bp-up("md") {
+        grid-template-columns: var(--grid-2-static);
+        align-items: center;
+    }
+}
+.music__content {
+    display: grid;
+    gap: var(--content-gap);
+    @include bp-up("md") {
+        max-width: 45ch;
     }
 }

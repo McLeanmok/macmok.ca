@@ -1,22 +1,5 @@
 // this file is responsible for styling related to the contact page
-// Grabbing abstracts 
-@use "../custom/index" as *;
-
-// hero section
-.contact-hero__inner {
-    @include bp-up("md") {
-        @include text-align();
-    }
-}
-
-// element styles
-.contact-hero__seo-heading {
-    @include seo-heading();
-}
-.contact-hero__heading {
-    @include heading("h1");
-    max-inline-size: calc(var(--heading-width) - 1rem);
-} 
+@import "../custom/index.scss";
 .methods {
     background: var(--secondary-800);
 }
