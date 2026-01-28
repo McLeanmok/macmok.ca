@@ -12,5 +12,14 @@ const { title, description, author, keywords } = Astro.props;
         <meta  name="description" content={description}/>
         <meta name="author" content={author}/>
         {keywords && <meta name="keywords" content={keywords.join(', ')}/>}
+		<!-- Google tag (gtag.js) -->
+<script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-XKXFRQZBJF"></script>
+<script type="text/partytown">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XKXFRQZBJF');
+</script>
 		<title>{title}</title>
 	</head>

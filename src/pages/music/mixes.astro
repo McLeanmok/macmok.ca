@@ -1,0 +1,56 @@
+---
+import Container from "../../components/container.astro";
+import MainTemplate from "../../templates/main-template.astro";
+
+---
+
+<MainTemplate title="Mixes" description="A collection of Playlists by me" author="McLean Mylymok" keywords={[
+    "playlists",
+    "mixes"
+]}>
+
+    <!-- Hero -->
+      <section class="content-hardy">
+        <Container width ="standard" smartSpacing customClass="content-hardy__inner" >
+            <h1 class="content-hardy__heading">My Mixes</h1>
+            <p class="content-hardy__body">This is a portfolio of my Spotify playlists. I pay attention to flow, organization, and blending tracks with a certain quality. I am famous for my mixes. Each time I hand one off to someone, they really enjoy the playlist.</p>
+        </Container>
+    </section>
+
+    <section class="mixes">
+        <Container width="standard" smartSpacing customClass="mixes__inner">
+            <h2 class="sr-only">Playlist Gallery</h2>
+            <div class="mixes__gallery" data-smart-spacing>
+                <article class="mixes__mix">
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7CBAGG9Hj8jjpUoUqBk91Z?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </article>
+                <article class="mixes__mix">
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6tC5QuuwoDKJnkPyQtM2i8?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </article>
+                <article class="mixes__mix">
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1Rf9HQSATe49ZcZ2iHl2S9?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </article>
+                <article class="mixes__mix">
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3xa2WQxDMSWZPmELd4nIf7?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </article>
+                <article class="mixes__mix">
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3YnWzIloHMKINK9o9VhqX4?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </article>
+                <article class="mixes__mix">
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1bylWLhrM3Xrjbzp1FvSaG?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </article>
+                <article class="mixes__mix">
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1bylWLhrM3Xrjbzp1FvSaG?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </article>
+                <article class="mixes__mix">
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/23DwtAaI0lEaAMLhLOu5WO?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </article>
+                <article class="mixes__mix">
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4URQHTKeBk7Dj3HUwWYu7P?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </article>
+                <article class="mixes__mix">
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1ulS4yDzCq59EOm9ZrDYSg?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </article>
+            </div>
+    </section>
+/</MainTemplate>
