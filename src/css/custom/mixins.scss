@@ -47,7 +47,7 @@
   font-weight: var(--fw-bold);
   @if $setting == "h1" {
     font-size: var(--fs-h1);
-    line-height: var(--lh-headinsgs);
+    line-height: var(--lh-headings);
   } @else if $setting == "h2" {
     font-size: var(--fs-h2);
     line-height: var(--lh-headings);

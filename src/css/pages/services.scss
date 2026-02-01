@@ -17,13 +17,14 @@
 .service {
   display: grid;
   grid-template-columns: var(--grid-2);
-  gap: var(--grid-gap);
+  gap: var(--grid-gap-extra);
   align-items: center;
 }
 // element styles
 .service__content {
     display: grid;
     gap: var(--content-gap);
+    max-width: var(--content-max-width);
 }
 
 .services__list li:nth-child(even) {

@@ -16,22 +16,22 @@ import NavLink from "./nav-link.astro";
 
 <script>
 
-const navLinks = document.querySelectorAll('nav a');
+  const navLinks = document.querySelectorAll('nav a');
 
-if (navLinks.length > 0) {
-  document.addEventListener('DOMContentLoaded', () => {
-    navLinks.forEach((link) => {
-      const linkUrl = link.href.trim();
-      const currentPageUrl = window.location.href.trim();
-      const currentPageHash = currentPageUrl.split('#').pop();
-      const linkHash = linkUrl.split('#').pop();
+  if (navLinks.length > 0) {
+    document.addEventListener('DOMContentLoaded', () => {
+      navLinks.forEach((link) => {
+        const linkUrl = link.href.trim();
+        const currentPageUrl = window.location.href.trim();
+        const currentPageHash = currentPageUrl.split('#').pop();
+        const linkHash = linkUrl.split('#').pop();
 
-      if (linkUrl === currentPageUrl || (linkHash && linkHash === currentPageHash)) {
-        link.setAttribute('aria-current', 'page');
-      } else {
-        link.removeAttribute('aria-current');
-      }
+        if (linkUrl === currentPageUrl || (linkHash && linkHash === currentPageHash)) {
+          link.setAttribute('aria-current', 'page');
+        } else {
+          link.removeAttribute('aria-current');
+        }
+      });
     });
-  });
-}
+  }
 </script>

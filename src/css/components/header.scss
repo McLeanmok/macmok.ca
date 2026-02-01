@@ -1,13 +1,21 @@
 // Grabbing stuff
 @use "../custom/index.scss" as *;
 
-// locally scoped variables
-:root {
-  --navlink__clickabale-area: 0.5em;
+
+// active state
+[aria-current="page"] {
+  color: var(--primary-base);
+  font-weight: var(--fw-bold);
+}
+
+// Overall containing block
+.site-header {
+  // VARIBLES - this controls the entire header component
+    --navlink__clickabale-area: 0.5em;
   --menu-gap: var(--sp-100);
 
   // Nav theme properties. Note, most of these have to do with the popout, however some are global.
-  --nav-bg-opacity: 75%;
+  --nav-bg-opacity: 90%;
   --nav-bg-color: var(--white);
   --nav-bg: color-mix(in srgb, var(--nav-bg-color) var(--nav-bg-opacity), transparent);
   --nav-transition: 0.9s;
@@ -17,15 +25,10 @@
   --burger-height: 3px;
   --burger-width: 46px;
   --burger-gap: 7px;
-}
-// active state
-[aria-current="page"] {
-  color: var(--primary-base);
-  font-weight: var(--fw-bold);
-}
 
-.site-header {
   --nav-opacity: 60%;
+
+  // CODE
   padding: var(--section-padding-sm);
   background: var(--nav-bg);
   backdrop-filter: blur(var(--nav-blur));
@@ -94,6 +97,13 @@
     } // end link syles
   } // end media query
 } // end overall selector
+
+
+// Elevating the logo
+.site-header__brand-link {
+  z-index: 3;
+}
+// MOBILE NAVIGATION
 // hiding the checkbox on desktop
 .site-header {
   &__nav-toggle,

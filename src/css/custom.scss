@@ -19,6 +19,7 @@
   --tertiary-s: 71%;
 
   --lh-p: clamp(1.3rem, 0.956vw + 0.694rem, 1.7rem);
+  --lh-headings: clamp(4rem, 1.53vw + 1.194rem, 4.5rem);
 
   //   Scrollbar
   --scrollbar-track-color: var(--primary-800);
@@ -40,6 +41,9 @@
   // heading width
   --heading-width: 30ch;
   --heading-width-sm: 15ch;
+  --content-max-width: 45ch;
+
+  --grid-gap-extra: calc(var(--grid-gap) * 1.5);
 }
 // smart spacing
 [data-smart-spacing] {
@@ -60,4 +64,7 @@
 // highlight
 .highlight {
   color: var(--secondary-base);
+  background-color: var(--secondary-900);
+  padding: 0.1rem;
+  border-radius: 0.2rem;
 }

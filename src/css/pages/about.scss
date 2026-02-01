@@ -28,7 +28,7 @@
 }
 .hobby {
     display: grid;
-    gap: var(--grid-gap);
+    gap: var(--grid-gap-extra);
     grid-template-columns: var(--grid-2-static);
     align-items: center;
     :has(>&) {
@@ -42,6 +42,7 @@
 .hobby__content {
     display: grid;
     gap: var(--content-gap);
+    max-width: var(--content-max-width);
 }
 
 .hobby__item:nth-child(even) .hobby__media-wrapper {
