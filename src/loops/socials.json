@@ -10,5 +10,11 @@
         "url": "https://www.facebook.com/mac.mok.2025",
         "title": "go to my facebook profile",
         "alt": "facebook icon"
+    },
+    {
+        "icon":"/loop-media/icons/substack.svg",
+        "url": "https://substack.com/@macmok05/posts/",
+        "title": "join me on substack",
+        "alt": "substack icon"
     }
 ]
