@@ -1,0 +1,13 @@
+// this file contains the styles for the mixes page.
+
+// Grabbing abstracts 
+@use "../custom/index" as *;
+
+.mixes {
+    background-color: var(--secondary-800);
+}
+.mixes__gallery {
+    display: grid;
+    grid-template-columns: var(--grid-3);
+    gap: var(--grid-gap);
+}

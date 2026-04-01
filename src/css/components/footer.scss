@@ -9,7 +9,10 @@
     --footer-bg-main-color-percent: 90%;
     --footer-bg-mixed-color: var(--white);
     --footer-bg-mixed-color-percent: 10%;
+}
 
+// main content 
+.site-footer__main-content {
     //Styles
     @include section-theme(var(--white), 
         color-mix(in srgb, var(--footer-bg-main-color) var(--footer-bg-main-color-percent), var(--footer-bg-mixed-color) var(--footer-bg-mixed-color-percent)));
@@ -47,4 +50,10 @@
 .site-footer__nav-links {
     display: grid;
     gap: calc(var(--content-gap) / 2)
+}
+
+// vibe code notice
+.site-footer__vibe-notice {
+    padding: var(--section-padding-xs);
+    @include section-theme(var(--white), color-mix(in srgb, var(--footer-bg-main-color), var(--white) 20%))
 }

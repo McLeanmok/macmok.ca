@@ -14,6 +14,11 @@
     "href": "/services",
     "title": "Check out my media production services"
   },
+  {
+    "text": "Blog",
+    "href":"https://substack.com/@macmok05",
+    "title": "Read my latest blog posts & insights on substack THIS IS A LINK THAT WILL TAKE YOU AWAY FROM MY SITE!"
+  }
  
   {
     "text":"Get In Touch",
