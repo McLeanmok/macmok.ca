@@ -4,14 +4,14 @@
     "id": "audio-production",
     "shortName": "audio",
     "icon": {
-      "src": "/loop-media/icons/headphones.svg",
+      "src": "/public-media/icons/headphones.svg",
       "alt": "a pair of headphones"
     },
     "body": "I am very versed in the audio production sphere. I use professional technology to capture audio content. Once I get all my content, I splice it together in industry standard software. I know how to blend music with voice samples to create a seamless audio experience.",
     "img": {
-      "src": "/loop-media/services/audio.jpg",
+      "src": "/public-media/services/audio.jpg",
       "alt": "a microphone set up in a studio ",
-      "citation":"taken by Thomas Lee on June 17th, 2028. On unsplash.com - https://unsplash.com/photos/gray-condenser-microphone-with-pop-filter-in-closeup-photography-HFWahRo6l4Q"
+      "citation": "taken by Thomas Lee on June 17th, 2028. On unsplash.com - https://unsplash.com/photos/gray-condenser-microphone-with-pop-filter-in-closeup-photography-HFWahRo6l4Q"
     }
   },
   {
@@ -19,13 +19,13 @@
     "shortName": "web",
     "title": "Web Production",
     "icon": {
-      "src": "/loop-media/icons/browser.svg",
+      "src": "/public-media/icons/browser.svg",
       "alt": "A web browser",
       "citation": "taken by FONG on October 19th, 2021. On unsplash.com - http://unsplash.com/photos/"
     },
     "body": "Whenever crafting a website, it’s important that they are accessible, that the website says the right thing to engage and attract the audience.  I take the content of the project very seriously, from initial concepts to launch, I will walk you through the entire process.",
     "img": {
-      "src": "/loop-media/services/web.jpg",
+      "src": "/public-media/services/web.jpg",
       "alt": "Some web code on a computer screen"
     }
   }
