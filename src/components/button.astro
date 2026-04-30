@@ -10,17 +10,17 @@ type Props<Tag extends "a" |"button"> = Polymorphic<{as: Tag}> &  {
     customClasses?: string;
 }
 // exporting props
-const {as: Tag = "a", text, href, theme, customClasses, outline, title, ...rest } = Astro.props;
+const { as: Tag = "a", text, href, theme, customClasses, outline, title, ...rest } = Astro.props;
 const themeClass = outline ? `btn-outline__${theme}` : (theme === "primary" ? "standard-btn" : `standard-btn--${theme}`);
 ---
 <Tag 
  href={href}
  title={title}
- clTagss:list={[
+ class:list={[
     themeClass,
     { "button--filled": outline },
     customClasses,
- ]},
+ ]}
  {...rest}
 >
     {text}

@@ -4,9 +4,10 @@ import Input from './input.astro';
 // loop
 import services from '../loops/services.json';
 import { optional } from 'astro:schema';
+import Button from './button.astro';
 ---
  
- <form action="2https://formsubmit.co/macmylymok@gmail.com" method="POST" class="site-form">
+ <form action="https://formsubmit.co/macmylymok@gmail.com" method="POST" class="site-form">
     <input type="hidden" name="_subject" value="New submission!">
             <div class="site-form__input-row">
                 <Input type="text" name="first_name" id="first_name" placeholder="First Name" ariaLabel="Enter your first name" />
@@ -27,5 +28,5 @@ import { optional } from 'astro:schema';
             
             <Input type="email" name="email" id="email" placeholder="Email" ariaLabel="Enter your email" />
             <Input type="textarea" name="message" id="message" placeholder="Message" ariaLabel="Enter your message" />
-            <button type="submit" class="standard-btn">Send Message</button>
+            <Button theme="primary" as='button' type="submit" text="Submit" title='Go ahead, contact me' />
         </form>
