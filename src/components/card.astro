@@ -1,16 +1,17 @@
 ---
-interface Props {
-    title: string;
+import type { Polymorphic} from "astro/types"
+type Props<Tag extends "article" |"li" |"div" > = Polymorphic<{as: Tag}> &{
+   title: string;
     body: string;
     theme: 'primary' | 'secondary' | 'tertiary';
     hasBtn?: boolean;
     btnText?: string;
     btnLink?: string;
 }
-const { title, body, theme, hasBtn, btnText, btnLink } = Astro.props;
+const {as: Tag = "article", title, body, theme, hasBtn, btnText, btnLink } = Astro.props;
 const themeClass = theme === 'primary' ? 'standard-card' : `card--${theme}`;
 ---
-<artilce class:list={[
+<Tag class:list={[
     themeClass,
     { 'standard-card--secondary': theme === 'secondary' },
     { 'standard-card--tertiary': theme === 'tertiary' },
@@ -19,4 +20,4 @@ const themeClass = theme === 'primary' ? 'standard-card' : `card--${theme}`;
     class="'standard-card__heading">{title}</h2>
     <p class="'standard-card__body">{body}</p>
     {hasBtn && <a href={btnLink} class="standard-card__btn">{btnText}</a>}
-</artilce>
+</Tag>

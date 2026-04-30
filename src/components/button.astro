@@ -1,17 +1,22 @@
 ---
-interface Props {
+// dynamic tag changing 
+import type { Polymorphic} from "astro/types";
+type Props<Tag extends "a" |"button"> = Polymorphic<{as: Tag}> &  {
     text: string;
-    href: string;
-    theme: "primary" | "secondary" | "tertiary" | "neutral";
+    title?: string;
+    href?: string;
+    theme: "primary" | "secondary" | "tertiary" | "neutral"| "neutral-light";
     outline?: boolean;
     customClasses?: string;
 }
-const { text, href, theme, customClasses, outline, ...rest } = Astro.props;
+// exporting props
+const {as: Tag = "a", text, href, theme, customClasses, outline, title, ...rest } = Astro.props;
 const themeClass = outline ? `btn-outline__${theme}` : (theme === "primary" ? "standard-btn" : `standard-btn--${theme}`);
 ---
-<a 
+<Tag 
  href={href}
- class:list={[
+ title={title}
+ clTagss:list={[
     themeClass,
     { "button--filled": outline },
     customClasses,
@@ -19,4 +24,4 @@ const themeClass = outline ? `btn-outline__${theme}` : (theme === "primary" ? "s
  {...rest}
 >
     {text}
-</a>
+</Tag>
