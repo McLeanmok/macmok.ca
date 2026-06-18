@@ -1,26 +1,26 @@
 [
  {
-    "icon": "/public-media/icons/facebook.svg",
+    "href": "socials/facebook",
     "url": "https://www.facebook.com/mac.mok.2025",
     "title": "go to my facebook profile",
-    "alt": "facebook icon"
+    "alt": "facebook href"
   },
   {
-    "icon":"/public-media/icons/instagram.svg",
+    "href":"socials/instagram",
     "url": "https://www.instagram.com/macmylymok/",
     "title":"Go to my Instagram profile",
-    "alt":"Instagram icon"
+    "alt":"Instagram href"
   },
  {
-    "icon": "/public-media/icons/spotify.svg",
+    "href": "socials/spotify",
     "url": "https://open.spotify.com/user/gpemzt18h3jvibrl9mt6qv4hi?si=29922a716de64cea",
     "title": "go to my spotify profile",
-    "alt": "spotify icon"
+    "alt": "spotify href"
   },
   {
-    "icon": "/public-media/icons/substack.svg",
+    "href": "socials/substack",
     "url": "https://substack.com/@macmok05/posts/",
     "title": "join me on substack",
-    "alt": "substack icon"
+    "alt": "substack href"
   }
 ]

@@ -8,17 +8,18 @@
     --footer-bg-main-color: var(--black);
     --footer-bg-main-color-percent: 90%;
     --footer-bg-mixed-color: var(--white);
+    --footer-content-color: var(--white);
     --footer-bg-mixed-color-percent: 10%;
 }
 
 // main content 
 .site-footer__main-content {
     //Styles
-    @include section-theme(var(--white), 
+    @include section-theme(var(--footer-content-color), 
         color-mix(in srgb, var(--footer-bg-main-color) var(--footer-bg-main-color-percent), var(--footer-bg-mixed-color) var(--footer-bg-mixed-color-percent)));
     padding: var(--section-padding-md) 0;
     a {
-        color: var(--white);
+        color: var(--footer-content-color);
     }
 }
 

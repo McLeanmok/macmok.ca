@@ -6,6 +6,7 @@ import Card from "../components/card.astro";
 
 // image stuff
 import Image from "astro/components/Image.astro";
+import { Icon } from "astro-icon/components";
 import hero from "../media/index/hero.jpg"
 import about from "../media/index/about.webp"
 import Work from "../media/index/work.webp"
@@ -84,9 +85,10 @@ import ContactAlpha from "../components/frames/contact-alpha.astro";
 						<article class="icon-card">
 							<h3 class="icon-card__heading">{skill.title}</h3>
 							<p class="icon-card__body">{skill.body}</p>
-							<figure class="icon-card__icon-wrapper">
-								<img src={skill.icon.src} alt={skill.icon.alt} title={skill.icon.alt}class="icon-card__icon">
-							</figure>
+							<div class="icon-card__icon-wrapper">
+								<Icon name={skill.icon.src} title={skill.icon.alt}class="icon-card__icon" />
+							</div>
+							
 						</article>
 					</li>
 				))}

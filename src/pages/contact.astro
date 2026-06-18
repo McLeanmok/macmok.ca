@@ -7,6 +7,7 @@ import { imageConfig } from "astro:assets";
 // Loops
 import methods from "../loops/contact-methods.json"
 import { Image } from "astro:assets";
+import { Icon } from "astro-icon/components";
 ---
 
 <MainTemplate title="McLean Mylymok | Contact" description="If you want get in touch with me, you can do so here. I would love to hear from you, and hear about your projects. " noCta author="McLean Mylymok" keywords={[
@@ -41,7 +42,7 @@ import { Image } from "astro:assets";
                                 <h3 class="icon-card__heading">{m.title}</h3>
                                 <p class="icon-card__body">{m.detail}</p>
                                 <figure class="icon-card__icon-wrapper">
-                                    <Image src={m.icon.src} alt={m.icon.alt} title={m.icon.alt} width={35} height={35}/>
+                                    <Icon name={m.icon.src} alt={m.icon.alt} title={m.icon.alt} width={35} height={35}/>
                                 </figure>
                             </article>
                         </li>

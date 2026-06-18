@@ -4,7 +4,7 @@
     "id": "audio-production",
     "shortName": "audio",
     "icon": {
-      "src": "/public-media/icons/headphones.svg",
+      "src": "audio",
       "alt": "a pair of headphones"
     },
     "body": "I am very versed in the audio production sphere. I use professional technology to capture audio content. Once I get all my content, I splice it together in industry standard software. I know how to blend music with voice samples to create a seamless audio experience.",
@@ -19,7 +19,7 @@
     "shortName": "web",
     "title": "Web Production",
     "icon": {
-      "src": "/public-media/icons/browser.svg",
+      "src": "web",
       "alt": "A web browser",
       "citation": "taken by FONG on October 19th, 2021. On unsplash.com - http://unsplash.com/photos/"
     },

@@ -1,19 +1,23 @@
-import purgecss from 'astro-purgecss';
-
 import { defineConfig } from 'astro/config';
-
+import purgecss from 'astro-purgecss';
 import partytown from '@astrojs/partytown';
+import icon from 'astro-icon';
 
 export default defineConfig({
-  // Add purgecss support to Astro
-  integrations: [purgecss({
-    fontFace: true,
-   variables: true,
-  }), partytown({
-    config: {
-              forward: ["dataLayer.push"],
-            },
-  })],
+  integrations: [
+    purgecss({
+      fontFace: true,
+      variables: true,
+    }),
+    partytown({
+      config: {
+        forward: ["dataLayer.push"],
+      },
+    }),
+    icon({
+      iconDir: "src/icons",
+    }),
+  ],
   outDir: 'build',
   build: {
     format: 'preserve',
@@ -22,4 +26,4 @@ export default defineConfig({
   assets: {
     basePath: "/",
   }
-});
+}); 

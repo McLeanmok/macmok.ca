@@ -87,3 +87,10 @@
     @content;
   }
 }
+
+
+// chip
+@mixin chip () {
+  --chip-font-size: var(--fs-p);
+
+}

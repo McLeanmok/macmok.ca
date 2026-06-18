@@ -2,7 +2,7 @@
   {
     "title": "Phone",
     "icon": {
-      "src": "/public-media/icons/phone.svg",
+      "src": "contact-methods/phone",
       "alt": "A phone "
     },
     "detail": "236-436-0313"
@@ -10,7 +10,7 @@
   {
     "title": "Email",
     "icon": {
-      "src": "/public-media/icons/email.svg",
+      "src": "contact-methods/email",
       "alt": "An email icon"
     },
     "detail": "macmylymok@gmail.com"

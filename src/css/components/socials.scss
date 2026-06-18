@@ -4,3 +4,6 @@
     display: flex;
     gap: calc(var(--content-gap) / 2);
 }
+.social-menu__icon {
+   --icon-size: 1.5rem;
+}

@@ -20,7 +20,7 @@
     
     - .standard-card__lead - for a lead element, which is styled to be uppercase and bold. This is completely optional.
 */
-// bringing in buttons
+
 /* Initiating layers */
 @layer champ-cards, card-mods, custom-cards;
 
@@ -29,13 +29,15 @@
   .icon-card {
     background: var(--primary-900);
   }
- 
+
   .icon-card__icon-wrapper {
-    background: var(--primary-300);
-    padding: var(--sp-100);
-    border-radius: 50vw;
-    order: -1;
     place-self: flex-start;
+    order: -1;
+    background-color: var(--primary-100);
+    color: var(--white);
+    border-radius: 100vh;
+    padding: var(--sp-100);
+    font-size: var(--chip-font-size);
   }
 }
 
