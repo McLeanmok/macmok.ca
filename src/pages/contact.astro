@@ -33,10 +33,11 @@ import { Icon } from "astro-icon/components";
     <!-- methods  -->
      <section class="methods">
         <Container width="standard" customClass="methods__inner">
-            <h2 class="methods__heading">Other Ways You Can Reach Me</h2>
+            <h2 class="methods__heading">Other Ways You Can Reach Meee!</h2>
             <ul class="methods__list">
                 {
                     methods.map((m) => (
+                        <!-- method -->
                         <li>
                             <article class="icon-card">
                                 <h3 class="icon-card__heading">{m.title}</h3>
@@ -44,7 +45,7 @@ import { Icon } from "astro-icon/components";
                                 <figure class="icon-card__icon-wrapper">
                                     <Icon name={m.icon.src} alt={m.icon.alt} title={m.icon.alt} width={35} height={35}/>
                                 </figure>
-                                
+
                             </article>
                         </li>
                     ))
