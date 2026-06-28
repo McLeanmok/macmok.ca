@@ -1,22 +1,34 @@
-// 1. Import utilities from `astro:content`
-import { defineCollection } from 'astro:content';
+/// <reference types="astro/client" />
+import { glob } from "astro/loaders";
+import { z } from "astro/zod";
+import { defineCollection } from "astro:content";
 
-// 2. Import loader(s)
-import { glob, file } from 'astro/loaders';
-
-// 3. Import Zod
-import { z } from 'astro/zod';
-
-// 4. Define a `loader` and `schema` for each collection
-const blog = defineCollection({
-  loader: glob({ base: './src/content/blog', pattern: '**/*.{md,mdx}' }),
-  schema: z.object({
-    title: z.string(),
-    description: z.string(),
-    pubDate: z.coerce.date(),
-    updatedDate: z.coerce.date().optional(),
-  }),
+const baseTidbit = z.object({
+  title: z.string(),
+  pubDate: z.coerce.date(),
+  tags: z.array(z.string()).optional(),
+  lede: z.string(),
 });
 
-// 5. Export a single `collections` object to register your collection(s)
-export const collections = { blog };
+const tidbitsHtml = defineCollection({
+  loader: glob({
+    base: "./src/content/tidbits-html",
+    pattern: "**/*.{md,mdx}",
+  }),
+  schema: baseTidbit,
+});
+
+const tidbitsCss = defineCollection({
+  loader: glob({ base: "./src/content/tidbits-css", pattern: "**/*.{md,mdx}" }),
+  schema: baseTidbit,
+});
+
+const tidbitsAudio = defineCollection({
+  loader: glob({
+    base: "./src/content/tidbits-audio",
+    pattern: "**/*.{md,mdx}",
+  }),
+  schema: baseTidbit,
+});
+
+export const collections = { tidbitsHtml, tidbitsCss, tidbitsAudio };

@@ -1,62 +1,61 @@
-// grabbing abstracts 
+// grabbing abstracts
 @use "../custom/index" as *;
 
 // hero
 .home-hero {
-    @include section-theme(var(--black), var(--primary-bg__ultra-light));
-    padding-block: var(--section-padding-xl);
+  @include section-theme(var(--black), var(--primary-bg__ultra-light));
+  padding-block: var(--section-padding-xl);
 }
 
 .home-hero__inner {
-    display: grid;
-    grid-template-columns: var(--grid-2);
-    gap: var(--grid-gap);
-    align-items: center;
+  display: grid;
+  grid-template-columns: var(--grid-2);
+  gap: var(--grid-gap);
+  align-items: center;
 }
 
 .home-hero__content {
-    display: grid;
-    gap: var(--content-gap);
+  display: grid;
+  gap: var(--content-gap);
 }
 
 .home-hero__media {
-    @include img-fit
+  @include img-fit;
 }
 
-// Audience 
+// Audience
 .audience {
-    --secondary-bg__mid: var(--secondary-base);
-    @include section-theme(var(--white), var(--secondary-bg__mid))
+  --secondary-bg__mid: var(--secondary-base);
+  @include section-theme(var(--white), var(--secondary-bg__mid));
 }
 .audience__heading {
-    @include bp-up("md") {
-        text-align: center;
-    }
+  @include bp-up("md") {
+    text-align: center;
+  }
 }
 .audience__grid {
-    display: grid;
-    grid-template-columns: var(--grid-2);
-    gap: var(--grid-gap);
-    
+  display: grid;
+  grid-template-columns: var(--grid-2);
+  gap: var(--grid-gap);
 }
 
 // SKILLS
 .skills {
-    @include section-theme(var(--black), var(--secondary-bg__ultra-light))
+  @include section-theme(var(--black), var(--secondary-bg__ultra-light));
 }
 
-.skills__heading { 
-    @include bp-up("md") {
-        @include text-align();
-    }
+.skills__heading {
+  @include bp-up("md") {
+    @include text-align(center);
+  }
 }
 .skills__action {
-    @include bp-up("md") {
-        place-self: center;
-    }
+  @include bp-up("md") {
+    place-self: center;
+  }
 }
 .skills__grid {
-    display: grid;
-    grid-template-columns: var(--grid-3);
-    gap: var(--grid-gap);
+  display: grid;
+  grid-template-columns: var(--grid-3);
+  gap: var(--grid-gap);
 }

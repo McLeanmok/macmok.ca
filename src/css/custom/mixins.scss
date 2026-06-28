@@ -19,11 +19,24 @@
 }
 
 // align text - use with flexbox or grid
-@mixin text-align() {
-  justify-content: center;
+@mixin text-align($align) {
+  @if $align == "center" {
+    justify-content: center;
   align-items: center;
   text-align: center;
   place-items: center;
+  } @else if $align == "left" {
+    justify-content: left;
+  align-items: left;
+  text-align: left;
+  place-items: left;
+  }
+   @else if $align == "right" {
+    justify-content: right;
+  align-items: right;
+  text-align: right;
+  place-items: right;
+  }
 }
 
 // Has me
@@ -68,7 +81,7 @@
 // background image
 @mixin bg-image {
   @include has-me {
-    position: relative
+    position: relative;
   }
   position: absolute;
   inset: 0;
@@ -86,4 +99,17 @@
     inset: 0;
     @content;
   }
-} 
+}
+
+// expand link
+@mixin expand-link() {
+  &::after {
+    content: "";
+    inline-size: 100%;
+    block-size: 100%;
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    display: block;
+  }
+}

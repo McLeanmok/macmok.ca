@@ -1,33 +1,38 @@
-// this file is responsible for styling related to the hero section of the duncan frame. 
-// Grabbing abstracts 
+// this file is responsible for styling related to the hero section of the duncan frame.
+// Grabbing abstracts
 @use "../../custom/index" as *;
 
-// Section styling 
+// Section styling
 .hero-duncan {
-    // overides
-    --secondary-overlap__top-bg: var(--white);
-    --secondary-overlap__bottom-bg: var(--secondary-base);
-    --secondary-overlap: linear-gradient(to bottom, var(--secondary-overlap__top-bg) var(--secondary-overlap__top-percentage), var(--secondary-overlap__bottom-bg) var(--secondary-overlap__bottom-percentage));
-    --secondary-overlap__top-percentage: 70%;
-    --secondary-overlap__bottom-percentage: 30%;
-    background: var(--secondary-overlap);
+  // overides
+  --secondary-overlap__top-bg: var(--white);
+  --secondary-overlap__bottom-bg: var(--secondary-base);
+  --secondary-overlap: linear-gradient(
+    to bottom,
+    var(--secondary-overlap__top-bg) var(--secondary-overlap__top-percentage),
+    var(--secondary-overlap__bottom-bg)
+      var(--secondary-overlap__bottom-percentage)
+  );
+  --secondary-overlap__top-percentage: 70%;
+  --secondary-overlap__bottom-percentage: 30%;
+  background: var(--secondary-overlap);
 }
 
 // Inner
 .hero-duncan__inner {
-    @include bp-up("md") {
-        @include text-align();
-    }
+  @include bp-up("md") {
+    @include text-align(center);
+  }
 }
 // element styles
 .hero-duncan__seo-heading {
-    @include seo-heading();
+  @include seo-heading();
 }
 .hero-duncan__heading {
-    @include heading("h1");
-    max-inline-size: var(--heading-width-sm);
+  @include heading("h1");
+  max-inline-size: var(--heading-width-sm);
 }
 // styles for the next section down
 .hero-duncan + section {
-    @include section-theme(var(--white),var(--secondary-base))
+  @include section-theme(var(--white), var(--secondary-base));
 }

@@ -11,7 +11,7 @@
 
 .methods__heading {
   @include bp-up("md") {
-    @include text-align();
+    @include text-align(center);
   }
 }
 .methods__list {

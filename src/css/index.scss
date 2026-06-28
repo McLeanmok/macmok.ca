@@ -4,5 +4,6 @@
 @forward "custom/";
 @forward "custom"; /* Override ChampCSS content here */
 @forward "components/"; // this folder contains styling content for substantial components such as the header, footer, etc
-@forward "pages/" ; // styles for individual pages on the site
+@forward "pages/"; // styles for individual pages on the site
+@forward "content-api/"; // Content API stuff
 @forward "styles"; /* Write your custom CSS content here */
