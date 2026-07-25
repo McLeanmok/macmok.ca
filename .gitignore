@@ -23,8 +23,8 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 
-# Local Netlify folder
-.netlify
+# Local wrangler folder
+.wrangler
 
 # lab page
 src/pages/lab.astro
