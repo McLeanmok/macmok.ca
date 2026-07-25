@@ -23,11 +23,18 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 
-# Local Netlify folder
-.netlify
+# Local wrangler folder
+.wrangler
 
 # lab page
 src/pages/lab.astro
 /build
 notes.md
+<<<<<<< HEAD
 about.fea910d3.css
+=======
+
+#Content collections
+src/content.config.ts
+src/content
+>>>>>>> origin/main
