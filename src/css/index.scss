@@ -1,8 +1,9 @@
-@use "reset" as *; /* This is the global reset for the entire website  */
-@use "utils/" as *; /* This is the bundler file for the utilities directory. See individuals file for additional documentation  */
-@use "plugins/" as *; /* This is the bundler file for the plugins directory. A plug-in is a tool that helps you build content facter. NOTE, PLUGINS TOUCH YOUR HTML.  If you don't like the idea of ChampCSS having an impact on your HTML, you can simply delete this directory from your project, and go back to using the core CSS variables just like you did before. See individual files for additional documentation */
-@use "custom/" as *;
-@use "custom" as *; /* Override ChampCSS content here */
-@use "components/" as *; // this folder contains styling content for substantial components such as the header, footer, etc
-@use "pages/" as *; // styles for individual pages on the site
-@use "styles" as *; /* Write your custom CSS content here */
+@forward "reset"; /* This is the global reset for the entire website  */
+@forward "utils/"; /* This is the bundler file for the utilities directory. See individuals file for additional documentation  */
+@forward "plugins/"; /* This is the bundler file for the plugins directory. A plug-in is a tool that helps you build content facter. NOTE, PLUGINS TOUCH YOUR HTML.  If you don't like the idea of ChampCSS having an impact on your HTML, you can simply delete this directory from your project, and go back to using the core CSS variables just like you did before. See individual files for additional documentation */
+@forward "custom/";
+@forward "custom"; /* Override ChampCSS content here */
+@forward "components/"; // this folder contains styling content for substantial components such as the header, footer, etc
+@forward "pages/"; // styles for individual pages on the site
+@forward "content-api/"; // Content API stuff
+@forward "styles"; /* Write your custom CSS content here */

@@ -1,0 +1,78 @@
+// This file contains all the styling content related to Tidbits.
+
+// importing mixins
+@use "../custom/index" as *;
+// main loop
+.tidbit-loop__inner {
+  display: grid;
+  grid-template-columns: var(--grid-3);
+  gap: var(--grid-gap);
+}
+
+// card styles
+.tidbit-card {
+  background: color-mix(in srgb, var(--secondary-base) 15%, transparent);
+  gap: var(--gap-sm);
+  max-block-size: fill-content;
+  position: relative;
+
+  &__heading {
+    font-size: var(--fs-h4);
+
+    @include has-me();
+    @container (inline-size < 600px) {
+      font-size: calc(var(--fs-h4) / 4.5);
+    }
+  }
+  &__link {
+    @include expand-link;
+  }
+}
+
+// category hero
+.tidbit-category-hero {
+  @include section-theme(var(--white), var(--secondary-base));
+
+  @media (width > 810px) {
+    @include text-align(center);
+  }
+}
+
+// post template
+.tidbit-single-hero {
+  @include section-theme(var(--white), var(--secondary-base));
+  padding-block: calc(var(--section-padding-lg) * 2.5);
+
+  &__inner {
+   display: grid;
+   gap: var(--gap-md);
+
+   @media (width > 810px) {
+    @include text-align(center);
+   }
+  }
+}
+
+.tidbit-main-content {
+  &__inner {
+    display: grid;
+    gap: var(--content-gap);
+
+    grid-template-columns: var(--grid-3-static);
+    & > *:nth-child(1) {
+      grid-column: span 2;
+    }
+  }
+
+  &__content-wrapper {
+    height: max-content;
+  }
+  //   sidebar
+  &__sidebar {
+    position: sticky;
+    top: 1rem;
+    display: grid;
+    gap: var(--gap-sm);
+    align-self: start;
+  }
+}

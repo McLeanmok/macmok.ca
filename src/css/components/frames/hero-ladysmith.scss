@@ -15,19 +15,19 @@
   --hero-overlay-percentage: 85%;
   --hero-overlay-color: var(--primary-900);
 
-@include bg-image {
-   background-color: color-mix(
+  @include bg-image {
+    background-color: color-mix(
       in srgb,
       var(--hero-overlay-color) var(--hero-overlay-percentage),
       transparent
     );
-}
+  }
 }
 
 // Element styles
 .hero-ladysmith__inner {
   @include bp-up("md") {
-    @include text-align();
+    @include text-align(center);
   }
 }
 .hero-ladysmith__seo-heading {

@@ -4,7 +4,7 @@ interface Props {
     customClass?: string;
     smartSpacing?: boolean;
 }
-const { width, customClass, smartSpacing } = Astro.props;
+const { width = "standard", customClass, smartSpacing } = Astro.props;
 const widthClass = width === 'standard' ? 'container' : width === 'wide' ? 'container-wide' : 'container-narrow';
 ---
 <div class:list={[

@@ -44,15 +44,15 @@
   --primary-base__trans-900: hsl(var(--primary-h) var(--primary-s) var(--primary-l) / 0.9);
 
   /* Saturations */
-  --primary-base__sat-100: hsl(var(--primary-h) calc(var(--primary-s)- 10%) var(--primary-l));
-  --primary-base__sat-200: hsl(var(--primary-h) calc(var(--primary-s)- 20%) var(--primary-l));
-  --primary-base__sat-300: hsl(var(--primary-h) calc(var(--primary-s)- 30%) var(--primary-l));
-  --primary-base__sat-400: hsl(var(--primary-h) calc(var(--primary-s)- 40%) var(--primary-l));
-  --primary-base__sat-500: hsl(var(--primary-h) calc(var(--primary-s)- 50%) var(--primary-l));
-  --primary-base__sat-600: hsl(var(--primary-h) calc(var(--primary-s)- 60%) var(--primary-l));
-  --primary-base__sat-700: hsl(var(--primary-h) calc(var(--primary-s)- 70%) var(--primary-l));
-  --primary-base__sat-800: hsl(var(--primary-h) calc(var(--primary-s)- 80%) var(--primary-l));
-  --primary-base__sat-900: hsl(var(--primary-h) calc(var(--primary-s)- 90%) var(--primary-l));
+  --primary-base__sat-100: hsl(var(--primary-h) calc(var(--primary-s) - 10%) var(--primary-l));
+  --primary-base__sat-200: hsl(var(--primary-h) calc(var(--primary-s) - 20%) var(--primary-l));
+  --primary-base__sat-300: hsl(var(--primary-h) calc(var(--primary-s) - 30%) var(--primary-l));
+  --primary-base__sat-400: hsl(var(--primary-h) calc(var(--primary-s) - 40%) var(--primary-l));
+  --primary-base__sat-500: hsl(var(--primary-h) calc(var(--primary-s) - 50%) var(--primary-l));
+  --primary-base__sat-600: hsl(var(--primary-h) calc(var(--primary-s) - 60%) var(--primary-l));
+  --primary-base__sat-700: hsl(var(--primary-h) calc(var(--primary-s) - 70%) var(--primary-l));
+  --primary-base__sat-800: hsl(var(--primary-h) calc(var(--primary-s) - 80%) var(--primary-l));
+  --primary-base__sat-900: hsl(var(--primary-h) calc(var(--primary-s) - 90%) var(--primary-l));
 
   --primary-100: hsl(var(--primary-h) var(--primary-s) 10%);
   
@@ -68,15 +68,15 @@
   --primary-100__trans-900: hsl(var(--primary-h) var(--primary-s) 10% / 0.9);
 
   /* Saturations */
-  --primary-100__sat-100: hsl(var(--primary-h) calc(var(--primary-s)- 10%) var(--primary-l));
-  --primary-100__sat-200: hsl(var(--primary-h) calc(var(--primary-s)- 20%) var(--primary-l));
-  --primary-100__sat-300: hsl(var(--primary-h) calc(var(--primary-s)- 30%) var(--primary-l));
-  --primary-100__sat-400: hsl(var(--primary-h) calc(var(--primary-s)- 40%) var(--primary-l));
-  --primary-100__sat-500: hsl(var(--primary-h) calc(var(--primary-s)- 50%) var(--primary-l));
-  --primary-100__sat-600: hsl(var(--primary-h) calc(var(--primary-s)- 60%) var(--primary-l));
-  --primary-100__sat-700: hsl(var(--primary-h) calc(var(--primary-s)- 70%) var(--primary-l));
-  --primary-100__sat-800: hsl(var(--primary-h) calc(var(--primary-s)- 80%) var(--primary-l));
-  --primary-100__sat-900: hsl(var(--primary-h) calc(var(--primary-s)- 90%) var(--primary-l));
+  --primary-100__sat-100: hsl(var(--primary-h) calc(var(--primary-s) - 10%) var(--primary-l));
+  --primary-100__sat-200: hsl(var(--primary-h) calc(var(--primary-s) - 20%) var(--primary-l));
+  --primary-100__sat-300: hsl(var(--primary-h) calc(var(--primary-s) - 30%) var(--primary-l));
+  --primary-100__sat-400: hsl(var(--primary-h) calc(var(--primary-s) - 40%) var(--primary-l));
+  --primary-100__sat-500: hsl(var(--primary-h) calc(var(--primary-s) - 50%) var(--primary-l));
+  --primary-100__sat-600: hsl(var(--primary-h) calc(var(--primary-s) - 60%) var(--primary-l));
+  --primary-100__sat-700: hsl(var(--primary-h) calc(var(--primary-s) - 70%) var(--primary-l));
+  --primary-100__sat-800: hsl(var(--primary-h) calc(var(--primary-s) - 80%) var(--primary-l));
+  --primary-100__sat-900: hsl(var(--primary-h) calc(var(--primary-s) - 90%) var(--primary-l));
 
   /* Primary 200 */
   --primary-200: hsl(var(--primary-h) var(--primary-s) 20%);
@@ -93,15 +93,15 @@
   --primary-200__trans-900: hsl(var(--primary-h) var(--primary-s) 20% / 0.9);
 
   /* Saturations */
-  --primary-200__sat-100: hsl(var(--primary-h) calc(var(--primary-s)- 10%) var(--primary-l));
-  --primary-200__sat-200: hsl(var(--primary-h) calc(var(--primary-s)- 20%) var(--primary-l));
-  --primary-200__sat-300: hsl(var(--primary-h) calc(var(--primary-s)- 30%) var(--primary-l));
-  --primary-200__sat-400: hsl(var(--primary-h) calc(var(--primary-s)- 40%) var(--primary-l));
-  --primary-200__sat-500: hsl(var(--primary-h) calc(var(--primary-s)- 50%) var(--primary-l));
-  --primary-200__sat-600: hsl(var(--primary-h) calc(var(--primary-s)- 60%) var(--primary-l));
-  --primary-200__sat-700: hsl(var(--primary-h) calc(var(--primary-s)- 70%) var(--primary-l));
-  --primary-200__sat-800: hsl(var(--primary-h) calc(var(--primary-s)- 80%) var(--primary-l));
-  --primary-200__sat-900: hsl(var(--primary-h) calc(var(--primary-s)- 90%) var(--primary-l));
+  --primary-200__sat-100: hsl(var(--primary-h) calc(var(--primary-s) - 10%) var(--primary-l));
+  --primary-200__sat-200: hsl(var(--primary-h) calc(var(--primary-s) - 20%) var(--primary-l));
+  --primary-200__sat-300: hsl(var(--primary-h) calc(var(--primary-s) - 30%) var(--primary-l));
+  --primary-200__sat-400: hsl(var(--primary-h) calc(var(--primary-s) - 40%) var(--primary-l));
+  --primary-200__sat-500: hsl(var(--primary-h) calc(var(--primary-s) - 50%) var(--primary-l));
+  --primary-200__sat-600: hsl(var(--primary-h) calc(var(--primary-s) - 60%) var(--primary-l));
+  --primary-200__sat-700: hsl(var(--primary-h) calc(var(--primary-s) - 70%) var(--primary-l));
+  --primary-200__sat-800: hsl(var(--primary-h) calc(var(--primary-s) - 80%) var(--primary-l));
+  --primary-200__sat-900: hsl(var(--primary-h) calc(var(--primary-s) - 90%) var(--primary-l));
 
   /* Primary 300 */
   --primary-300: hsl(var(--primary-h) var(--primary-s) 30%);
@@ -118,15 +118,15 @@
   --primary-300__trans-900: hsl(var(--primary-h) var(--primary-s) 30% / 0.9);
 
   /* Saturations */
-  --primary-300__sat-100: hsl(var(--primary-h) calc(var(--primary-s)- 10%) var(--primary-l));
-  --primary-300__sat-200: hsl(var(--primary-h) calc(var(--primary-s)- 20%) var(--primary-l));
-  --primary-300__sat-300: hsl(var(--primary-h) calc(var(--primary-s)- 30%) var(--primary-l));
-  --primary-300__sat-400: hsl(var(--primary-h) calc(var(--primary-s)- 40%) var(--primary-l));
-  --primary-300__sat-500: hsl(var(--primary-h) calc(var(--primary-s)- 50%) var(--primary-l));
-  --primary-300__sat-600: hsl(var(--primary-h) calc(var(--primary-s)- 60%) var(--primary-l));
-  --primary-300__sat-700: hsl(var(--primary-h) calc(var(--primary-s)- 70%) var(--primary-l));
-  --primary-300__sat-800: hsl(var(--primary-h) calc(var(--primary-s)- 80%) var(--primary-l));
-  --primary-300__sat-900: hsl(var(--primary-h) calc(var(--primary-s)- 90%) var(--primary-l));
+  --primary-300__sat-100: hsl(var(--primary-h) calc(var(--primary-s) - 10%) var(--primary-l));
+  --primary-300__sat-200: hsl(var(--primary-h) calc(var(--primary-s) - 20%) var(--primary-l));
+  --primary-300__sat-300: hsl(var(--primary-h) calc(var(--primary-s) - 30%) var(--primary-l));
+  --primary-300__sat-400: hsl(var(--primary-h) calc(var(--primary-s) - 40%) var(--primary-l));
+  --primary-300__sat-500: hsl(var(--primary-h) calc(var(--primary-s) - 50%) var(--primary-l));
+  --primary-300__sat-600: hsl(var(--primary-h) calc(var(--primary-s) - 60%) var(--primary-l));
+  --primary-300__sat-700: hsl(var(--primary-h) calc(var(--primary-s) - 70%) var(--primary-l));
+  --primary-300__sat-800: hsl(var(--primary-h) calc(var(--primary-s) - 80%) var(--primary-l));
+  --primary-300__sat-900: hsl(var(--primary-h) calc(var(--primary-s) - 90%) var(--primary-l));
 
   /* Primary 40*/
   --primary-400: hsl(var(--primary-h) var(--primary-s) 40%);
@@ -143,15 +143,15 @@
   --primary-400__trans-900: hsl(var(--primary-h) var(--primary-s) 40% / 0.9);
 
   /* Saturations */
-  --primary-400__sat-100: hsl(var(--primary-h) calc(var(--primary-s)- 10%) var(--primary-l));
-  --primary-400__sat-200: hsl(var(--primary-h) calc(var(--primary-s)- 20%) var(--primary-l));
-  --primary-400__sat-300: hsl(var(--primary-h) calc(var(--primary-s)- 30%) var(--primary-l));
-  --primary-400__sat-400: hsl(var(--primary-h) calc(var(--primary-s)- 40%) var(--primary-l));
-  --primary-400__sat-500: hsl(var(--primary-h) calc(var(--primary-s)- 50%) var(--primary-l));
-  --primary-400__sat-600: hsl(var(--primary-h) calc(var(--primary-s)- 60%) var(--primary-l));
-  --primary-400__sat-700: hsl(var(--primary-h) calc(var(--primary-s)- 70%) var(--primary-l));
-  --primary-400__sat-800: hsl(var(--primary-h) calc(var(--primary-s)- 80%) var(--primary-l));
-  --primary-400__sat-900: hsl(var(--primary-h) calc(var(--primary-s)- 90%) var(--primary-l));
+  --primary-400__sat-100: hsl(var(--primary-h) calc(var(--primary-s) - 10%) var(--primary-l));
+  --primary-400__sat-200: hsl(var(--primary-h) calc(var(--primary-s) - 20%) var(--primary-l));
+  --primary-400__sat-300: hsl(var(--primary-h) calc(var(--primary-s) - 30%) var(--primary-l));
+  --primary-400__sat-400: hsl(var(--primary-h) calc(var(--primary-s) - 40%) var(--primary-l));
+  --primary-400__sat-500: hsl(var(--primary-h) calc(var(--primary-s) - 50%) var(--primary-l));
+  --primary-400__sat-600: hsl(var(--primary-h) calc(var(--primary-s) - 60%) var(--primary-l));
+  --primary-400__sat-700: hsl(var(--primary-h) calc(var(--primary-s) - 70%) var(--primary-l));
+  --primary-400__sat-800: hsl(var(--primary-h) calc(var(--primary-s) - 80%) var(--primary-l));
+  --primary-400__sat-900: hsl(var(--primary-h) calc(var(--primary-s) - 90%) var(--primary-l));
 
   /* Primary 500 */
   --primary-500: hsl(var(--primary-h) var(--primary-s) 50%);
@@ -166,15 +166,15 @@
   --primary-500__trans-900: hsl(var(--primary-h) var(--primary-s) 50% / 0.9);
   
   /* Saturations */
-  --primary-500__sat-100: hsl(var(--primary-h) calc(var(--primary-s)- 10%) var(--primary-l));
-  --primary-500__sat-200: hsl(var(--primary-h) calc(var(--primary-s)- 20%) var(--primary-l));
-  --primary-500__sat-300: hsl(var(--primary-h) calc(var(--primary-s)- 30%) var(--primary-l));
-  --primary-500__sat-400: hsl(var(--primary-h) calc(var(--primary-s)- 40%) var(--primary-l));
-  --primary-500__sat-500: hsl(var(--primary-h) calc(var(--primary-s)- 50%) var(--primary-l));
-  --primary-500__sat-600: hsl(var(--primary-h) calc(var(--primary-s)- 60%) var(--primary-l));
-  --primary-500__sat-700: hsl(var(--primary-h) calc(var(--primary-s)- 70%) var(--primary-l));
-  --primary-500__sat-800: hsl(var(--primary-h) calc(var(--primary-s)- 80%) var(--primary-l));
-  --primary-500__sat-900: hsl(var(--primary-h) calc(var(--primary-s)- 90%) var(--primary-l));
+  --primary-500__sat-100: hsl(var(--primary-h) calc(var(--primary-s) - 10%) var(--primary-l));
+  --primary-500__sat-200: hsl(var(--primary-h) calc(var(--primary-s) - 20%) var(--primary-l));
+  --primary-500__sat-300: hsl(var(--primary-h) calc(var(--primary-s) - 30%) var(--primary-l));
+  --primary-500__sat-400: hsl(var(--primary-h) calc(var(--primary-s) - 40%) var(--primary-l));
+  --primary-500__sat-500: hsl(var(--primary-h) calc(var(--primary-s) - 50%) var(--primary-l));
+  --primary-500__sat-600: hsl(var(--primary-h) calc(var(--primary-s) - 60%) var(--primary-l));
+  --primary-500__sat-700: hsl(var(--primary-h) calc(var(--primary-s) - 70%) var(--primary-l));
+  --primary-500__sat-800: hsl(var(--primary-h) calc(var(--primary-s) - 80%) var(--primary-l));
+  --primary-500__sat-900: hsl(var(--primary-h) calc(var(--primary-s) - 90%) var(--primary-l));
 
   /* Primary 600 */
   --primary-600: hsl(var(--primary-h) var(--primary-s) 60%);
@@ -191,15 +191,15 @@
   --primary-600__trans-900: hsl(var(--primary-h) var(--primary-s) 60% / 0.9);
   
   /* Saturations */
-  --primary-600__sat-100: hsl(var(--primary-h) calc(var(--primary-s)- 10%) var(--primary-l));
-  --primary-600__sat-200: hsl(var(--primary-h) calc(var(--primary-s)- 20%) var(--primary-l));
-  --primary-600__sat-300: hsl(var(--primary-h) calc(var(--primary-s)- 30%) var(--primary-l));
-  --primary-600__sat-400: hsl(var(--primary-h) calc(var(--primary-s)- 40%) var(--primary-l));
-  --primary-600__sat-500: hsl(var(--primary-h) calc(var(--primary-s)- 50%) var(--primary-l));
-  --primary-600__sat-600: hsl(var(--primary-h) calc(var(--primary-s)- 60%) var(--primary-l));
-  --primary-600__sat-700: hsl(var(--primary-h) calc(var(--primary-s)- 70%) var(--primary-l));
-  --primary-600__sat-800: hsl(var(--primary-h) calc(var(--primary-s)- 80%) var(--primary-l));
-  --primary-600__sat-900: hsl(var(--primary-h) calc(var(--primary-s)- 90%) var(--primary-l));
+  --primary-600__sat-100: hsl(var(--primary-h) calc(var(--primary-s) - 10%) var(--primary-l));
+  --primary-600__sat-200: hsl(var(--primary-h) calc(var(--primary-s) - 20%) var(--primary-l));
+  --primary-600__sat-300: hsl(var(--primary-h) calc(var(--primary-s) - 30%) var(--primary-l));
+  --primary-600__sat-400: hsl(var(--primary-h) calc(var(--primary-s) - 40%) var(--primary-l));
+  --primary-600__sat-500: hsl(var(--primary-h) calc(var(--primary-s) - 50%) var(--primary-l));
+  --primary-600__sat-600: hsl(var(--primary-h) calc(var(--primary-s) - 60%) var(--primary-l));
+  --primary-600__sat-700: hsl(var(--primary-h) calc(var(--primary-s) - 70%) var(--primary-l));
+  --primary-600__sat-800: hsl(var(--primary-h) calc(var(--primary-s) - 80%) var(--primary-l));
+  --primary-600__sat-900: hsl(var(--primary-h) calc(var(--primary-s) - 90%) var(--primary-l));
 
   /* Primary 700 */
   --primary-700: hsl(var(--primary-h) var(--primary-s) 70%);
@@ -216,15 +216,15 @@
   --primary-700__trans-900: hsl(var(--primary-h) var(--primary-s) 70% / 0.9);
 
   /* Saturations */
-  --primary-700__sat-100: hsl(var(--primary-h) calc(var(--primary-s)- 10%) var(--primary-l));
-  --primary-700__sat-200: hsl(var(--primary-h) calc(var(--primary-s)- 20%) var(--primary-l));
-  --primary-700__sat-300: hsl(var(--primary-h) calc(var(--primary-s)- 30%) var(--primary-l));
-  --primary-700__sat-400: hsl(var(--primary-h) calc(var(--primary-s)- 40%) var(--primary-l));
-  --primary-700__sat-500: hsl(var(--primary-h) calc(var(--primary-s)- 50%) var(--primary-l));
-  --primary-700__sat-600: hsl(var(--primary-h) calc(var(--primary-s)- 60%) var(--primary-l));
-  --primary-700__sat-700: hsl(var(--primary-h) calc(var(--primary-s)- 70%) var(--primary-l));
-  --primary-700__sat-800: hsl(var(--primary-h) calc(var(--primary-s)- 80%) var(--primary-l));
-  --primary-700__sat-900: hsl(var(--primary-h) calc(var(--primary-s)- 90%) var(--primary-l));
+  --primary-700__sat-100: hsl(var(--primary-h) calc(var(--primary-s) - 10%) var(--primary-l));
+  --primary-700__sat-200: hsl(var(--primary-h) calc(var(--primary-s) - 20%) var(--primary-l));
+  --primary-700__sat-300: hsl(var(--primary-h) calc(var(--primary-s) - 30%) var(--primary-l));
+  --primary-700__sat-400: hsl(var(--primary-h) calc(var(--primary-s) - 40%) var(--primary-l));
+  --primary-700__sat-500: hsl(var(--primary-h) calc(var(--primary-s) - 50%) var(--primary-l));
+  --primary-700__sat-600: hsl(var(--primary-h) calc(var(--primary-s) - 60%) var(--primary-l));
+  --primary-700__sat-700: hsl(var(--primary-h) calc(var(--primary-s) - 70%) var(--primary-l));
+  --primary-700__sat-800: hsl(var(--primary-h) calc(var(--primary-s) - 80%) var(--primary-l));
+  --primary-700__sat-900: hsl(var(--primary-h) calc(var(--primary-s) - 90%) var(--primary-l));
 
   /* Primary 800*/
 
@@ -240,15 +240,15 @@
   --primary-800__trans-900: hsl(var(--primary-h) var(--primary-s) 80% / 0.9);
 
   /* Saturations */
-  --primary-800__sat-100: hsl(var(--primary-h) calc(var(--primary-s)- 10%) var(--primary-l));
-  --primary-800__sat-200: hsl(var(--primary-h) calc(var(--primary-s)- 20%) var(--primary-l));
-  --primary-800__sat-300: hsl(var(--primary-h) calc(var(--primary-s)- 30%) var(--primary-l));
-  --primary-800__sat-400: hsl(var(--primary-h) calc(var(--primary-s)- 40%) var(--primary-l));
-  --primary-800__sat-500: hsl(var(--primary-h) calc(var(--primary-s)- 50%) var(--primary-l));
-  --primary-800__sat-600: hsl(var(--primary-h) calc(var(--primary-s)- 60%) var(--primary-l));
-  --primary-800__sat-700: hsl(var(--primary-h) calc(var(--primary-s)- 70%) var(--primary-l));
-  --primary-800__sat-800: hsl(var(--primary-h) calc(var(--primary-s)- 80%) var(--primary-l));
-  --primary-800__sat-900: hsl(var(--primary-h) calc(var(--primary-s)- 90%) var(--primary-l));
+  --primary-800__sat-100: hsl(var(--primary-h) calc(var(--primary-s) - 10%) var(--primary-l));
+  --primary-800__sat-200: hsl(var(--primary-h) calc(var(--primary-s) - 20%) var(--primary-l));
+  --primary-800__sat-300: hsl(var(--primary-h) calc(var(--primary-s) - 30%) var(--primary-l));
+  --primary-800__sat-400: hsl(var(--primary-h) calc(var(--primary-s) - 40%) var(--primary-l));
+  --primary-800__sat-500: hsl(var(--primary-h) calc(var(--primary-s) - 50%) var(--primary-l));
+  --primary-800__sat-600: hsl(var(--primary-h) calc(var(--primary-s) - 60%) var(--primary-l));
+  --primary-800__sat-700: hsl(var(--primary-h) calc(var(--primary-s) - 70%) var(--primary-l));
+  --primary-800__sat-800: hsl(var(--primary-h) calc(var(--primary-s) - 80%) var(--primary-l));
+  --primary-800__sat-900: hsl(var(--primary-h) calc(var(--primary-s) - 90%) var(--primary-l));
 
   /* Primary 900 */
 
@@ -264,15 +264,15 @@
   --primary-900__trans-900: hsl(var(--primary-h) var(--primary-s) 90% / 0.9);
 
   /* Saturations */
-  --primary-900__sat-100: hsl(var(--primary-h) calc(var(--primary-s)- 10%) var(--primary-l));
-  --primary-900__sat-200: hsl(var(--primary-h) calc(var(--primary-s)- 20%) var(--primary-l));
-  --primary-900__sat-300: hsl(var(--primary-h) calc(var(--primary-s)- 30%) var(--primary-l));
-  --primary-900__sat-400: hsl(var(--primary-h) calc(var(--primary-s)- 40%) var(--primary-l));
-  --primary-900__sat-500: hsl(var(--primary-h) calc(var(--primary-s)- 50%) var(--primary-l));
-  --primary-900__sat-600: hsl(var(--primary-h) calc(var(--primary-s)- 60%) var(--primary-l));
-  --primary-900__sat-700: hsl(var(--primary-h) calc(var(--primary-s)- 70%) var(--primary-l));
-  --primary-900__sat-800: hsl(var(--primary-h) calc(var(--primary-s)- 80%) var(--primary-l));
-  --primary-900__sat-900: hsl(var(--primary-h) calc(var(--primary-s)- 90%) var(--primary-l));
+  --primary-900__sat-100: hsl(var(--primary-h) calc(var(--primary-s) - 10%) var(--primary-l));
+  --primary-900__sat-200: hsl(var(--primary-h) calc(var(--primary-s) - 20%) var(--primary-l));
+  --primary-900__sat-300: hsl(var(--primary-h) calc(var(--primary-s) - 30%) var(--primary-l));
+  --primary-900__sat-400: hsl(var(--primary-h) calc(var(--primary-s) - 40%) var(--primary-l));
+  --primary-900__sat-500: hsl(var(--primary-h) calc(var(--primary-s) - 50%) var(--primary-l));
+  --primary-900__sat-600: hsl(var(--primary-h) calc(var(--primary-s) - 60%) var(--primary-l));
+  --primary-900__sat-700: hsl(var(--primary-h) calc(var(--primary-s) - 70%) var(--primary-l));
+  --primary-900__sat-800: hsl(var(--primary-h) calc(var(--primary-s) - 80%) var(--primary-l));
+  --primary-900__sat-900: hsl(var(--primary-h) calc(var(--primary-s) - 90%) var(--primary-l));
 
   /* Primary 800 */
   --primary-800: hsl(var(--primary-h) var(--primary-s) 80%);
@@ -288,15 +288,15 @@
 
 
   /* Saturations */
-  --primary-800__sat-100: hsl(var(--primary-h) calc(var(--primary-s)- 10%) var(--primary-l));
-  --primary-800__sat-200: hsl(var(--primary-h) calc(var(--primary-s)- 20%) var(--primary-l));
-  --primary-800__sat-300: hsl(var(--primary-h) calc(var(--primary-s)- 30%) var(--primary-l));
-  --primary-800__sat-400: hsl(var(--primary-h) calc(var(--primary-s)- 40%) var(--primary-l));
-  --primary-800__sat-500: hsl(var(--primary-h) calc(var(--primary-s)- 50%) var(--primary-l));
-  --primary-800__sat-600: hsl(var(--primary-h) calc(var(--primary-s)- 60%) var(--primary-l));
-  --primary-800__sat-700: hsl(var(--primary-h) calc(var(--primary-s)- 70%) var(--primary-l));
-  --primary-800__sat-800: hsl(var(--primary-h) calc(var(--primary-s)- 80%) var(--primary-l));
-  --primary-800__sat-900: hsl(var(--primary-h) calc(var(--primary-s)- 90%) var(--primary-l));
+  --primary-800__sat-100: hsl(var(--primary-h) calc(var(--primary-s) - 10%) var(--primary-l));
+  --primary-800__sat-200: hsl(var(--primary-h) calc(var(--primary-s) - 20%) var(--primary-l));
+  --primary-800__sat-300: hsl(var(--primary-h) calc(var(--primary-s) - 30%) var(--primary-l));
+  --primary-800__sat-400: hsl(var(--primary-h) calc(var(--primary-s) - 40%) var(--primary-l));
+  --primary-800__sat-500: hsl(var(--primary-h) calc(var(--primary-s) - 50%) var(--primary-l));
+  --primary-800__sat-600: hsl(var(--primary-h) calc(var(--primary-s) - 60%) var(--primary-l));
+  --primary-800__sat-700: hsl(var(--primary-h) calc(var(--primary-s) - 70%) var(--primary-l));
+  --primary-800__sat-800: hsl(var(--primary-h) calc(var(--primary-s) - 80%) var(--primary-l));
+  --primary-800__sat-900: hsl(var(--primary-h) calc(var(--primary-s) - 90%) var(--primary-l));
 
   /* Primary 900*/
   --primary-900: hsl(var(--primary-h) var(--primary-s) 90%);
@@ -313,15 +313,15 @@
   --primary-900__trans-900: hsl(var(--primary-h) var(--primary-s) 90% / 0.9);
 
   /* Saturations */
-  --primary-900__sat-100: hsl(var(--primary-h) calc(var(--primary-s)- 10%) var(--primary-l));
-  --primary-900__sat-200: hsl(var(--primary-h) calc(var(--primary-s)- 20%) var(--primary-l));
-  --primary-900__sat-300: hsl(var(--primary-h) calc(var(--primary-s)- 30%) var(--primary-l));
-  --primary-900__sat-400: hsl(var(--primary-h) calc(var(--primary-s)- 40%) var(--primary-l));
-  --primary-900__sat-500: hsl(var(--primary-h) calc(var(--primary-s)- 50%) var(--primary-l));
-  --primary-900__sat-600: hsl(var(--primary-h) calc(var(--primary-s)- 60%) var(--primary-l));
-  --primary-900__sat-700: hsl(var(--primary-h) calc(var(--primary-s)- 70%) var(--primary-l));
-  --primary-900__sat-800: hsl(var(--primary-h) calc(var(--primary-s)- 80%) var(--primary-l));
-  --primary-900__sat-900: hsl(var(--primary-h) calc(var(--primary-s)- 90%) var(--primary-l));
+  --primary-900__sat-100: hsl(var(--primary-h) calc(var(--primary-s) - 10%) var(--primary-l));
+  --primary-900__sat-200: hsl(var(--primary-h) calc(var(--primary-s) - 20%) var(--primary-l));
+  --primary-900__sat-300: hsl(var(--primary-h) calc(var(--primary-s) - 30%) var(--primary-l));
+  --primary-900__sat-400: hsl(var(--primary-h) calc(var(--primary-s) - 40%) var(--primary-l));
+  --primary-900__sat-500: hsl(var(--primary-h) calc(var(--primary-s) - 50%) var(--primary-l));
+  --primary-900__sat-600: hsl(var(--primary-h) calc(var(--primary-s) - 60%) var(--primary-l));
+  --primary-900__sat-700: hsl(var(--primary-h) calc(var(--primary-s) - 70%) var(--primary-l));
+  --primary-900__sat-800: hsl(var(--primary-h) calc(var(--primary-s) - 80%) var(--primary-l));
+  --primary-900__sat-900: hsl(var(--primary-h) calc(var(--primary-s) - 90%) var(--primary-l));
   
   /* Secondary */
   --secondary-h: 219;
@@ -344,15 +344,15 @@
 --secondary-base__trans-900: hsl(var(--secondary-h) var(--secondary-s) var(--secondary-l) / 0.9);
 
 /* Saturations */
---secondary-base__sat-100: hsl(var(--secondary-h) calc(var(--secondary-s)- 10%) var(--secondary-l));
---secondary-base__sat-200: hsl(var(--secondary-h) calc(var(--secondary-s)- 20%) var(--secondary-l));
---secondary-base__sat-300: hsl(var(--secondary-h) calc(var(--secondary-s)- 30%) var(--secondary-l));
---secondary-base__sat-400: hsl(var(--secondary-h) calc(var(--secondary-s)- 40%) var(--secondary-l));
---secondary-base__sat-500: hsl(var(--secondary-h) calc(var(--secondary-s)- 50%) var(--secondary-l));
---secondary-base__sat-600: hsl(var(--secondary-h) calc(var(--secondary-s)- 60%) var(--secondary-l));
---secondary-base__sat-700: hsl(var(--secondary-h) calc(var(--secondary-s)- 70%) var(--secondary-l));
---secondary-base__sat-800: hsl(var(--secondary-h) calc(var(--secondary-s)- 80%) var(--secondary-l));
---secondary-base__sat-900: hsl(var(--secondary-h) calc(var(--secondary-s)- 90%) var(--secondary-l));
+--secondary-base__sat-100: hsl(var(--secondary-h) calc(var(--secondary-s) - 10%) var(--secondary-l));
+--secondary-base__sat-200: hsl(var(--secondary-h) calc(var(--secondary-s) - 20%) var(--secondary-l));
+--secondary-base__sat-300: hsl(var(--secondary-h) calc(var(--secondary-s) - 30%) var(--secondary-l));
+--secondary-base__sat-400: hsl(var(--secondary-h) calc(var(--secondary-s) - 40%) var(--secondary-l));
+--secondary-base__sat-500: hsl(var(--secondary-h) calc(var(--secondary-s) - 50%) var(--secondary-l));
+--secondary-base__sat-600: hsl(var(--secondary-h) calc(var(--secondary-s) - 60%) var(--secondary-l));
+--secondary-base__sat-700: hsl(var(--secondary-h) calc(var(--secondary-s) - 70%) var(--secondary-l));
+--secondary-base__sat-800: hsl(var(--secondary-h) calc(var(--secondary-s) - 80%) var(--secondary-l));
+--secondary-base__sat-900: hsl(var(--secondary-h) calc(var(--secondary-s) - 90%) var(--secondary-l));
 
 --secondary-100: hsl(var(--secondary-h) var(--secondary-s) 10%);
 
@@ -368,15 +368,15 @@
 --secondary-100__trans-900: hsl(var(--secondary-h) var(--secondary-s) 10% / 0.9);
 
 /* Saturations */
---secondary-100__sat-100: hsl(var(--secondary-h) calc(var(--secondary-s)- 10%) var(--secondary-l));
---secondary-100__sat-200: hsl(var(--secondary-h) calc(var(--secondary-s)- 20%) var(--secondary-l));
---secondary-100__sat-300: hsl(var(--secondary-h) calc(var(--secondary-s)- 30%) var(--secondary-l));
---secondary-100__sat-400: hsl(var(--secondary-h) calc(var(--secondary-s)- 40%) var(--secondary-l));
---secondary-100__sat-500: hsl(var(--secondary-h) calc(var(--secondary-s)- 50%) var(--secondary-l));
---secondary-100__sat-600: hsl(var(--secondary-h) calc(var(--secondary-s)- 60%) var(--secondary-l));
---secondary-100__sat-700: hsl(var(--secondary-h) calc(var(--secondary-s)- 70%) var(--secondary-l));
---secondary-100__sat-800: hsl(var(--secondary-h) calc(var(--secondary-s)- 80%) var(--secondary-l));
---secondary-100__sat-900: hsl(var(--secondary-h) calc(var(--secondary-s)- 90%) var(--secondary-l));
+--secondary-100__sat-100: hsl(var(--secondary-h) calc(var(--secondary-s) - 10%) var(--secondary-l));
+--secondary-100__sat-200: hsl(var(--secondary-h) calc(var(--secondary-s) - 20%) var(--secondary-l));
+--secondary-100__sat-300: hsl(var(--secondary-h) calc(var(--secondary-s) - 30%) var(--secondary-l));
+--secondary-100__sat-400: hsl(var(--secondary-h) calc(var(--secondary-s) - 40%) var(--secondary-l));
+--secondary-100__sat-500: hsl(var(--secondary-h) calc(var(--secondary-s) - 50%) var(--secondary-l));
+--secondary-100__sat-600: hsl(var(--secondary-h) calc(var(--secondary-s) - 60%) var(--secondary-l));
+--secondary-100__sat-700: hsl(var(--secondary-h) calc(var(--secondary-s) - 70%) var(--secondary-l));
+--secondary-100__sat-800: hsl(var(--secondary-h) calc(var(--secondary-s) - 80%) var(--secondary-l));
+--secondary-100__sat-900: hsl(var(--secondary-h) calc(var(--secondary-s) - 90%) var(--secondary-l));
 
 /* Seccondary 200 */
 --secondary-200: hsl(var(--secondary-h) var(--secondary-s) 20%);
@@ -393,15 +393,15 @@
 --secondary-200__trans-900: hsl(var(--secondary-h) var(--secondary-s) 20% / 0.9);
 
 /* Saturations */
---secondary-200__sat-100: hsl(var(--secondary-h) calc(var(--secondary-s)- 10%) var(--secondary-l));
---secondary-200__sat-200: hsl(var(--secondary-h) calc(var(--secondary-s)- 20%) var(--secondary-l));
---secondary-200__sat-300: hsl(var(--secondary-h) calc(var(--secondary-s)- 30%) var(--secondary-l));
---secondary-200__sat-400: hsl(var(--secondary-h) calc(var(--secondary-s)- 40%) var(--secondary-l));
---secondary-200__sat-500: hsl(var(--secondary-h) calc(var(--secondary-s)- 50%) var(--secondary-l));
---secondary-200__sat-600: hsl(var(--secondary-h) calc(var(--secondary-s)- 60%) var(--secondary-l));
---secondary-200__sat-700: hsl(var(--secondary-h) calc(var(--secondary-s)- 70%) var(--secondary-l));
---secondary-200__sat-800: hsl(var(--secondary-h) calc(var(--secondary-s)- 80%) var(--secondary-l));
---secondary-200__sat-900: hsl(var(--secondary-h) calc(var(--secondary-s)- 90%) var(--secondary-l));
+--secondary-200__sat-100: hsl(var(--secondary-h) calc(var(--secondary-s) - 10%) var(--secondary-l));
+--secondary-200__sat-200: hsl(var(--secondary-h) calc(var(--secondary-s) - 20%) var(--secondary-l));
+--secondary-200__sat-300: hsl(var(--secondary-h) calc(var(--secondary-s) - 30%) var(--secondary-l));
+--secondary-200__sat-400: hsl(var(--secondary-h) calc(var(--secondary-s) - 40%) var(--secondary-l));
+--secondary-200__sat-500: hsl(var(--secondary-h) calc(var(--secondary-s) - 50%) var(--secondary-l));
+--secondary-200__sat-600: hsl(var(--secondary-h) calc(var(--secondary-s) - 60%) var(--secondary-l));
+--secondary-200__sat-700: hsl(var(--secondary-h) calc(var(--secondary-s) - 70%) var(--secondary-l));
+--secondary-200__sat-800: hsl(var(--secondary-h) calc(var(--secondary-s) - 80%) var(--secondary-l));
+--secondary-200__sat-900: hsl(var(--secondary-h) calc(var(--secondary-s) - 90%) var(--secondary-l));
 
 /* Seccondary 300 */
 --secondary-300: hsl(var(--secondary-h) var(--secondary-s) 30%);
@@ -418,15 +418,15 @@
 --secondary-300__trans-900: hsl(var(--secondary-h) var(--secondary-s) 30% / 0.9);
 
 /* Saturations */
---secondary-300__sat-100: hsl(var(--secondary-h) calc(var(--secondary-s)- 10%) var(--secondary-l));
---secondary-300__sat-200: hsl(var(--secondary-h) calc(var(--secondary-s)- 20%) var(--secondary-l));
---secondary-300__sat-300: hsl(var(--secondary-h) calc(var(--secondary-s)- 30%) var(--secondary-l));
---secondary-300__sat-400: hsl(var(--secondary-h) calc(var(--secondary-s)- 40%) var(--secondary-l));
---secondary-300__sat-500: hsl(var(--secondary-h) calc(var(--secondary-s)- 50%) var(--secondary-l));
---secondary-300__sat-600: hsl(var(--secondary-h) calc(var(--secondary-s)- 60%) var(--secondary-l));
---secondary-300__sat-700: hsl(var(--secondary-h) calc(var(--secondary-s)- 70%) var(--secondary-l));
---secondary-300__sat-800: hsl(var(--secondary-h) calc(var(--secondary-s)- 80%) var(--secondary-l));
---secondary-300__sat-900: hsl(var(--secondary-h) calc(var(--secondary-s)- 90%) var(--secondary-l));
+--secondary-300__sat-100: hsl(var(--secondary-h) calc(var(--secondary-s) - 10%) var(--secondary-l));
+--secondary-300__sat-200: hsl(var(--secondary-h) calc(var(--secondary-s) - 20%) var(--secondary-l));
+--secondary-300__sat-300: hsl(var(--secondary-h) calc(var(--secondary-s) - 30%) var(--secondary-l));
+--secondary-300__sat-400: hsl(var(--secondary-h) calc(var(--secondary-s) - 40%) var(--secondary-l));
+--secondary-300__sat-500: hsl(var(--secondary-h) calc(var(--secondary-s) - 50%) var(--secondary-l));
+--secondary-300__sat-600: hsl(var(--secondary-h) calc(var(--secondary-s) - 60%) var(--secondary-l));
+--secondary-300__sat-700: hsl(var(--secondary-h) calc(var(--secondary-s) - 70%) var(--secondary-l));
+--secondary-300__sat-800: hsl(var(--secondary-h) calc(var(--secondary-s) - 80%) var(--secondary-l));
+--secondary-300__sat-900: hsl(var(--secondary-h) calc(var(--secondary-s) - 90%) var(--secondary-l));
 
 /* Seccondary 40*/
 --secondary-400: hsl(var(--secondary-h) var(--secondary-s) 40%);
@@ -443,15 +443,15 @@
 --secondary-400__trans-900: hsl(var(--secondary-h) var(--secondary-s) 40% / 0.9);
 
 /* Saturations */
---secondary-400__sat-100: hsl(var(--secondary-h) calc(var(--secondary-s)- 10%) var(--secondary-l));
---secondary-400__sat-200: hsl(var(--secondary-h) calc(var(--secondary-s)- 20%) var(--secondary-l));
---secondary-400__sat-300: hsl(var(--secondary-h) calc(var(--secondary-s)- 30%) var(--secondary-l));
---secondary-400__sat-400: hsl(var(--secondary-h) calc(var(--secondary-s)- 40%) var(--secondary-l));
---secondary-400__sat-500: hsl(var(--secondary-h) calc(var(--secondary-s)- 50%) var(--secondary-l));
---secondary-400__sat-600: hsl(var(--secondary-h) calc(var(--secondary-s)- 60%) var(--secondary-l));
---secondary-400__sat-700: hsl(var(--secondary-h) calc(var(--secondary-s)- 70%) var(--secondary-l));
---secondary-400__sat-800: hsl(var(--secondary-h) calc(var(--secondary-s)- 80%) var(--secondary-l));
---secondary-400__sat-900: hsl(var(--secondary-h) calc(var(--secondary-s)- 90%) var(--secondary-l));
+--secondary-400__sat-100: hsl(var(--secondary-h) calc(var(--secondary-s) - 10%) var(--secondary-l));
+--secondary-400__sat-200: hsl(var(--secondary-h) calc(var(--secondary-s) - 20%) var(--secondary-l));
+--secondary-400__sat-300: hsl(var(--secondary-h) calc(var(--secondary-s) - 30%) var(--secondary-l));
+--secondary-400__sat-400: hsl(var(--secondary-h) calc(var(--secondary-s) - 40%) var(--secondary-l));
+--secondary-400__sat-500: hsl(var(--secondary-h) calc(var(--secondary-s) - 50%) var(--secondary-l));
+--secondary-400__sat-600: hsl(var(--secondary-h) calc(var(--secondary-s) - 60%) var(--secondary-l));
+--secondary-400__sat-700: hsl(var(--secondary-h) calc(var(--secondary-s) - 70%) var(--secondary-l));
+--secondary-400__sat-800: hsl(var(--secondary-h) calc(var(--secondary-s) - 80%) var(--secondary-l));
+--secondary-400__sat-900: hsl(var(--secondary-h) calc(var(--secondary-s) - 90%) var(--secondary-l));
 
 /* Seccondary 500 */
 --secondary-500: hsl(var(--secondary-h) var(--secondary-s) 50%);
@@ -466,15 +466,15 @@
 --secondary-500__trans-900: hsl(var(--secondary-h) var(--secondary-s) 50% / 0.9);
 
 /* Saturations */
---secondary-500__sat-100: hsl(var(--secondary-h) calc(var(--secondary-s)- 10%) var(--secondary-l));
---secondary-500__sat-200: hsl(var(--secondary-h) calc(var(--secondary-s)- 20%) var(--secondary-l));
---secondary-500__sat-300: hsl(var(--secondary-h) calc(var(--secondary-s)- 30%) var(--secondary-l));
---secondary-500__sat-400: hsl(var(--secondary-h) calc(var(--secondary-s)- 40%) var(--secondary-l));
---secondary-500__sat-500: hsl(var(--secondary-h) calc(var(--secondary-s)- 50%) var(--secondary-l));
---secondary-500__sat-600: hsl(var(--secondary-h) calc(var(--secondary-s)- 60%) var(--secondary-l));
---secondary-500__sat-700: hsl(var(--secondary-h) calc(var(--secondary-s)- 70%) var(--secondary-l));
---secondary-500__sat-800: hsl(var(--secondary-h) calc(var(--secondary-s)- 80%) var(--secondary-l));
---secondary-500__sat-900: hsl(var(--secondary-h) calc(var(--secondary-s)- 90%) var(--secondary-l));
+--secondary-500__sat-100: hsl(var(--secondary-h) calc(var(--secondary-s) - 10%) var(--secondary-l));
+--secondary-500__sat-200: hsl(var(--secondary-h) calc(var(--secondary-s) - 20%) var(--secondary-l));
+--secondary-500__sat-300: hsl(var(--secondary-h) calc(var(--secondary-s) - 30%) var(--secondary-l));
+--secondary-500__sat-400: hsl(var(--secondary-h) calc(var(--secondary-s) - 40%) var(--secondary-l));
+--secondary-500__sat-500: hsl(var(--secondary-h) calc(var(--secondary-s) - 50%) var(--secondary-l));
+--secondary-500__sat-600: hsl(var(--secondary-h) calc(var(--secondary-s) - 60%) var(--secondary-l));
+--secondary-500__sat-700: hsl(var(--secondary-h) calc(var(--secondary-s) - 70%) var(--secondary-l));
+--secondary-500__sat-800: hsl(var(--secondary-h) calc(var(--secondary-s) - 80%) var(--secondary-l));
+--secondary-500__sat-900: hsl(var(--secondary-h) calc(var(--secondary-s) - 90%) var(--secondary-l));
 
 /* Seccondary 600 */
 --secondary-600: hsl(var(--secondary-h) var(--secondary-s) 60%);
@@ -491,15 +491,15 @@
 --secondary-600__trans-900: hsl(var(--secondary-h) var(--secondary-s) 60% / 0.9);
 
 /* Saturations */
---secondary-600__sat-100: hsl(var(--secondary-h) calc(var(--secondary-s)- 10%) var(--secondary-l));
---secondary-600__sat-200: hsl(var(--secondary-h) calc(var(--secondary-s)- 20%) var(--secondary-l));
---secondary-600__sat-300: hsl(var(--secondary-h) calc(var(--secondary-s)- 30%) var(--secondary-l));
---secondary-600__sat-400: hsl(var(--secondary-h) calc(var(--secondary-s)- 40%) var(--secondary-l));
---secondary-600__sat-500: hsl(var(--secondary-h) calc(var(--secondary-s)- 50%) var(--secondary-l));
---secondary-600__sat-600: hsl(var(--secondary-h) calc(var(--secondary-s)- 60%) var(--secondary-l));
---secondary-600__sat-700: hsl(var(--secondary-h) calc(var(--secondary-s)- 70%) var(--secondary-l));
---secondary-600__sat-800: hsl(var(--secondary-h) calc(var(--secondary-s)- 80%) var(--secondary-l));
---secondary-600__sat-900: hsl(var(--secondary-h) calc(var(--secondary-s)- 90%) var(--secondary-l));
+--secondary-600__sat-100: hsl(var(--secondary-h) calc(var(--secondary-s) - 10%) var(--secondary-l));
+--secondary-600__sat-200: hsl(var(--secondary-h) calc(var(--secondary-s) - 20%) var(--secondary-l));
+--secondary-600__sat-300: hsl(var(--secondary-h) calc(var(--secondary-s) - 30%) var(--secondary-l));
+--secondary-600__sat-400: hsl(var(--secondary-h) calc(var(--secondary-s) - 40%) var(--secondary-l));
+--secondary-600__sat-500: hsl(var(--secondary-h) calc(var(--secondary-s) - 50%) var(--secondary-l));
+--secondary-600__sat-600: hsl(var(--secondary-h) calc(var(--secondary-s) - 60%) var(--secondary-l));
+--secondary-600__sat-700: hsl(var(--secondary-h) calc(var(--secondary-s) - 70%) var(--secondary-l));
+--secondary-600__sat-800: hsl(var(--secondary-h) calc(var(--secondary-s) - 80%) var(--secondary-l));
+--secondary-600__sat-900: hsl(var(--secondary-h) calc(var(--secondary-s) - 90%) var(--secondary-l));
 
 /* Seccondary 700 */
 --secondary-700: hsl(var(--secondary-h) var(--secondary-s) 70%);
@@ -516,15 +516,15 @@
 --secondary-700__trans-900: hsl(var(--secondary-h) var(--secondary-s) 70% / 0.9);
 
 /* Saturations */
---secondary-700__sat-100: hsl(var(--secondary-h) calc(var(--secondary-s)- 10%) var(--secondary-l));
---secondary-700__sat-200: hsl(var(--secondary-h) calc(var(--secondary-s)- 20%) var(--secondary-l));
---secondary-700__sat-300: hsl(var(--secondary-h) calc(var(--secondary-s)- 30%) var(--secondary-l));
---secondary-700__sat-400: hsl(var(--secondary-h) calc(var(--secondary-s)- 40%) var(--secondary-l));
---secondary-700__sat-500: hsl(var(--secondary-h) calc(var(--secondary-s)- 50%) var(--secondary-l));
---secondary-700__sat-600: hsl(var(--secondary-h) calc(var(--secondary-s)- 60%) var(--secondary-l));
---secondary-700__sat-700: hsl(var(--secondary-h) calc(var(--secondary-s)- 70%) var(--secondary-l));
---secondary-700__sat-800: hsl(var(--secondary-h) calc(var(--secondary-s)- 80%) var(--secondary-l));
---secondary-700__sat-900: hsl(var(--secondary-h) calc(var(--secondary-s)- 90%) var(--secondary-l));
+--secondary-700__sat-100: hsl(var(--secondary-h) calc(var(--secondary-s) - 10%) var(--secondary-l));
+--secondary-700__sat-200: hsl(var(--secondary-h) calc(var(--secondary-s) - 20%) var(--secondary-l));
+--secondary-700__sat-300: hsl(var(--secondary-h) calc(var(--secondary-s) - 30%) var(--secondary-l));
+--secondary-700__sat-400: hsl(var(--secondary-h) calc(var(--secondary-s) - 40%) var(--secondary-l));
+--secondary-700__sat-500: hsl(var(--secondary-h) calc(var(--secondary-s) - 50%) var(--secondary-l));
+--secondary-700__sat-600: hsl(var(--secondary-h) calc(var(--secondary-s) - 60%) var(--secondary-l));
+--secondary-700__sat-700: hsl(var(--secondary-h) calc(var(--secondary-s) - 70%) var(--secondary-l));
+--secondary-700__sat-800: hsl(var(--secondary-h) calc(var(--secondary-s) - 80%) var(--secondary-l));
+--secondary-700__sat-900: hsl(var(--secondary-h) calc(var(--secondary-s) - 90%) var(--secondary-l));
 
 /* Seccondary 800*/
 
@@ -540,15 +540,15 @@
 --secondary-800__trans-900: hsl(var(--secondary-h) var(--secondary-s) 80% / 0.9);
 
 /* Saturations */
---secondary-800__sat-100: hsl(var(--secondary-h) calc(var(--secondary-s)- 10%) var(--secondary-l));
---secondary-800__sat-200: hsl(var(--secondary-h) calc(var(--secondary-s)- 20%) var(--secondary-l));
---secondary-800__sat-300: hsl(var(--secondary-h) calc(var(--secondary-s)- 30%) var(--secondary-l));
---secondary-800__sat-400: hsl(var(--secondary-h) calc(var(--secondary-s)- 40%) var(--secondary-l));
---secondary-800__sat-500: hsl(var(--secondary-h) calc(var(--secondary-s)- 50%) var(--secondary-l));
---secondary-800__sat-600: hsl(var(--secondary-h) calc(var(--secondary-s)- 60%) var(--secondary-l));
---secondary-800__sat-700: hsl(var(--secondary-h) calc(var(--secondary-s)- 70%) var(--secondary-l));
---secondary-800__sat-800: hsl(var(--secondary-h) calc(var(--secondary-s)- 80%) var(--secondary-l));
---secondary-800__sat-900: hsl(var(--secondary-h) calc(var(--secondary-s)- 90%) var(--secondary-l));
+--secondary-800__sat-100: hsl(var(--secondary-h) calc(var(--secondary-s) - 10%) var(--secondary-l));
+--secondary-800__sat-200: hsl(var(--secondary-h) calc(var(--secondary-s) - 20%) var(--secondary-l));
+--secondary-800__sat-300: hsl(var(--secondary-h) calc(var(--secondary-s) - 30%) var(--secondary-l));
+--secondary-800__sat-400: hsl(var(--secondary-h) calc(var(--secondary-s) - 40%) var(--secondary-l));
+--secondary-800__sat-500: hsl(var(--secondary-h) calc(var(--secondary-s) - 50%) var(--secondary-l));
+--secondary-800__sat-600: hsl(var(--secondary-h) calc(var(--secondary-s) - 60%) var(--secondary-l));
+--secondary-800__sat-700: hsl(var(--secondary-h) calc(var(--secondary-s) - 70%) var(--secondary-l));
+--secondary-800__sat-800: hsl(var(--secondary-h) calc(var(--secondary-s) - 80%) var(--secondary-l));
+--secondary-800__sat-900: hsl(var(--secondary-h) calc(var(--secondary-s) - 90%) var(--secondary-l));
 
 /* Seccondary 900 */
 
@@ -564,15 +564,15 @@
 --secondary-900__trans-900: hsl(var(--secondary-h) var(--secondary-s) 90% / 0.9);
 
 /* Saturations */
---secondary-900__sat-100: hsl(var(--secondary-h) calc(var(--secondary-s)- 10%) var(--secondary-l));
---secondary-900__sat-200: hsl(var(--secondary-h) calc(var(--secondary-s)- 20%) var(--secondary-l));
---secondary-900__sat-300: hsl(var(--secondary-h) calc(var(--secondary-s)- 30%) var(--secondary-l));
---secondary-900__sat-400: hsl(var(--secondary-h) calc(var(--secondary-s)- 40%) var(--secondary-l));
---secondary-900__sat-500: hsl(var(--secondary-h) calc(var(--secondary-s)- 50%) var(--secondary-l));
---secondary-900__sat-600: hsl(var(--secondary-h) calc(var(--secondary-s)- 60%) var(--secondary-l));
---secondary-900__sat-700: hsl(var(--secondary-h) calc(var(--secondary-s)- 70%) var(--secondary-l));
---secondary-900__sat-800: hsl(var(--secondary-h) calc(var(--secondary-s)- 80%) var(--secondary-l));
---secondary-900__sat-900: hsl(var(--secondary-h) calc(var(--secondary-s)- 90%) var(--secondary-l));
+--secondary-900__sat-100: hsl(var(--secondary-h) calc(var(--secondary-s) - 10%) var(--secondary-l));
+--secondary-900__sat-200: hsl(var(--secondary-h) calc(var(--secondary-s) - 20%) var(--secondary-l));
+--secondary-900__sat-300: hsl(var(--secondary-h) calc(var(--secondary-s) - 30%) var(--secondary-l));
+--secondary-900__sat-400: hsl(var(--secondary-h) calc(var(--secondary-s) - 40%) var(--secondary-l));
+--secondary-900__sat-500: hsl(var(--secondary-h) calc(var(--secondary-s) - 50%) var(--secondary-l));
+--secondary-900__sat-600: hsl(var(--secondary-h) calc(var(--secondary-s) - 60%) var(--secondary-l));
+--secondary-900__sat-700: hsl(var(--secondary-h) calc(var(--secondary-s) - 70%) var(--secondary-l));
+--secondary-900__sat-800: hsl(var(--secondary-h) calc(var(--secondary-s) - 80%) var(--secondary-l));
+--secondary-900__sat-900: hsl(var(--secondary-h) calc(var(--secondary-s) - 90%) var(--secondary-l));
 
 /* Primary 800 */
 --secondary-800: hsl(var(--secondary-h) var(--secondary-s) 80%);
@@ -588,15 +588,15 @@
 
 
 /* Saturations */
---secondary-800__sat-100: hsl(var(--secondary-h) calc(var(--secondary-s)- 10%) var(--secondary-l));
---secondary-800__sat-200: hsl(var(--secondary-h) calc(var(--secondary-s)- 20%) var(--secondary-l));
---secondary-800__sat-300: hsl(var(--secondary-h) calc(var(--secondary-s)- 30%) var(--secondary-l));
---secondary-800__sat-400: hsl(var(--secondary-h) calc(var(--secondary-s)- 40%) var(--secondary-l));
---secondary-800__sat-500: hsl(var(--secondary-h) calc(var(--secondary-s)- 50%) var(--secondary-l));
---secondary-800__sat-600: hsl(var(--secondary-h) calc(var(--secondary-s)- 60%) var(--secondary-l));
---secondary-800__sat-700: hsl(var(--secondary-h) calc(var(--secondary-s)- 70%) var(--secondary-l));
---secondary-800__sat-800: hsl(var(--secondary-h) calc(var(--secondary-s)- 80%) var(--secondary-l));
---secondary-800__sat-900: hsl(var(--secondary-h) calc(var(--secondary-s)- 90%) var(--secondary-l));
+--secondary-800__sat-100: hsl(var(--secondary-h) calc(var(--secondary-s) - 10%) var(--secondary-l));
+--secondary-800__sat-200: hsl(var(--secondary-h) calc(var(--secondary-s) - 20%) var(--secondary-l));
+--secondary-800__sat-300: hsl(var(--secondary-h) calc(var(--secondary-s) - 30%) var(--secondary-l));
+--secondary-800__sat-400: hsl(var(--secondary-h) calc(var(--secondary-s) - 40%) var(--secondary-l));
+--secondary-800__sat-500: hsl(var(--secondary-h) calc(var(--secondary-s) - 50%) var(--secondary-l));
+--secondary-800__sat-600: hsl(var(--secondary-h) calc(var(--secondary-s) - 60%) var(--secondary-l));
+--secondary-800__sat-700: hsl(var(--secondary-h) calc(var(--secondary-s) - 70%) var(--secondary-l));
+--secondary-800__sat-800: hsl(var(--secondary-h) calc(var(--secondary-s) - 80%) var(--secondary-l));
+--secondary-800__sat-900: hsl(var(--secondary-h) calc(var(--secondary-s) - 90%) var(--secondary-l));
 
 /* Primary 900*/
 --secondary-900: hsl(var(--secondary-h) var(--secondary-s) 90%);
@@ -613,15 +613,15 @@
 --secondary-900__trans-900: hsl(var(--secondary-h) var(--secondary-s) 90% / 0.9);
 
 /* Saturations */
---secondary-900__sat-100: hsl(var(--secondary-h) calc(var(--secondary-s)- 10%) var(--secondary-l));
---secondary-900__sat-200: hsl(var(--secondary-h) calc(var(--secondary-s)- 20%) var(--secondary-l));
---secondary-900__sat-300: hsl(var(--secondary-h) calc(var(--secondary-s)- 30%) var(--secondary-l));
---secondary-900__sat-400: hsl(var(--secondary-h) calc(var(--secondary-s)- 40%) var(--secondary-l));
---secondary-900__sat-500: hsl(var(--secondary-h) calc(var(--secondary-s)- 50%) var(--secondary-l));
---secondary-900__sat-600: hsl(var(--secondary-h) calc(var(--secondary-s)- 60%) var(--secondary-l));
---secondary-900__sat-700: hsl(var(--secondary-h) calc(var(--secondary-s)- 70%) var(--secondary-l));
---secondary-900__sat-800: hsl(var(--secondary-h) calc(var(--secondary-s)- 80%) var(--secondary-l));
---secondary-900__sat-900: hsl(var(--secondary-h) calc(var(--secondary-s)- 90%) var(--secondary-l));
+--secondary-900__sat-100: hsl(var(--secondary-h) calc(var(--secondary-s) - 10%) var(--secondary-l));
+--secondary-900__sat-200: hsl(var(--secondary-h) calc(var(--secondary-s) - 20%) var(--secondary-l));
+--secondary-900__sat-300: hsl(var(--secondary-h) calc(var(--secondary-s) - 30%) var(--secondary-l));
+--secondary-900__sat-400: hsl(var(--secondary-h) calc(var(--secondary-s) - 40%) var(--secondary-l));
+--secondary-900__sat-500: hsl(var(--secondary-h) calc(var(--secondary-s) - 50%) var(--secondary-l));
+--secondary-900__sat-600: hsl(var(--secondary-h) calc(var(--secondary-s) - 60%) var(--secondary-l));
+--secondary-900__sat-700: hsl(var(--secondary-h) calc(var(--secondary-s) - 70%) var(--secondary-l));
+--secondary-900__sat-800: hsl(var(--secondary-h) calc(var(--secondary-s) - 80%) var(--secondary-l));
+--secondary-900__sat-900: hsl(var(--secondary-h) calc(var(--secondary-s) - 90%) var(--secondary-l));
   
   /* Tertiary */
   --tertiary-h: 88;
@@ -644,15 +644,15 @@
 --tertiary-base__trans-900: hsl(var(--tertiary-h) var(--tertiary-s) var(--tertiary-l) / 0.9);
 
 /* Saturations */
---tertiary-base__sat-100: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 10%) var(--tertiary-l));
---tertiary-base__sat-200: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 20%) var(--tertiary-l));
---tertiary-base__sat-300: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 30%) var(--tertiary-l));
---tertiary-base__sat-400: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 40%) var(--tertiary-l));
---tertiary-base__sat-500: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 50%) var(--tertiary-l));
---tertiary-base__sat-600: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 60%) var(--tertiary-l));
---tertiary-base__sat-700: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 70%) var(--tertiary-l));
---tertiary-base__sat-800: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 80%) var(--tertiary-l));
---tertiary-base__sat-900: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 90%) var(--tertiary-l));
+--tertiary-base__sat-100: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 10%) var(--tertiary-l));
+--tertiary-base__sat-200: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 20%) var(--tertiary-l));
+--tertiary-base__sat-300: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 30%) var(--tertiary-l));
+--tertiary-base__sat-400: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 40%) var(--tertiary-l));
+--tertiary-base__sat-500: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 50%) var(--tertiary-l));
+--tertiary-base__sat-600: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 60%) var(--tertiary-l));
+--tertiary-base__sat-700: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 70%) var(--tertiary-l));
+--tertiary-base__sat-800: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 80%) var(--tertiary-l));
+--tertiary-base__sat-900: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 90%) var(--tertiary-l));
 
 --tertiary-100: hsl(var(--tertiary-h) var(--tertiary-s) 10%);
 
@@ -668,15 +668,15 @@
 --tertiary-100__trans-900: hsl(var(--tertiary-h) var(--tertiary-s) 10% / 0.9);
 
 /* Saturations */
---tertiary-100__sat-100: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 10%) var(--tertiary-l));
---tertiary-100__sat-200: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 20%) var(--tertiary-l));
---tertiary-100__sat-300: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 30%) var(--tertiary-l));
---tertiary-100__sat-400: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 40%) var(--tertiary-l));
---tertiary-100__sat-500: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 50%) var(--tertiary-l));
---tertiary-100__sat-600: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 60%) var(--tertiary-l));
---tertiary-100__sat-700: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 70%) var(--tertiary-l));
---tertiary-100__sat-800: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 80%) var(--tertiary-l));
---tertiary-100__sat-900: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 90%) var(--tertiary-l));
+--tertiary-100__sat-100: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 10%) var(--tertiary-l));
+--tertiary-100__sat-200: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 20%) var(--tertiary-l));
+--tertiary-100__sat-300: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 30%) var(--tertiary-l));
+--tertiary-100__sat-400: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 40%) var(--tertiary-l));
+--tertiary-100__sat-500: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 50%) var(--tertiary-l));
+--tertiary-100__sat-600: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 60%) var(--tertiary-l));
+--tertiary-100__sat-700: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 70%) var(--tertiary-l));
+--tertiary-100__sat-800: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 80%) var(--tertiary-l));
+--tertiary-100__sat-900: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 90%) var(--tertiary-l));
 
 /* Tertiary200 */
 --tertiary-200: hsl(var(--tertiary-h) var(--tertiary-s) 20%);
@@ -693,15 +693,15 @@
 --tertiary-200__trans-900: hsl(var(--tertiary-h) var(--tertiary-s) 20% / 0.9);
 
 /* Saturations */
---tertiary-200__sat-100: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 10%) var(--tertiary-l));
---tertiary-200__sat-200: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 20%) var(--tertiary-l));
---tertiary-200__sat-300: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 30%) var(--tertiary-l));
---tertiary-200__sat-400: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 40%) var(--tertiary-l));
---tertiary-200__sat-500: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 50%) var(--tertiary-l));
---tertiary-200__sat-600: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 60%) var(--tertiary-l));
---tertiary-200__sat-700: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 70%) var(--tertiary-l));
---tertiary-200__sat-800: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 80%) var(--tertiary-l));
---tertiary-200__sat-900: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 90%) var(--tertiary-l));
+--tertiary-200__sat-100: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 10%) var(--tertiary-l));
+--tertiary-200__sat-200: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 20%) var(--tertiary-l));
+--tertiary-200__sat-300: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 30%) var(--tertiary-l));
+--tertiary-200__sat-400: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 40%) var(--tertiary-l));
+--tertiary-200__sat-500: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 50%) var(--tertiary-l));
+--tertiary-200__sat-600: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 60%) var(--tertiary-l));
+--tertiary-200__sat-700: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 70%) var(--tertiary-l));
+--tertiary-200__sat-800: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 80%) var(--tertiary-l));
+--tertiary-200__sat-900: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 90%) var(--tertiary-l));
 
 /* Tertiary300 */
 --tertiary-300: hsl(var(--tertiary-h) var(--tertiary-s) 30%);
@@ -718,15 +718,15 @@
 --tertiary-300__trans-900: hsl(var(--tertiary-h) var(--tertiary-s) 30% / 0.9);
 
 /* Saturations */
---tertiary-300__sat-100: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 10%) var(--tertiary-l));
---tertiary-300__sat-200: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 20%) var(--tertiary-l));
---tertiary-300__sat-300: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 30%) var(--tertiary-l));
---tertiary-300__sat-400: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 40%) var(--tertiary-l));
---tertiary-300__sat-500: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 50%) var(--tertiary-l));
---tertiary-300__sat-600: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 60%) var(--tertiary-l));
---tertiary-300__sat-700: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 70%) var(--tertiary-l));
---tertiary-300__sat-800: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 80%) var(--tertiary-l));
---tertiary-300__sat-900: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 90%) var(--tertiary-l));
+--tertiary-300__sat-100: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 10%) var(--tertiary-l));
+--tertiary-300__sat-200: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 20%) var(--tertiary-l));
+--tertiary-300__sat-300: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 30%) var(--tertiary-l));
+--tertiary-300__sat-400: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 40%) var(--tertiary-l));
+--tertiary-300__sat-500: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 50%) var(--tertiary-l));
+--tertiary-300__sat-600: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 60%) var(--tertiary-l));
+--tertiary-300__sat-700: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 70%) var(--tertiary-l));
+--tertiary-300__sat-800: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 80%) var(--tertiary-l));
+--tertiary-300__sat-900: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 90%) var(--tertiary-l));
 
 /* Tertiary40*/
 --tertiary-400: hsl(var(--tertiary-h) var(--tertiary-s) 40%);
@@ -743,15 +743,15 @@
 --tertiary-400__trans-900: hsl(var(--tertiary-h) var(--tertiary-s) 40% / 0.9);
 
 /* Saturations */
---tertiary-400__sat-100: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 10%) var(--tertiary-l));
---tertiary-400__sat-200: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 20%) var(--tertiary-l));
---tertiary-400__sat-300: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 30%) var(--tertiary-l));
---tertiary-400__sat-400: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 40%) var(--tertiary-l));
---tertiary-400__sat-500: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 50%) var(--tertiary-l));
---tertiary-400__sat-600: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 60%) var(--tertiary-l));
---tertiary-400__sat-700: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 70%) var(--tertiary-l));
---tertiary-400__sat-800: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 80%) var(--tertiary-l));
---tertiary-400__sat-900: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 90%) var(--tertiary-l));
+--tertiary-400__sat-100: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 10%) var(--tertiary-l));
+--tertiary-400__sat-200: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 20%) var(--tertiary-l));
+--tertiary-400__sat-300: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 30%) var(--tertiary-l));
+--tertiary-400__sat-400: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 40%) var(--tertiary-l));
+--tertiary-400__sat-500: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 50%) var(--tertiary-l));
+--tertiary-400__sat-600: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 60%) var(--tertiary-l));
+--tertiary-400__sat-700: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 70%) var(--tertiary-l));
+--tertiary-400__sat-800: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 80%) var(--tertiary-l));
+--tertiary-400__sat-900: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 90%) var(--tertiary-l));
 
 /* Tertiary500 */
 --tertiary-500: hsl(var(--tertiary-h) var(--tertiary-s) 50%);
@@ -766,15 +766,15 @@
 --tertiary-500__trans-900: hsl(var(--tertiary-h) var(--tertiary-s) 50% / 0.9);
 
 /* Saturations */
---tertiary-500__sat-100: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 10%) var(--tertiary-l));
---tertiary-500__sat-200: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 20%) var(--tertiary-l));
---tertiary-500__sat-300: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 30%) var(--tertiary-l));
---tertiary-500__sat-400: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 40%) var(--tertiary-l));
---tertiary-500__sat-500: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 50%) var(--tertiary-l));
---tertiary-500__sat-600: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 60%) var(--tertiary-l));
---tertiary-500__sat-700: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 70%) var(--tertiary-l));
---tertiary-500__sat-800: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 80%) var(--tertiary-l));
---tertiary-500__sat-900: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 90%) var(--tertiary-l));
+--tertiary-500__sat-100: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 10%) var(--tertiary-l));
+--tertiary-500__sat-200: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 20%) var(--tertiary-l));
+--tertiary-500__sat-300: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 30%) var(--tertiary-l));
+--tertiary-500__sat-400: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 40%) var(--tertiary-l));
+--tertiary-500__sat-500: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 50%) var(--tertiary-l));
+--tertiary-500__sat-600: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 60%) var(--tertiary-l));
+--tertiary-500__sat-700: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 70%) var(--tertiary-l));
+--tertiary-500__sat-800: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 80%) var(--tertiary-l));
+--tertiary-500__sat-900: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 90%) var(--tertiary-l));
 
 /* Tertiary600 */
 --tertiary-600: hsl(var(--tertiary-h) var(--tertiary-s) 60%);
@@ -791,15 +791,15 @@
 --tertiary-600__trans-900: hsl(var(--tertiary-h) var(--tertiary-s) 60% / 0.9);
 
 /* Saturations */
---tertiary-600__sat-100: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 10%) var(--tertiary-l));
---tertiary-600__sat-200: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 20%) var(--tertiary-l));
---tertiary-600__sat-300: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 30%) var(--tertiary-l));
---tertiary-600__sat-400: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 40%) var(--tertiary-l));
---tertiary-600__sat-500: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 50%) var(--tertiary-l));
---tertiary-600__sat-600: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 60%) var(--tertiary-l));
---tertiary-600__sat-700: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 70%) var(--tertiary-l));
---tertiary-600__sat-800: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 80%) var(--tertiary-l));
---tertiary-600__sat-900: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 90%) var(--tertiary-l));
+--tertiary-600__sat-100: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 10%) var(--tertiary-l));
+--tertiary-600__sat-200: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 20%) var(--tertiary-l));
+--tertiary-600__sat-300: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 30%) var(--tertiary-l));
+--tertiary-600__sat-400: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 40%) var(--tertiary-l));
+--tertiary-600__sat-500: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 50%) var(--tertiary-l));
+--tertiary-600__sat-600: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 60%) var(--tertiary-l));
+--tertiary-600__sat-700: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 70%) var(--tertiary-l));
+--tertiary-600__sat-800: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 80%) var(--tertiary-l));
+--tertiary-600__sat-900: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 90%) var(--tertiary-l));
 
 /* Tertiary700 */
 --tertiary-700: hsl(var(--tertiary-h) var(--tertiary-s) 70%);
@@ -816,15 +816,15 @@
 --tertiary-700__trans-900: hsl(var(--tertiary-h) var(--tertiary-s) 70% / 0.9);
 
 /* Saturations */
---tertiary-700__sat-100: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 10%) var(--tertiary-l));
---tertiary-700__sat-200: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 20%) var(--tertiary-l));
---tertiary-700__sat-300: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 30%) var(--tertiary-l));
---tertiary-700__sat-400: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 40%) var(--tertiary-l));
---tertiary-700__sat-500: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 50%) var(--tertiary-l));
---tertiary-700__sat-600: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 60%) var(--tertiary-l));
---tertiary-700__sat-700: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 70%) var(--tertiary-l));
---tertiary-700__sat-800: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 80%) var(--tertiary-l));
---tertiary-700__sat-900: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 90%) var(--tertiary-l));
+--tertiary-700__sat-100: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 10%) var(--tertiary-l));
+--tertiary-700__sat-200: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 20%) var(--tertiary-l));
+--tertiary-700__sat-300: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 30%) var(--tertiary-l));
+--tertiary-700__sat-400: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 40%) var(--tertiary-l));
+--tertiary-700__sat-500: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 50%) var(--tertiary-l));
+--tertiary-700__sat-600: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 60%) var(--tertiary-l));
+--tertiary-700__sat-700: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 70%) var(--tertiary-l));
+--tertiary-700__sat-800: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 80%) var(--tertiary-l));
+--tertiary-700__sat-900: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 90%) var(--tertiary-l));
 
 /* Tertiary800*/
 
@@ -840,15 +840,15 @@
 --tertiary-800__trans-900: hsl(var(--tertiary-h) var(--tertiary-s) 80% / 0.9);
 
 /* Saturations */
---tertiary-800__sat-100: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 10%) var(--tertiary-l));
---tertiary-800__sat-200: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 20%) var(--tertiary-l));
---tertiary-800__sat-300: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 30%) var(--tertiary-l));
---tertiary-800__sat-400: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 40%) var(--tertiary-l));
---tertiary-800__sat-500: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 50%) var(--tertiary-l));
---tertiary-800__sat-600: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 60%) var(--tertiary-l));
---tertiary-800__sat-700: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 70%) var(--tertiary-l));
---tertiary-800__sat-800: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 80%) var(--tertiary-l));
---tertiary-800__sat-900: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 90%) var(--tertiary-l));
+--tertiary-800__sat-100: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 10%) var(--tertiary-l));
+--tertiary-800__sat-200: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 20%) var(--tertiary-l));
+--tertiary-800__sat-300: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 30%) var(--tertiary-l));
+--tertiary-800__sat-400: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 40%) var(--tertiary-l));
+--tertiary-800__sat-500: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 50%) var(--tertiary-l));
+--tertiary-800__sat-600: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 60%) var(--tertiary-l));
+--tertiary-800__sat-700: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 70%) var(--tertiary-l));
+--tertiary-800__sat-800: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 80%) var(--tertiary-l));
+--tertiary-800__sat-900: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 90%) var(--tertiary-l));
 
 /* Tertiary900 */
 
@@ -864,15 +864,15 @@
 --tertiary-900__trans-900: hsl(var(--tertiary-h) var(--tertiary-s) 90% / 0.9);
 
 /* Saturations */
---tertiary-900__sat-100: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 10%) var(--tertiary-l));
---tertiary-900__sat-200: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 20%) var(--tertiary-l));
---tertiary-900__sat-300: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 30%) var(--tertiary-l));
---tertiary-900__sat-400: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 40%) var(--tertiary-l));
---tertiary-900__sat-500: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 50%) var(--tertiary-l));
---tertiary-900__sat-600: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 60%) var(--tertiary-l));
---tertiary-900__sat-700: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 70%) var(--tertiary-l));
---tertiary-900__sat-800: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 80%) var(--tertiary-l));
---tertiary-900__sat-900: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 90%) var(--tertiary-l));
+--tertiary-900__sat-100: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 10%) var(--tertiary-l));
+--tertiary-900__sat-200: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 20%) var(--tertiary-l));
+--tertiary-900__sat-300: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 30%) var(--tertiary-l));
+--tertiary-900__sat-400: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 40%) var(--tertiary-l));
+--tertiary-900__sat-500: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 50%) var(--tertiary-l));
+--tertiary-900__sat-600: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 60%) var(--tertiary-l));
+--tertiary-900__sat-700: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 70%) var(--tertiary-l));
+--tertiary-900__sat-800: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 80%) var(--tertiary-l));
+--tertiary-900__sat-900: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 90%) var(--tertiary-l));
 
 /* Tertiary800 */
 --tertiary-800: hsl(var(--tertiary-h) var(--tertiary-s) 80%);
@@ -888,15 +888,15 @@
 
 
 /* Saturations */
---tertiary-800__sat-100: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 10%) var(--tertiary-l));
---tertiary-800__sat-200: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 20%) var(--tertiary-l));
---tertiary-800__sat-300: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 30%) var(--tertiary-l));
---tertiary-800__sat-400: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 40%) var(--tertiary-l));
---tertiary-800__sat-500: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 50%) var(--tertiary-l));
---tertiary-800__sat-600: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 60%) var(--tertiary-l));
---tertiary-800__sat-700: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 70%) var(--tertiary-l));
---tertiary-800__sat-800: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 80%) var(--tertiary-l));
---tertiary-800__sat-900: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 90%) var(--tertiary-l));
+--tertiary-800__sat-100: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 10%) var(--tertiary-l));
+--tertiary-800__sat-200: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 20%) var(--tertiary-l));
+--tertiary-800__sat-300: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 30%) var(--tertiary-l));
+--tertiary-800__sat-400: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 40%) var(--tertiary-l));
+--tertiary-800__sat-500: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 50%) var(--tertiary-l));
+--tertiary-800__sat-600: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 60%) var(--tertiary-l));
+--tertiary-800__sat-700: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 70%) var(--tertiary-l));
+--tertiary-800__sat-800: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 80%) var(--tertiary-l));
+--tertiary-800__sat-900: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 90%) var(--tertiary-l));
 
 /* Tertiary900*/
 --tertiary-900: hsl(var(--tertiary-h) var(--tertiary-s) 90%);
@@ -913,15 +913,15 @@
 --tertiary-900__trans-900: hsl(var(--tertiary-h) var(--tertiary-s) 90% / 0.9);
 
 /* Saturations */
---tertiary-900__sat-100: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 10%) var(--tertiary-l));
---tertiary-900__sat-200: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 20%) var(--tertiary-l));
---tertiary-900__sat-300: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 30%) var(--tertiary-l));
---tertiary-900__sat-400: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 40%) var(--tertiary-l));
---tertiary-900__sat-500: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 50%) var(--tertiary-l));
---tertiary-900__sat-600: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 60%) var(--tertiary-l));
---tertiary-900__sat-700: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 70%) var(--tertiary-l));
---tertiary-900__sat-800: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 80%) var(--tertiary-l));
---tertiary-900__sat-900: hsl(var(--tertiary-h) calc(var(--tertiary-s)- 90%) var(--tertiary-l));
+--tertiary-900__sat-100: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 10%) var(--tertiary-l));
+--tertiary-900__sat-200: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 20%) var(--tertiary-l));
+--tertiary-900__sat-300: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 30%) var(--tertiary-l));
+--tertiary-900__sat-400: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 40%) var(--tertiary-l));
+--tertiary-900__sat-500: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 50%) var(--tertiary-l));
+--tertiary-900__sat-600: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 60%) var(--tertiary-l));
+--tertiary-900__sat-700: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 70%) var(--tertiary-l));
+--tertiary-900__sat-800: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 80%) var(--tertiary-l));
+--tertiary-900__sat-900: hsl(var(--tertiary-h) calc(var(--tertiary-s) - 90%) var(--tertiary-l));
 
    /* face */
    --surface-h: 221;
@@ -961,15 +961,15 @@
 --surface-base__trans-900: hsl(var(--surface-h) var(--surface-s) var(--surface-l) / 0.9);
 
 /* Saturations */
---surface-base__sat-100: hsl(var(--surface-h) calc(var(--surface-s)- 10%) var(--surface-l));
---surface-base__sat-200: hsl(var(--surface-h) calc(var(--surface-s)- 20%) var(--surface-l));
---surface-base__sat-300: hsl(var(--surface-h) calc(var(--surface-s)- 30%) var(--surface-l));
---surface-base__sat-400: hsl(var(--surface-h) calc(var(--surface-s)- 40%) var(--surface-l));
---surface-base__sat-500: hsl(var(--surface-h) calc(var(--surface-s)- 50%) var(--surface-l));
---surface-base__sat-600: hsl(var(--surface-h) calc(var(--surface-s)- 60%) var(--surface-l));
---surface-base__sat-700: hsl(var(--surface-h) calc(var(--surface-s)- 70%) var(--surface-l));
---surface-base__sat-800: hsl(var(--surface-h) calc(var(--surface-s)- 80%) var(--surface-l));
---surface-base__sat-900: hsl(var(--surface-h) calc(var(--surface-s)- 90%) var(--surface-l));
+--surface-base__sat-100: hsl(var(--surface-h) calc(var(--surface-s) - 10%) var(--surface-l));
+--surface-base__sat-200: hsl(var(--surface-h) calc(var(--surface-s) - 20%) var(--surface-l));
+--surface-base__sat-300: hsl(var(--surface-h) calc(var(--surface-s) - 30%) var(--surface-l));
+--surface-base__sat-400: hsl(var(--surface-h) calc(var(--surface-s) - 40%) var(--surface-l));
+--surface-base__sat-500: hsl(var(--surface-h) calc(var(--surface-s) - 50%) var(--surface-l));
+--surface-base__sat-600: hsl(var(--surface-h) calc(var(--surface-s) - 60%) var(--surface-l));
+--surface-base__sat-700: hsl(var(--surface-h) calc(var(--surface-s) - 70%) var(--surface-l));
+--surface-base__sat-800: hsl(var(--surface-h) calc(var(--surface-s) - 80%) var(--surface-l));
+--surface-base__sat-900: hsl(var(--surface-h) calc(var(--surface-s) - 90%) var(--surface-l));
 
 --surface-100: hsl(var(--surface-h) var(--surface-s) 10%);
 
@@ -985,15 +985,15 @@
 --surface-100__trans-900: hsl(var(--surface-h) var(--surface-s) 10% / 0.9);
 
 /* Saturations */
---surface-100__sat-100: hsl(var(--surface-h) calc(var(--surface-s)- 10%) var(--surface-l));
---surface-100__sat-200: hsl(var(--surface-h) calc(var(--surface-s)- 20%) var(--surface-l));
---surface-100__sat-300: hsl(var(--surface-h) calc(var(--surface-s)- 30%) var(--surface-l));
---surface-100__sat-400: hsl(var(--surface-h) calc(var(--surface-s)- 40%) var(--surface-l));
---surface-100__sat-500: hsl(var(--surface-h) calc(var(--surface-s)- 50%) var(--surface-l));
---surface-100__sat-600: hsl(var(--surface-h) calc(var(--surface-s)- 60%) var(--surface-l));
---surface-100__sat-700: hsl(var(--surface-h) calc(var(--surface-s)- 70%) var(--surface-l));
---surface-100__sat-800: hsl(var(--surface-h) calc(var(--surface-s)- 80%) var(--surface-l));
---surface-100__sat-900: hsl(var(--surface-h) calc(var(--surface-s)- 90%) var(--surface-l));
+--surface-100__sat-100: hsl(var(--surface-h) calc(var(--surface-s) - 10%) var(--surface-l));
+--surface-100__sat-200: hsl(var(--surface-h) calc(var(--surface-s) - 20%) var(--surface-l));
+--surface-100__sat-300: hsl(var(--surface-h) calc(var(--surface-s) - 30%) var(--surface-l));
+--surface-100__sat-400: hsl(var(--surface-h) calc(var(--surface-s) - 40%) var(--surface-l));
+--surface-100__sat-500: hsl(var(--surface-h) calc(var(--surface-s) - 50%) var(--surface-l));
+--surface-100__sat-600: hsl(var(--surface-h) calc(var(--surface-s) - 60%) var(--surface-l));
+--surface-100__sat-700: hsl(var(--surface-h) calc(var(--surface-s) - 70%) var(--surface-l));
+--surface-100__sat-800: hsl(var(--surface-h) calc(var(--surface-s) - 80%) var(--surface-l));
+--surface-100__sat-900: hsl(var(--surface-h) calc(var(--surface-s) - 90%) var(--surface-l));
 
 /* Tertiary200 */
 --surface-200: hsl(var(--surface-h) var(--surface-s) 20%);
@@ -1010,15 +1010,15 @@
 --surface-200__trans-900: hsl(var(--surface-h) var(--surface-s) 20% / 0.9);
 
 /* Saturations */
---surface-200__sat-100: hsl(var(--surface-h) calc(var(--surface-s)- 10%) var(--surface-l));
---surface-200__sat-200: hsl(var(--surface-h) calc(var(--surface-s)- 20%) var(--surface-l));
---surface-200__sat-300: hsl(var(--surface-h) calc(var(--surface-s)- 30%) var(--surface-l));
---surface-200__sat-400: hsl(var(--surface-h) calc(var(--surface-s)- 40%) var(--surface-l));
---surface-200__sat-500: hsl(var(--surface-h) calc(var(--surface-s)- 50%) var(--surface-l));
---surface-200__sat-600: hsl(var(--surface-h) calc(var(--surface-s)- 60%) var(--surface-l));
---surface-200__sat-700: hsl(var(--surface-h) calc(var(--surface-s)- 70%) var(--surface-l));
---surface-200__sat-800: hsl(var(--surface-h) calc(var(--surface-s)- 80%) var(--surface-l));
---surface-200__sat-900: hsl(var(--surface-h) calc(var(--surface-s)- 90%) var(--surface-l));
+--surface-200__sat-100: hsl(var(--surface-h) calc(var(--surface-s) - 10%) var(--surface-l));
+--surface-200__sat-200: hsl(var(--surface-h) calc(var(--surface-s) - 20%) var(--surface-l));
+--surface-200__sat-300: hsl(var(--surface-h) calc(var(--surface-s) - 30%) var(--surface-l));
+--surface-200__sat-400: hsl(var(--surface-h) calc(var(--surface-s) - 40%) var(--surface-l));
+--surface-200__sat-500: hsl(var(--surface-h) calc(var(--surface-s) - 50%) var(--surface-l));
+--surface-200__sat-600: hsl(var(--surface-h) calc(var(--surface-s) - 60%) var(--surface-l));
+--surface-200__sat-700: hsl(var(--surface-h) calc(var(--surface-s) - 70%) var(--surface-l));
+--surface-200__sat-800: hsl(var(--surface-h) calc(var(--surface-s) - 80%) var(--surface-l));
+--surface-200__sat-900: hsl(var(--surface-h) calc(var(--surface-s) - 90%) var(--surface-l));
 
 /* Surface 300 */
 --surface-300: hsl(var(--surface-h) var(--surface-s) 30%);
@@ -1035,15 +1035,15 @@
 --surface-300__trans-900: hsl(var(--surface-h) var(--surface-s) 30% / 0.9);
 
 /* Saturations */
---surface-300__sat-100: hsl(var(--surface-h) calc(var(--surface-s)- 10%) var(--surface-l));
---surface-300__sat-200: hsl(var(--surface-h) calc(var(--surface-s)- 20%) var(--surface-l));
---surface-300__sat-300: hsl(var(--surface-h) calc(var(--surface-s)- 30%) var(--surface-l));
---surface-300__sat-400: hsl(var(--surface-h) calc(var(--surface-s)- 40%) var(--surface-l));
---surface-300__sat-500: hsl(var(--surface-h) calc(var(--surface-s)- 50%) var(--surface-l));
---surface-300__sat-600: hsl(var(--surface-h) calc(var(--surface-s)- 60%) var(--surface-l));
---surface-300__sat-700: hsl(var(--surface-h) calc(var(--surface-s)- 70%) var(--surface-l));
---surface-300__sat-800: hsl(var(--surface-h) calc(var(--surface-s)- 80%) var(--surface-l));
---surface-300__sat-900: hsl(var(--surface-h) calc(var(--surface-s)- 90%) var(--surface-l));
+--surface-300__sat-100: hsl(var(--surface-h) calc(var(--surface-s) - 10%) var(--surface-l));
+--surface-300__sat-200: hsl(var(--surface-h) calc(var(--surface-s) - 20%) var(--surface-l));
+--surface-300__sat-300: hsl(var(--surface-h) calc(var(--surface-s) - 30%) var(--surface-l));
+--surface-300__sat-400: hsl(var(--surface-h) calc(var(--surface-s) - 40%) var(--surface-l));
+--surface-300__sat-500: hsl(var(--surface-h) calc(var(--surface-s) - 50%) var(--surface-l));
+--surface-300__sat-600: hsl(var(--surface-h) calc(var(--surface-s) - 60%) var(--surface-l));
+--surface-300__sat-700: hsl(var(--surface-h) calc(var(--surface-s) - 70%) var(--surface-l));
+--surface-300__sat-800: hsl(var(--surface-h) calc(var(--surface-s) - 80%) var(--surface-l));
+--surface-300__sat-900: hsl(var(--surface-h) calc(var(--surface-s) - 90%) var(--surface-l));
 
 /* Surface 400/
 --surface-400: hsl(var(--surface-h) var(--surface-s) 40%);
@@ -1060,15 +1060,15 @@
 --surface-400__trans-900: hsl(var(--surface-h) var(--surface-s) 40% / 0.9);
 
 /* Saturations */
---surface-400__sat-100: hsl(var(--surface-h) calc(var(--surface-s)- 10%) var(--surface-l));
---surface-400__sat-200: hsl(var(--surface-h) calc(var(--surface-s)- 20%) var(--surface-l));
---surface-400__sat-300: hsl(var(--surface-h) calc(var(--surface-s)- 30%) var(--surface-l));
---surface-400__sat-400: hsl(var(--surface-h) calc(var(--surface-s)- 40%) var(--surface-l));
---surface-400__sat-500: hsl(var(--surface-h) calc(var(--surface-s)- 50%) var(--surface-l));
---surface-400__sat-600: hsl(var(--surface-h) calc(var(--surface-s)- 60%) var(--surface-l));
---surface-400__sat-700: hsl(var(--surface-h) calc(var(--surface-s)- 70%) var(--surface-l));
---surface-400__sat-800: hsl(var(--surface-h) calc(var(--surface-s)- 80%) var(--surface-l));
---surface-400__sat-900: hsl(var(--surface-h) calc(var(--surface-s)- 90%) var(--surface-l));
+--surface-400__sat-100: hsl(var(--surface-h) calc(var(--surface-s) - 10%) var(--surface-l));
+--surface-400__sat-200: hsl(var(--surface-h) calc(var(--surface-s) - 20%) var(--surface-l));
+--surface-400__sat-300: hsl(var(--surface-h) calc(var(--surface-s) - 30%) var(--surface-l));
+--surface-400__sat-400: hsl(var(--surface-h) calc(var(--surface-s) - 40%) var(--surface-l));
+--surface-400__sat-500: hsl(var(--surface-h) calc(var(--surface-s) - 50%) var(--surface-l));
+--surface-400__sat-600: hsl(var(--surface-h) calc(var(--surface-s) - 60%) var(--surface-l));
+--surface-400__sat-700: hsl(var(--surface-h) calc(var(--surface-s) - 70%) var(--surface-l));
+--surface-400__sat-800: hsl(var(--surface-h) calc(var(--surface-s) - 80%) var(--surface-l));
+--surface-400__sat-900: hsl(var(--surface-h) calc(var(--surface-s) - 90%) var(--surface-l));
 
 /* Surface 500 */
 --surface-500: hsl(var(--surface-h) var(--surface-s) 50%);
@@ -1083,15 +1083,15 @@
 --surface-500__trans-900: hsl(var(--surface-h) var(--surface-s) 50% / 0.9);
 
 /* Saturations */
---surface-500__sat-100: hsl(var(--surface-h) calc(var(--surface-s)- 10%) var(--surface-l));
---surface-500__sat-200: hsl(var(--surface-h) calc(var(--surface-s)- 20%) var(--surface-l));
---surface-500__sat-300: hsl(var(--surface-h) calc(var(--surface-s)- 30%) var(--surface-l));
---surface-500__sat-400: hsl(var(--surface-h) calc(var(--surface-s)- 40%) var(--surface-l));
---surface-500__sat-500: hsl(var(--surface-h) calc(var(--surface-s)- 50%) var(--surface-l));
---surface-500__sat-600: hsl(var(--surface-h) calc(var(--surface-s)- 60%) var(--surface-l));
---surface-500__sat-700: hsl(var(--surface-h) calc(var(--surface-s)- 70%) var(--surface-l));
---surface-500__sat-800: hsl(var(--surface-h) calc(var(--surface-s)- 80%) var(--surface-l));
---surface-500__sat-900: hsl(var(--surface-h) calc(var(--surface-s)- 90%) var(--surface-l));
+--surface-500__sat-100: hsl(var(--surface-h) calc(var(--surface-s) - 10%) var(--surface-l));
+--surface-500__sat-200: hsl(var(--surface-h) calc(var(--surface-s) - 20%) var(--surface-l));
+--surface-500__sat-300: hsl(var(--surface-h) calc(var(--surface-s) - 30%) var(--surface-l));
+--surface-500__sat-400: hsl(var(--surface-h) calc(var(--surface-s) - 40%) var(--surface-l));
+--surface-500__sat-500: hsl(var(--surface-h) calc(var(--surface-s) - 50%) var(--surface-l));
+--surface-500__sat-600: hsl(var(--surface-h) calc(var(--surface-s) - 60%) var(--surface-l));
+--surface-500__sat-700: hsl(var(--surface-h) calc(var(--surface-s) - 70%) var(--surface-l));
+--surface-500__sat-800: hsl(var(--surface-h) calc(var(--surface-s) - 80%) var(--surface-l));
+--surface-500__sat-900: hsl(var(--surface-h) calc(var(--surface-s) - 90%) var(--surface-l));
 
 /* Surface 600 */
 --surface-600: hsl(var(--surface-h) var(--surface-s) 60%);
@@ -1108,15 +1108,15 @@
 --surface-600__trans-900: hsl(var(--surface-h) var(--surface-s) 60% / 0.9);
 
 /* Saturations */
---surface-600__sat-100: hsl(var(--surface-h) calc(var(--surface-s)- 10%) var(--surface-l));
---surface-600__sat-200: hsl(var(--surface-h) calc(var(--surface-s)- 20%) var(--surface-l));
---surface-600__sat-300: hsl(var(--surface-h) calc(var(--surface-s)- 30%) var(--surface-l));
---surface-600__sat-400: hsl(var(--surface-h) calc(var(--surface-s)- 40%) var(--surface-l));
---surface-600__sat-500: hsl(var(--surface-h) calc(var(--surface-s)- 50%) var(--surface-l));
---surface-600__sat-600: hsl(var(--surface-h) calc(var(--surface-s)- 60%) var(--surface-l));
---surface-600__sat-700: hsl(var(--surface-h) calc(var(--surface-s)- 70%) var(--surface-l));
---surface-600__sat-800: hsl(var(--surface-h) calc(var(--surface-s)- 80%) var(--surface-l));
---surface-600__sat-900: hsl(var(--surface-h) calc(var(--surface-s)- 90%) var(--surface-l));
+--surface-600__sat-100: hsl(var(--surface-h) calc(var(--surface-s) - 10%) var(--surface-l));
+--surface-600__sat-200: hsl(var(--surface-h) calc(var(--surface-s) - 20%) var(--surface-l));
+--surface-600__sat-300: hsl(var(--surface-h) calc(var(--surface-s) - 30%) var(--surface-l));
+--surface-600__sat-400: hsl(var(--surface-h) calc(var(--surface-s) - 40%) var(--surface-l));
+--surface-600__sat-500: hsl(var(--surface-h) calc(var(--surface-s) - 50%) var(--surface-l));
+--surface-600__sat-600: hsl(var(--surface-h) calc(var(--surface-s) - 60%) var(--surface-l));
+--surface-600__sat-700: hsl(var(--surface-h) calc(var(--surface-s) - 70%) var(--surface-l));
+--surface-600__sat-800: hsl(var(--surface-h) calc(var(--surface-s) - 80%) var(--surface-l));
+--surface-600__sat-900: hsl(var(--surface-h) calc(var(--surface-s) - 90%) var(--surface-l));
 
 /* Surface 700 */
 --surface-700: hsl(var(--surface-h) var(--surface-s) 70%);
@@ -1133,15 +1133,15 @@
 --surface-700__trans-900: hsl(var(--surface-h) var(--surface-s) 70% / 0.9);
 
 /* Saturations */
---surface-700__sat-100: hsl(var(--surface-h) calc(var(--surface-s)- 10%) var(--surface-l));
---surface-700__sat-200: hsl(var(--surface-h) calc(var(--surface-s)- 20%) var(--surface-l));
---surface-700__sat-300: hsl(var(--surface-h) calc(var(--surface-s)- 30%) var(--surface-l));
---surface-700__sat-400: hsl(var(--surface-h) calc(var(--surface-s)- 40%) var(--surface-l));
---surface-700__sat-500: hsl(var(--surface-h) calc(var(--surface-s)- 50%) var(--surface-l));
---surface-700__sat-600: hsl(var(--surface-h) calc(var(--surface-s)- 60%) var(--surface-l));
---surface-700__sat-700: hsl(var(--surface-h) calc(var(--surface-s)- 70%) var(--surface-l));
---surface-700__sat-800: hsl(var(--surface-h) calc(var(--surface-s)- 80%) var(--surface-l));
---surface-700__sat-900: hsl(var(--surface-h) calc(var(--surface-s)- 90%) var(--surface-l));
+--surface-700__sat-100: hsl(var(--surface-h) calc(var(--surface-s) - 10%) var(--surface-l));
+--surface-700__sat-200: hsl(var(--surface-h) calc(var(--surface-s) - 20%) var(--surface-l));
+--surface-700__sat-300: hsl(var(--surface-h) calc(var(--surface-s) - 30%) var(--surface-l));
+--surface-700__sat-400: hsl(var(--surface-h) calc(var(--surface-s) - 40%) var(--surface-l));
+--surface-700__sat-500: hsl(var(--surface-h) calc(var(--surface-s) - 50%) var(--surface-l));
+--surface-700__sat-600: hsl(var(--surface-h) calc(var(--surface-s) - 60%) var(--surface-l));
+--surface-700__sat-700: hsl(var(--surface-h) calc(var(--surface-s) - 70%) var(--surface-l));
+--surface-700__sat-800: hsl(var(--surface-h) calc(var(--surface-s) - 80%) var(--surface-l));
+--surface-700__sat-900: hsl(var(--surface-h) calc(var(--surface-s) - 90%) var(--surface-l));
 
 /* Surface 800 */
 
@@ -1157,15 +1157,15 @@
 --surface-800__trans-900: hsl(var(--surface-h) var(--surface-s) 80% / 0.9);
 
 /* Saturations */
---surface-800__sat-100: hsl(var(--surface-h) calc(var(--surface-s)- 10%) var(--surface-l));
---surface-800__sat-200: hsl(var(--surface-h) calc(var(--surface-s)- 20%) var(--surface-l));
---surface-800__sat-300: hsl(var(--surface-h) calc(var(--surface-s)- 30%) var(--surface-l));
---surface-800__sat-400: hsl(var(--surface-h) calc(var(--surface-s)- 40%) var(--surface-l));
---surface-800__sat-500: hsl(var(--surface-h) calc(var(--surface-s)- 50%) var(--surface-l));
---surface-800__sat-600: hsl(var(--surface-h) calc(var(--surface-s)- 60%) var(--surface-l));
---surface-800__sat-700: hsl(var(--surface-h) calc(var(--surface-s)- 70%) var(--surface-l));
---surface-800__sat-800: hsl(var(--surface-h) calc(var(--surface-s)- 80%) var(--surface-l));
---surface-800__sat-900: hsl(var(--surface-h) calc(var(--surface-s)- 90%) var(--surface-l));
+--surface-800__sat-100: hsl(var(--surface-h) calc(var(--surface-s) - 10%) var(--surface-l));
+--surface-800__sat-200: hsl(var(--surface-h) calc(var(--surface-s) - 20%) var(--surface-l));
+--surface-800__sat-300: hsl(var(--surface-h) calc(var(--surface-s) - 30%) var(--surface-l));
+--surface-800__sat-400: hsl(var(--surface-h) calc(var(--surface-s) - 40%) var(--surface-l));
+--surface-800__sat-500: hsl(var(--surface-h) calc(var(--surface-s) - 50%) var(--surface-l));
+--surface-800__sat-600: hsl(var(--surface-h) calc(var(--surface-s) - 60%) var(--surface-l));
+--surface-800__sat-700: hsl(var(--surface-h) calc(var(--surface-s) - 70%) var(--surface-l));
+--surface-800__sat-800: hsl(var(--surface-h) calc(var(--surface-s) - 80%) var(--surface-l));
+--surface-800__sat-900: hsl(var(--surface-h) calc(var(--surface-s) - 90%) var(--surface-l));
 
 /* Surface 900 */
 
@@ -1181,15 +1181,15 @@
 --surface-900__trans-900: hsl(var(--surface-h) var(--surface-s) 90% / 0.9);
 
 /* Saturations */
---surface-900__sat-100: hsl(var(--surface-h) calc(var(--surface-s)- 10%) var(--surface-l));
---surface-900__sat-200: hsl(var(--surface-h) calc(var(--surface-s)- 20%) var(--surface-l));
---surface-900__sat-300: hsl(var(--surface-h) calc(var(--surface-s)- 30%) var(--surface-l));
---surface-900__sat-400: hsl(var(--surface-h) calc(var(--surface-s)- 40%) var(--surface-l));
---surface-900__sat-500: hsl(var(--surface-h) calc(var(--surface-s)- 50%) var(--surface-l));
---surface-900__sat-600: hsl(var(--surface-h) calc(var(--surface-s)- 60%) var(--surface-l));
---surface-900__sat-700: hsl(var(--surface-h) calc(var(--surface-s)- 70%) var(--surface-l));
---surface-900__sat-800: hsl(var(--surface-h) calc(var(--surface-s)- 80%) var(--surface-l));
---surface-900__sat-900: hsl(var(--surface-h) calc(var(--surface-s)- 90%) var(--surface-l));
+--surface-900__sat-100: hsl(var(--surface-h) calc(var(--surface-s) - 10%) var(--surface-l));
+--surface-900__sat-200: hsl(var(--surface-h) calc(var(--surface-s) - 20%) var(--surface-l));
+--surface-900__sat-300: hsl(var(--surface-h) calc(var(--surface-s) - 30%) var(--surface-l));
+--surface-900__sat-400: hsl(var(--surface-h) calc(var(--surface-s) - 40%) var(--surface-l));
+--surface-900__sat-500: hsl(var(--surface-h) calc(var(--surface-s) - 50%) var(--surface-l));
+--surface-900__sat-600: hsl(var(--surface-h) calc(var(--surface-s) - 60%) var(--surface-l));
+--surface-900__sat-700: hsl(var(--surface-h) calc(var(--surface-s) - 70%) var(--surface-l));
+--surface-900__sat-800: hsl(var(--surface-h) calc(var(--surface-s) - 80%) var(--surface-l));
+--surface-900__sat-900: hsl(var(--surface-h) calc(var(--surface-s) - 90%) var(--surface-l));
 
 /* Tertiary800 */
 --surface-800: hsl(var(--surface-h) var(--surface-s) 80%);
@@ -1205,15 +1205,15 @@
 
 
 /* Saturations */
---surface-800__sat-100: hsl(var(--surface-h) calc(var(--surface-s)- 10%) var(--surface-l));
---surface-800__sat-200: hsl(var(--surface-h) calc(var(--surface-s)- 20%) var(--surface-l));
---surface-800__sat-300: hsl(var(--surface-h) calc(var(--surface-s)- 30%) var(--surface-l));
---surface-800__sat-400: hsl(var(--surface-h) calc(var(--surface-s)- 40%) var(--surface-l));
---surface-800__sat-500: hsl(var(--surface-h) calc(var(--surface-s)- 50%) var(--surface-l));
---surface-800__sat-600: hsl(var(--surface-h) calc(var(--surface-s)- 60%) var(--surface-l));
---surface-800__sat-700: hsl(var(--surface-h) calc(var(--surface-s)- 70%) var(--surface-l));
---surface-800__sat-800: hsl(var(--surface-h) calc(var(--surface-s)- 80%) var(--surface-l));
---surface-800__sat-900: hsl(var(--surface-h) calc(var(--surface-s)- 90%) var(--surface-l));
+--surface-800__sat-100: hsl(var(--surface-h) calc(var(--surface-s) - 10%) var(--surface-l));
+--surface-800__sat-200: hsl(var(--surface-h) calc(var(--surface-s) - 20%) var(--surface-l));
+--surface-800__sat-300: hsl(var(--surface-h) calc(var(--surface-s) - 30%) var(--surface-l));
+--surface-800__sat-400: hsl(var(--surface-h) calc(var(--surface-s) - 40%) var(--surface-l));
+--surface-800__sat-500: hsl(var(--surface-h) calc(var(--surface-s) - 50%) var(--surface-l));
+--surface-800__sat-600: hsl(var(--surface-h) calc(var(--surface-s) - 60%) var(--surface-l));
+--surface-800__sat-700: hsl(var(--surface-h) calc(var(--surface-s) - 70%) var(--surface-l));
+--surface-800__sat-800: hsl(var(--surface-h) calc(var(--surface-s) - 80%) var(--surface-l));
+--surface-800__sat-900: hsl(var(--surface-h) calc(var(--surface-s) - 90%) var(--surface-l));
 
 /* Tertiary900*/
 --surface-900: hsl(var(--surface-h) var(--surface-s) 90%);
@@ -1230,15 +1230,15 @@
 --surface-900__trans-900: hsl(var(--surface-h) var(--surface-s) 90% / 0.9);
 
 /* Saturations */
---surface-900__sat-100: hsl(var(--surface-h) calc(var(--surface-s)- 10%) var(--surface-l));
---surface-900__sat-200: hsl(var(--surface-h) calc(var(--surface-s)- 20%) var(--surface-l));
---surface-900__sat-300: hsl(var(--surface-h) calc(var(--surface-s)- 30%) var(--surface-l));
---surface-900__sat-400: hsl(var(--surface-h) calc(var(--surface-s)- 40%) var(--surface-l));
---surface-900__sat-500: hsl(var(--surface-h) calc(var(--surface-s)- 50%) var(--surface-l));
---surface-900__sat-600: hsl(var(--surface-h) calc(var(--surface-s)- 60%) var(--surface-l));
---surface-900__sat-700: hsl(var(--surface-h) calc(var(--surface-s)- 70%) var(--surface-l));
---surface-900__sat-800: hsl(var(--surface-h) calc(var(--surface-s)- 80%) var(--surface-l));
---surface-900__sat-900: hsl(var(--surface-h) calc(var(--surface-s)- 90%) var(--surface-l));
+--surface-900__sat-100: hsl(var(--surface-h) calc(var(--surface-s) - 10%) var(--surface-l));
+--surface-900__sat-200: hsl(var(--surface-h) calc(var(--surface-s) - 20%) var(--surface-l));
+--surface-900__sat-300: hsl(var(--surface-h) calc(var(--surface-s) - 30%) var(--surface-l));
+--surface-900__sat-400: hsl(var(--surface-h) calc(var(--surface-s) - 40%) var(--surface-l));
+--surface-900__sat-500: hsl(var(--surface-h) calc(var(--surface-s) - 50%) var(--surface-l));
+--surface-900__sat-600: hsl(var(--surface-h) calc(var(--surface-s) - 60%) var(--surface-l));
+--surface-900__sat-700: hsl(var(--surface-h) calc(var(--surface-s) - 70%) var(--surface-l));
+--surface-900__sat-800: hsl(var(--surface-h) calc(var(--surface-s) - 80%) var(--surface-l));
+--surface-900__sat-900: hsl(var(--surface-h) calc(var(--surface-s) - 90%) var(--surface-l));
 
   /* Contextual Colours  */
   
@@ -1263,15 +1263,15 @@
 --info-base__trans-900: hsl(var(--info-h) var(--info-s) var(--info-l) / 0.9);
 
 /* Saturations */
---info-base__sat-100: hsl(var(--info-h) calc(var(--info-s)- 10%) var(--info-l));
---info-base__sat-200: hsl(var(--info-h) calc(var(--info-s)- 20%) var(--info-l));
---info-base__sat-300: hsl(var(--info-h) calc(var(--info-s)- 30%) var(--info-l));
---info-base__sat-400: hsl(var(--info-h) calc(var(--info-s)- 40%) var(--info-l));
---info-base__sat-500: hsl(var(--info-h) calc(var(--info-s)- 50%) var(--info-l));
---info-base__sat-600: hsl(var(--info-h) calc(var(--info-s)- 60%) var(--info-l));
---info-base__sat-700: hsl(var(--info-h) calc(var(--info-s)- 70%) var(--info-l));
---info-base__sat-800: hsl(var(--info-h) calc(var(--info-s)- 80%) var(--info-l));
---info-base__sat-900: hsl(var(--info-h) calc(var(--info-s)- 90%) var(--info-l));
+--info-base__sat-100: hsl(var(--info-h) calc(var(--info-s) - 10%) var(--info-l));
+--info-base__sat-200: hsl(var(--info-h) calc(var(--info-s) - 20%) var(--info-l));
+--info-base__sat-300: hsl(var(--info-h) calc(var(--info-s) - 30%) var(--info-l));
+--info-base__sat-400: hsl(var(--info-h) calc(var(--info-s) - 40%) var(--info-l));
+--info-base__sat-500: hsl(var(--info-h) calc(var(--info-s) - 50%) var(--info-l));
+--info-base__sat-600: hsl(var(--info-h) calc(var(--info-s) - 60%) var(--info-l));
+--info-base__sat-700: hsl(var(--info-h) calc(var(--info-s) - 70%) var(--info-l));
+--info-base__sat-800: hsl(var(--info-h) calc(var(--info-s) - 80%) var(--info-l));
+--info-base__sat-900: hsl(var(--info-h) calc(var(--info-s) - 90%) var(--info-l));
 
 --info-100: hsl(var(--info-h) var(--info-s) 10%);
 
@@ -1287,15 +1287,15 @@
 --info-100__trans-900: hsl(var(--info-h) var(--info-s) 10% / 0.9);
 
 /* Saturations */
---info-100__sat-100: hsl(var(--info-h) calc(var(--info-s)- 10%) var(--info-l));
---info-100__sat-200: hsl(var(--info-h) calc(var(--info-s)- 20%) var(--info-l));
---info-100__sat-300: hsl(var(--info-h) calc(var(--info-s)- 30%) var(--info-l));
---info-100__sat-400: hsl(var(--info-h) calc(var(--info-s)- 40%) var(--info-l));
---info-100__sat-500: hsl(var(--info-h) calc(var(--info-s)- 50%) var(--info-l));
---info-100__sat-600: hsl(var(--info-h) calc(var(--info-s)- 60%) var(--info-l));
---info-100__sat-700: hsl(var(--info-h) calc(var(--info-s)- 70%) var(--info-l));
---info-100__sat-800: hsl(var(--info-h) calc(var(--info-s)- 80%) var(--info-l));
---info-100__sat-900: hsl(var(--info-h) calc(var(--info-s)- 90%) var(--info-l));
+--info-100__sat-100: hsl(var(--info-h) calc(var(--info-s) - 10%) var(--info-l));
+--info-100__sat-200: hsl(var(--info-h) calc(var(--info-s) - 20%) var(--info-l));
+--info-100__sat-300: hsl(var(--info-h) calc(var(--info-s) - 30%) var(--info-l));
+--info-100__sat-400: hsl(var(--info-h) calc(var(--info-s) - 40%) var(--info-l));
+--info-100__sat-500: hsl(var(--info-h) calc(var(--info-s) - 50%) var(--info-l));
+--info-100__sat-600: hsl(var(--info-h) calc(var(--info-s) - 60%) var(--info-l));
+--info-100__sat-700: hsl(var(--info-h) calc(var(--info-s) - 70%) var(--info-l));
+--info-100__sat-800: hsl(var(--info-h) calc(var(--info-s) - 80%) var(--info-l));
+--info-100__sat-900: hsl(var(--info-h) calc(var(--info-s) - 90%) var(--info-l));
 
 /* Tertiary200 */
 --info-200: hsl(var(--info-h) var(--info-s) 20%);
@@ -1312,15 +1312,15 @@
 --info-200__trans-900: hsl(var(--info-h) var(--info-s) 20% / 0.9);
 
 /* Saturations */
---info-200__sat-100: hsl(var(--info-h) calc(var(--info-s)- 10%) var(--info-l));
---info-200__sat-200: hsl(var(--info-h) calc(var(--info-s)- 20%) var(--info-l));
---info-200__sat-300: hsl(var(--info-h) calc(var(--info-s)- 30%) var(--info-l));
---info-200__sat-400: hsl(var(--info-h) calc(var(--info-s)- 40%) var(--info-l));
---info-200__sat-500: hsl(var(--info-h) calc(var(--info-s)- 50%) var(--info-l));
---info-200__sat-600: hsl(var(--info-h) calc(var(--info-s)- 60%) var(--info-l));
---info-200__sat-700: hsl(var(--info-h) calc(var(--info-s)- 70%) var(--info-l));
---info-200__sat-800: hsl(var(--info-h) calc(var(--info-s)- 80%) var(--info-l));
---info-200__sat-900: hsl(var(--info-h) calc(var(--info-s)- 90%) var(--info-l));
+--info-200__sat-100: hsl(var(--info-h) calc(var(--info-s) - 10%) var(--info-l));
+--info-200__sat-200: hsl(var(--info-h) calc(var(--info-s) - 20%) var(--info-l));
+--info-200__sat-300: hsl(var(--info-h) calc(var(--info-s) - 30%) var(--info-l));
+--info-200__sat-400: hsl(var(--info-h) calc(var(--info-s) - 40%) var(--info-l));
+--info-200__sat-500: hsl(var(--info-h) calc(var(--info-s) - 50%) var(--info-l));
+--info-200__sat-600: hsl(var(--info-h) calc(var(--info-s) - 60%) var(--info-l));
+--info-200__sat-700: hsl(var(--info-h) calc(var(--info-s) - 70%) var(--info-l));
+--info-200__sat-800: hsl(var(--info-h) calc(var(--info-s) - 80%) var(--info-l));
+--info-200__sat-900: hsl(var(--info-h) calc(var(--info-s) - 90%) var(--info-l));
 
 /*  Info 300 */
 --info-300: hsl(var(--info-h) var(--info-s) 30%);
@@ -1337,15 +1337,15 @@
 --info-300__trans-900: hsl(var(--info-h) var(--info-s) 30% / 0.9);
 
 /* Saturations */
---info-300__sat-100: hsl(var(--info-h) calc(var(--info-s)- 10%) var(--info-l));
---info-300__sat-200: hsl(var(--info-h) calc(var(--info-s)- 20%) var(--info-l));
---info-300__sat-300: hsl(var(--info-h) calc(var(--info-s)- 30%) var(--info-l));
---info-300__sat-400: hsl(var(--info-h) calc(var(--info-s)- 40%) var(--info-l));
---info-300__sat-500: hsl(var(--info-h) calc(var(--info-s)- 50%) var(--info-l));
---info-300__sat-600: hsl(var(--info-h) calc(var(--info-s)- 60%) var(--info-l));
---info-300__sat-700: hsl(var(--info-h) calc(var(--info-s)- 70%) var(--info-l));
---info-300__sat-800: hsl(var(--info-h) calc(var(--info-s)- 80%) var(--info-l));
---info-300__sat-900: hsl(var(--info-h) calc(var(--info-s)- 90%) var(--info-l));
+--info-300__sat-100: hsl(var(--info-h) calc(var(--info-s) - 10%) var(--info-l));
+--info-300__sat-200: hsl(var(--info-h) calc(var(--info-s) - 20%) var(--info-l));
+--info-300__sat-300: hsl(var(--info-h) calc(var(--info-s) - 30%) var(--info-l));
+--info-300__sat-400: hsl(var(--info-h) calc(var(--info-s) - 40%) var(--info-l));
+--info-300__sat-500: hsl(var(--info-h) calc(var(--info-s) - 50%) var(--info-l));
+--info-300__sat-600: hsl(var(--info-h) calc(var(--info-s) - 60%) var(--info-l));
+--info-300__sat-700: hsl(var(--info-h) calc(var(--info-s) - 70%) var(--info-l));
+--info-300__sat-800: hsl(var(--info-h) calc(var(--info-s) - 80%) var(--info-l));
+--info-300__sat-900: hsl(var(--info-h) calc(var(--info-s) - 90%) var(--info-l));
 
 /*  Info 400/
 --info-400: hsl(var(--info-h) var(--info-s) 40%);
@@ -1362,15 +1362,15 @@
 --info-400__trans-900: hsl(var(--info-h) var(--info-s) 40% / 0.9);
 
 /* Saturations */
---info-400__sat-100: hsl(var(--info-h) calc(var(--info-s)- 10%) var(--info-l));
---info-400__sat-200: hsl(var(--info-h) calc(var(--info-s)- 20%) var(--info-l));
---info-400__sat-300: hsl(var(--info-h) calc(var(--info-s)- 30%) var(--info-l));
---info-400__sat-400: hsl(var(--info-h) calc(var(--info-s)- 40%) var(--info-l));
---info-400__sat-500: hsl(var(--info-h) calc(var(--info-s)- 50%) var(--info-l));
---info-400__sat-600: hsl(var(--info-h) calc(var(--info-s)- 60%) var(--info-l));
---info-400__sat-700: hsl(var(--info-h) calc(var(--info-s)- 70%) var(--info-l));
---info-400__sat-800: hsl(var(--info-h) calc(var(--info-s)- 80%) var(--info-l));
---info-400__sat-900: hsl(var(--info-h) calc(var(--info-s)- 90%) var(--info-l));
+--info-400__sat-100: hsl(var(--info-h) calc(var(--info-s) - 10%) var(--info-l));
+--info-400__sat-200: hsl(var(--info-h) calc(var(--info-s) - 20%) var(--info-l));
+--info-400__sat-300: hsl(var(--info-h) calc(var(--info-s) - 30%) var(--info-l));
+--info-400__sat-400: hsl(var(--info-h) calc(var(--info-s) - 40%) var(--info-l));
+--info-400__sat-500: hsl(var(--info-h) calc(var(--info-s) - 50%) var(--info-l));
+--info-400__sat-600: hsl(var(--info-h) calc(var(--info-s) - 60%) var(--info-l));
+--info-400__sat-700: hsl(var(--info-h) calc(var(--info-s) - 70%) var(--info-l));
+--info-400__sat-800: hsl(var(--info-h) calc(var(--info-s) - 80%) var(--info-l));
+--info-400__sat-900: hsl(var(--info-h) calc(var(--info-s) - 90%) var(--info-l));
 
 /*  Info 500 */
 --info-500: hsl(var(--info-h) var(--info-s) 50%);
@@ -1385,15 +1385,15 @@
 --info-500__trans-900: hsl(var(--info-h) var(--info-s) 50% / 0.9);
 
 /* Saturations */
---info-500__sat-100: hsl(var(--info-h) calc(var(--info-s)- 10%) var(--info-l));
---info-500__sat-200: hsl(var(--info-h) calc(var(--info-s)- 20%) var(--info-l));
---info-500__sat-300: hsl(var(--info-h) calc(var(--info-s)- 30%) var(--info-l));
---info-500__sat-400: hsl(var(--info-h) calc(var(--info-s)- 40%) var(--info-l));
---info-500__sat-500: hsl(var(--info-h) calc(var(--info-s)- 50%) var(--info-l));
---info-500__sat-600: hsl(var(--info-h) calc(var(--info-s)- 60%) var(--info-l));
---info-500__sat-700: hsl(var(--info-h) calc(var(--info-s)- 70%) var(--info-l));
---info-500__sat-800: hsl(var(--info-h) calc(var(--info-s)- 80%) var(--info-l));
---info-500__sat-900: hsl(var(--info-h) calc(var(--info-s)- 90%) var(--info-l));
+--info-500__sat-100: hsl(var(--info-h) calc(var(--info-s) - 10%) var(--info-l));
+--info-500__sat-200: hsl(var(--info-h) calc(var(--info-s) - 20%) var(--info-l));
+--info-500__sat-300: hsl(var(--info-h) calc(var(--info-s) - 30%) var(--info-l));
+--info-500__sat-400: hsl(var(--info-h) calc(var(--info-s) - 40%) var(--info-l));
+--info-500__sat-500: hsl(var(--info-h) calc(var(--info-s) - 50%) var(--info-l));
+--info-500__sat-600: hsl(var(--info-h) calc(var(--info-s) - 60%) var(--info-l));
+--info-500__sat-700: hsl(var(--info-h) calc(var(--info-s) - 70%) var(--info-l));
+--info-500__sat-800: hsl(var(--info-h) calc(var(--info-s) - 80%) var(--info-l));
+--info-500__sat-900: hsl(var(--info-h) calc(var(--info-s) - 90%) var(--info-l));
 
 /*  Info 600 */
 --info-600: hsl(var(--info-h) var(--info-s) 60%);
@@ -1410,15 +1410,15 @@
 --info-600__trans-900: hsl(var(--info-h) var(--info-s) 60% / 0.9);
 
 /* Saturations */
---info-600__sat-100: hsl(var(--info-h) calc(var(--info-s)- 10%) var(--info-l));
---info-600__sat-200: hsl(var(--info-h) calc(var(--info-s)- 20%) var(--info-l));
---info-600__sat-300: hsl(var(--info-h) calc(var(--info-s)- 30%) var(--info-l));
---info-600__sat-400: hsl(var(--info-h) calc(var(--info-s)- 40%) var(--info-l));
---info-600__sat-500: hsl(var(--info-h) calc(var(--info-s)- 50%) var(--info-l));
---info-600__sat-600: hsl(var(--info-h) calc(var(--info-s)- 60%) var(--info-l));
---info-600__sat-700: hsl(var(--info-h) calc(var(--info-s)- 70%) var(--info-l));
---info-600__sat-800: hsl(var(--info-h) calc(var(--info-s)- 80%) var(--info-l));
---info-600__sat-900: hsl(var(--info-h) calc(var(--info-s)- 90%) var(--info-l));
+--info-600__sat-100: hsl(var(--info-h) calc(var(--info-s) - 10%) var(--info-l));
+--info-600__sat-200: hsl(var(--info-h) calc(var(--info-s) - 20%) var(--info-l));
+--info-600__sat-300: hsl(var(--info-h) calc(var(--info-s) - 30%) var(--info-l));
+--info-600__sat-400: hsl(var(--info-h) calc(var(--info-s) - 40%) var(--info-l));
+--info-600__sat-500: hsl(var(--info-h) calc(var(--info-s) - 50%) var(--info-l));
+--info-600__sat-600: hsl(var(--info-h) calc(var(--info-s) - 60%) var(--info-l));
+--info-600__sat-700: hsl(var(--info-h) calc(var(--info-s) - 70%) var(--info-l));
+--info-600__sat-800: hsl(var(--info-h) calc(var(--info-s) - 80%) var(--info-l));
+--info-600__sat-900: hsl(var(--info-h) calc(var(--info-s) - 90%) var(--info-l));
 
 /*  Info 700 */
 --info-700: hsl(var(--info-h) var(--info-s) 70%);
@@ -1435,15 +1435,15 @@
 --info-700__trans-900: hsl(var(--info-h) var(--info-s) 70% / 0.9);
 
 /* Saturations */
---info-700__sat-100: hsl(var(--info-h) calc(var(--info-s)- 10%) var(--info-l));
---info-700__sat-200: hsl(var(--info-h) calc(var(--info-s)- 20%) var(--info-l));
---info-700__sat-300: hsl(var(--info-h) calc(var(--info-s)- 30%) var(--info-l));
---info-700__sat-400: hsl(var(--info-h) calc(var(--info-s)- 40%) var(--info-l));
---info-700__sat-500: hsl(var(--info-h) calc(var(--info-s)- 50%) var(--info-l));
---info-700__sat-600: hsl(var(--info-h) calc(var(--info-s)- 60%) var(--info-l));
---info-700__sat-700: hsl(var(--info-h) calc(var(--info-s)- 70%) var(--info-l));
---info-700__sat-800: hsl(var(--info-h) calc(var(--info-s)- 80%) var(--info-l));
---info-700__sat-900: hsl(var(--info-h) calc(var(--info-s)- 90%) var(--info-l));
+--info-700__sat-100: hsl(var(--info-h) calc(var(--info-s) - 10%) var(--info-l));
+--info-700__sat-200: hsl(var(--info-h) calc(var(--info-s) - 20%) var(--info-l));
+--info-700__sat-300: hsl(var(--info-h) calc(var(--info-s) - 30%) var(--info-l));
+--info-700__sat-400: hsl(var(--info-h) calc(var(--info-s) - 40%) var(--info-l));
+--info-700__sat-500: hsl(var(--info-h) calc(var(--info-s) - 50%) var(--info-l));
+--info-700__sat-600: hsl(var(--info-h) calc(var(--info-s) - 60%) var(--info-l));
+--info-700__sat-700: hsl(var(--info-h) calc(var(--info-s) - 70%) var(--info-l));
+--info-700__sat-800: hsl(var(--info-h) calc(var(--info-s) - 80%) var(--info-l));
+--info-700__sat-900: hsl(var(--info-h) calc(var(--info-s) - 90%) var(--info-l));
 
 /*  Info 800 */
 
@@ -1459,15 +1459,15 @@
 --info-800__trans-900: hsl(var(--info-h) var(--info-s) 80% / 0.9);
 
 /* Saturations */
---info-800__sat-100: hsl(var(--info-h) calc(var(--info-s)- 10%) var(--info-l));
---info-800__sat-200: hsl(var(--info-h) calc(var(--info-s)- 20%) var(--info-l));
---info-800__sat-300: hsl(var(--info-h) calc(var(--info-s)- 30%) var(--info-l));
---info-800__sat-400: hsl(var(--info-h) calc(var(--info-s)- 40%) var(--info-l));
---info-800__sat-500: hsl(var(--info-h) calc(var(--info-s)- 50%) var(--info-l));
---info-800__sat-600: hsl(var(--info-h) calc(var(--info-s)- 60%) var(--info-l));
---info-800__sat-700: hsl(var(--info-h) calc(var(--info-s)- 70%) var(--info-l));
---info-800__sat-800: hsl(var(--info-h) calc(var(--info-s)- 80%) var(--info-l));
---info-800__sat-900: hsl(var(--info-h) calc(var(--info-s)- 90%) var(--info-l));
+--info-800__sat-100: hsl(var(--info-h) calc(var(--info-s) - 10%) var(--info-l));
+--info-800__sat-200: hsl(var(--info-h) calc(var(--info-s) - 20%) var(--info-l));
+--info-800__sat-300: hsl(var(--info-h) calc(var(--info-s) - 30%) var(--info-l));
+--info-800__sat-400: hsl(var(--info-h) calc(var(--info-s) - 40%) var(--info-l));
+--info-800__sat-500: hsl(var(--info-h) calc(var(--info-s) - 50%) var(--info-l));
+--info-800__sat-600: hsl(var(--info-h) calc(var(--info-s) - 60%) var(--info-l));
+--info-800__sat-700: hsl(var(--info-h) calc(var(--info-s) - 70%) var(--info-l));
+--info-800__sat-800: hsl(var(--info-h) calc(var(--info-s) - 80%) var(--info-l));
+--info-800__sat-900: hsl(var(--info-h) calc(var(--info-s) - 90%) var(--info-l));
 
 /*  Info 900 */
 
@@ -1483,15 +1483,15 @@
 --info-900__trans-900: hsl(var(--info-h) var(--info-s) 90% / 0.9);
 
 /* Saturations */
---info-900__sat-100: hsl(var(--info-h) calc(var(--info-s)- 10%) var(--info-l));
---info-900__sat-200: hsl(var(--info-h) calc(var(--info-s)- 20%) var(--info-l));
---info-900__sat-300: hsl(var(--info-h) calc(var(--info-s)- 30%) var(--info-l));
---info-900__sat-400: hsl(var(--info-h) calc(var(--info-s)- 40%) var(--info-l));
---info-900__sat-500: hsl(var(--info-h) calc(var(--info-s)- 50%) var(--info-l));
---info-900__sat-600: hsl(var(--info-h) calc(var(--info-s)- 60%) var(--info-l));
---info-900__sat-700: hsl(var(--info-h) calc(var(--info-s)- 70%) var(--info-l));
---info-900__sat-800: hsl(var(--info-h) calc(var(--info-s)- 80%) var(--info-l));
---info-900__sat-900: hsl(var(--info-h) calc(var(--info-s)- 90%) var(--info-l));
+--info-900__sat-100: hsl(var(--info-h) calc(var(--info-s) - 10%) var(--info-l));
+--info-900__sat-200: hsl(var(--info-h) calc(var(--info-s) - 20%) var(--info-l));
+--info-900__sat-300: hsl(var(--info-h) calc(var(--info-s) - 30%) var(--info-l));
+--info-900__sat-400: hsl(var(--info-h) calc(var(--info-s) - 40%) var(--info-l));
+--info-900__sat-500: hsl(var(--info-h) calc(var(--info-s) - 50%) var(--info-l));
+--info-900__sat-600: hsl(var(--info-h) calc(var(--info-s) - 60%) var(--info-l));
+--info-900__sat-700: hsl(var(--info-h) calc(var(--info-s) - 70%) var(--info-l));
+--info-900__sat-800: hsl(var(--info-h) calc(var(--info-s) - 80%) var(--info-l));
+--info-900__sat-900: hsl(var(--info-h) calc(var(--info-s) - 90%) var(--info-l));
 
 /* Tertiary800 */
 --info-800: hsl(var(--info-h) var(--info-s) 80%);
@@ -1507,15 +1507,15 @@
 
 
 /* Saturations */
---info-800__sat-100: hsl(var(--info-h) calc(var(--info-s)- 10%) var(--info-l));
---info-800__sat-200: hsl(var(--info-h) calc(var(--info-s)- 20%) var(--info-l));
---info-800__sat-300: hsl(var(--info-h) calc(var(--info-s)- 30%) var(--info-l));
---info-800__sat-400: hsl(var(--info-h) calc(var(--info-s)- 40%) var(--info-l));
---info-800__sat-500: hsl(var(--info-h) calc(var(--info-s)- 50%) var(--info-l));
---info-800__sat-600: hsl(var(--info-h) calc(var(--info-s)- 60%) var(--info-l));
---info-800__sat-700: hsl(var(--info-h) calc(var(--info-s)- 70%) var(--info-l));
---info-800__sat-800: hsl(var(--info-h) calc(var(--info-s)- 80%) var(--info-l));
---info-800__sat-900: hsl(var(--info-h) calc(var(--info-s)- 90%) var(--info-l));
+--info-800__sat-100: hsl(var(--info-h) calc(var(--info-s) - 10%) var(--info-l));
+--info-800__sat-200: hsl(var(--info-h) calc(var(--info-s) - 20%) var(--info-l));
+--info-800__sat-300: hsl(var(--info-h) calc(var(--info-s) - 30%) var(--info-l));
+--info-800__sat-400: hsl(var(--info-h) calc(var(--info-s) - 40%) var(--info-l));
+--info-800__sat-500: hsl(var(--info-h) calc(var(--info-s) - 50%) var(--info-l));
+--info-800__sat-600: hsl(var(--info-h) calc(var(--info-s) - 60%) var(--info-l));
+--info-800__sat-700: hsl(var(--info-h) calc(var(--info-s) - 70%) var(--info-l));
+--info-800__sat-800: hsl(var(--info-h) calc(var(--info-s) - 80%) var(--info-l));
+--info-800__sat-900: hsl(var(--info-h) calc(var(--info-s) - 90%) var(--info-l));
 
 /* Tertiary900*/
 --info-900: hsl(var(--info-h) var(--info-s) 90%);
@@ -1532,15 +1532,15 @@
 --info-900__trans-900: hsl(var(--info-h) var(--info-s) 90% / 0.9);
 
 /* Saturations */
---info-900__sat-100: hsl(var(--info-h) calc(var(--info-s)- 10%) var(--info-l));
---info-900__sat-200: hsl(var(--info-h) calc(var(--info-s)- 20%) var(--info-l));
---info-900__sat-300: hsl(var(--info-h) calc(var(--info-s)- 30%) var(--info-l));
---info-900__sat-400: hsl(var(--info-h) calc(var(--info-s)- 40%) var(--info-l));
---info-900__sat-500: hsl(var(--info-h) calc(var(--info-s)- 50%) var(--info-l));
---info-900__sat-600: hsl(var(--info-h) calc(var(--info-s)- 60%) var(--info-l));
---info-900__sat-700: hsl(var(--info-h) calc(var(--info-s)- 70%) var(--info-l));
---info-900__sat-800: hsl(var(--info-h) calc(var(--info-s)- 80%) var(--info-l));
---info-900__sat-900: hsl(var(--info-h) calc(var(--info-s)- 90%) var(--info-l));
+--info-900__sat-100: hsl(var(--info-h) calc(var(--info-s) - 10%) var(--info-l));
+--info-900__sat-200: hsl(var(--info-h) calc(var(--info-s) - 20%) var(--info-l));
+--info-900__sat-300: hsl(var(--info-h) calc(var(--info-s) - 30%) var(--info-l));
+--info-900__sat-400: hsl(var(--info-h) calc(var(--info-s) - 40%) var(--info-l));
+--info-900__sat-500: hsl(var(--info-h) calc(var(--info-s) - 50%) var(--info-l));
+--info-900__sat-600: hsl(var(--info-h) calc(var(--info-s) - 60%) var(--info-l));
+--info-900__sat-700: hsl(var(--info-h) calc(var(--info-s) - 70%) var(--info-l));
+--info-900__sat-800: hsl(var(--info-h) calc(var(--info-s) - 80%) var(--info-l));
+--info-900__sat-900: hsl(var(--info-h) calc(var(--info-s) - 90%) var(--info-l));
   
    /* Success */
    --success-h: 93;
@@ -1563,15 +1563,15 @@
 --success-base__trans-900: hsl(var(--success-h) var(--success-s) var(--success-l) / 0.9);
 
 /* Saturations */
---success-base__sat-100: hsl(var(--success-h) calc(var(--success-s)- 10%) var(--success-l));
---success-base__sat-200: hsl(var(--success-h) calc(var(--success-s)- 20%) var(--success-l));
---success-base__sat-300: hsl(var(--success-h) calc(var(--success-s)- 30%) var(--success-l));
---success-base__sat-400: hsl(var(--success-h) calc(var(--success-s)- 40%) var(--success-l));
---success-base__sat-500: hsl(var(--success-h) calc(var(--success-s)- 50%) var(--success-l));
---success-base__sat-600: hsl(var(--success-h) calc(var(--success-s)- 60%) var(--success-l));
---success-base__sat-700: hsl(var(--success-h) calc(var(--success-s)- 70%) var(--success-l));
---success-base__sat-800: hsl(var(--success-h) calc(var(--success-s)- 80%) var(--success-l));
---success-base__sat-900: hsl(var(--success-h) calc(var(--success-s)- 90%) var(--success-l));
+--success-base__sat-100: hsl(var(--success-h) calc(var(--success-s) - 10%) var(--success-l));
+--success-base__sat-200: hsl(var(--success-h) calc(var(--success-s) - 20%) var(--success-l));
+--success-base__sat-300: hsl(var(--success-h) calc(var(--success-s) - 30%) var(--success-l));
+--success-base__sat-400: hsl(var(--success-h) calc(var(--success-s) - 40%) var(--success-l));
+--success-base__sat-500: hsl(var(--success-h) calc(var(--success-s) - 50%) var(--success-l));
+--success-base__sat-600: hsl(var(--success-h) calc(var(--success-s) - 60%) var(--success-l));
+--success-base__sat-700: hsl(var(--success-h) calc(var(--success-s) - 70%) var(--success-l));
+--success-base__sat-800: hsl(var(--success-h) calc(var(--success-s) - 80%) var(--success-l));
+--success-base__sat-900: hsl(var(--success-h) calc(var(--success-s) - 90%) var(--success-l));
 
 --success-100: hsl(var(--success-h) var(--success-s) 10%);
 
@@ -1587,15 +1587,15 @@
 --success-100__trans-900: hsl(var(--success-h) var(--success-s) 10% / 0.9);
 
 /* Saturations */
---success-100__sat-100: hsl(var(--success-h) calc(var(--success-s)- 10%) var(--success-l));
---success-100__sat-200: hsl(var(--success-h) calc(var(--success-s)- 20%) var(--success-l));
---success-100__sat-300: hsl(var(--success-h) calc(var(--success-s)- 30%) var(--success-l));
---success-100__sat-400: hsl(var(--success-h) calc(var(--success-s)- 40%) var(--success-l));
---success-100__sat-500: hsl(var(--success-h) calc(var(--success-s)- 50%) var(--success-l));
---success-100__sat-600: hsl(var(--success-h) calc(var(--success-s)- 60%) var(--success-l));
---success-100__sat-700: hsl(var(--success-h) calc(var(--success-s)- 70%) var(--success-l));
---success-100__sat-800: hsl(var(--success-h) calc(var(--success-s)- 80%) var(--success-l));
---success-100__sat-900: hsl(var(--success-h) calc(var(--success-s)- 90%) var(--success-l));
+--success-100__sat-100: hsl(var(--success-h) calc(var(--success-s) - 10%) var(--success-l));
+--success-100__sat-200: hsl(var(--success-h) calc(var(--success-s) - 20%) var(--success-l));
+--success-100__sat-300: hsl(var(--success-h) calc(var(--success-s) - 30%) var(--success-l));
+--success-100__sat-400: hsl(var(--success-h) calc(var(--success-s) - 40%) var(--success-l));
+--success-100__sat-500: hsl(var(--success-h) calc(var(--success-s) - 50%) var(--success-l));
+--success-100__sat-600: hsl(var(--success-h) calc(var(--success-s) - 60%) var(--success-l));
+--success-100__sat-700: hsl(var(--success-h) calc(var(--success-s) - 70%) var(--success-l));
+--success-100__sat-800: hsl(var(--success-h) calc(var(--success-s) - 80%) var(--success-l));
+--success-100__sat-900: hsl(var(--success-h) calc(var(--success-s) - 90%) var(--success-l));
 
 /* Tertiary200 */
 --success-200: hsl(var(--success-h) var(--success-s) 20%);
@@ -1612,15 +1612,15 @@
 --success-200__trans-900: hsl(var(--success-h) var(--success-s) 20% / 0.9);
 
 /* Saturations */
---success-200__sat-100: hsl(var(--success-h) calc(var(--success-s)- 10%) var(--success-l));
---success-200__sat-200: hsl(var(--success-h) calc(var(--success-s)- 20%) var(--success-l));
---success-200__sat-300: hsl(var(--success-h) calc(var(--success-s)- 30%) var(--success-l));
---success-200__sat-400: hsl(var(--success-h) calc(var(--success-s)- 40%) var(--success-l));
---success-200__sat-500: hsl(var(--success-h) calc(var(--success-s)- 50%) var(--success-l));
---success-200__sat-600: hsl(var(--success-h) calc(var(--success-s)- 60%) var(--success-l));
---success-200__sat-700: hsl(var(--success-h) calc(var(--success-s)- 70%) var(--success-l));
---success-200__sat-800: hsl(var(--success-h) calc(var(--success-s)- 80%) var(--success-l));
---success-200__sat-900: hsl(var(--success-h) calc(var(--success-s)- 90%) var(--success-l));
+--success-200__sat-100: hsl(var(--success-h) calc(var(--success-s) - 10%) var(--success-l));
+--success-200__sat-200: hsl(var(--success-h) calc(var(--success-s) - 20%) var(--success-l));
+--success-200__sat-300: hsl(var(--success-h) calc(var(--success-s) - 30%) var(--success-l));
+--success-200__sat-400: hsl(var(--success-h) calc(var(--success-s) - 40%) var(--success-l));
+--success-200__sat-500: hsl(var(--success-h) calc(var(--success-s) - 50%) var(--success-l));
+--success-200__sat-600: hsl(var(--success-h) calc(var(--success-s) - 60%) var(--success-l));
+--success-200__sat-700: hsl(var(--success-h) calc(var(--success-s) - 70%) var(--success-l));
+--success-200__sat-800: hsl(var(--success-h) calc(var(--success-s) - 80%) var(--success-l));
+--success-200__sat-900: hsl(var(--success-h) calc(var(--success-s) - 90%) var(--success-l));
 
 /*  Success 300 */
 --success-300: hsl(var(--success-h) var(--success-s) 30%);
@@ -1637,15 +1637,15 @@
 --success-300__trans-900: hsl(var(--success-h) var(--success-s) 30% / 0.9);
 
 /* Saturations */
---success-300__sat-100: hsl(var(--success-h) calc(var(--success-s)- 10%) var(--success-l));
---success-300__sat-200: hsl(var(--success-h) calc(var(--success-s)- 20%) var(--success-l));
---success-300__sat-300: hsl(var(--success-h) calc(var(--success-s)- 30%) var(--success-l));
---success-300__sat-400: hsl(var(--success-h) calc(var(--success-s)- 40%) var(--success-l));
---success-300__sat-500: hsl(var(--success-h) calc(var(--success-s)- 50%) var(--success-l));
---success-300__sat-600: hsl(var(--success-h) calc(var(--success-s)- 60%) var(--success-l));
---success-300__sat-700: hsl(var(--success-h) calc(var(--success-s)- 70%) var(--success-l));
---success-300__sat-800: hsl(var(--success-h) calc(var(--success-s)- 80%) var(--success-l));
---success-300__sat-900: hsl(var(--success-h) calc(var(--success-s)- 90%) var(--success-l));
+--success-300__sat-100: hsl(var(--success-h) calc(var(--success-s) - 10%) var(--success-l));
+--success-300__sat-200: hsl(var(--success-h) calc(var(--success-s) - 20%) var(--success-l));
+--success-300__sat-300: hsl(var(--success-h) calc(var(--success-s) - 30%) var(--success-l));
+--success-300__sat-400: hsl(var(--success-h) calc(var(--success-s) - 40%) var(--success-l));
+--success-300__sat-500: hsl(var(--success-h) calc(var(--success-s) - 50%) var(--success-l));
+--success-300__sat-600: hsl(var(--success-h) calc(var(--success-s) - 60%) var(--success-l));
+--success-300__sat-700: hsl(var(--success-h) calc(var(--success-s) - 70%) var(--success-l));
+--success-300__sat-800: hsl(var(--success-h) calc(var(--success-s) - 80%) var(--success-l));
+--success-300__sat-900: hsl(var(--success-h) calc(var(--success-s) - 90%) var(--success-l));
 
 /*  Success 400/
 --success-400: hsl(var(--success-h) var(--success-s) 40%);
@@ -1662,15 +1662,15 @@
 --success-400__trans-900: hsl(var(--success-h) var(--success-s) 40% / 0.9);
 
 /* Saturations */
---success-400__sat-100: hsl(var(--success-h) calc(var(--success-s)- 10%) var(--success-l));
---success-400__sat-200: hsl(var(--success-h) calc(var(--success-s)- 20%) var(--success-l));
---success-400__sat-300: hsl(var(--success-h) calc(var(--success-s)- 30%) var(--success-l));
---success-400__sat-400: hsl(var(--success-h) calc(var(--success-s)- 40%) var(--success-l));
---success-400__sat-500: hsl(var(--success-h) calc(var(--success-s)- 50%) var(--success-l));
---success-400__sat-600: hsl(var(--success-h) calc(var(--success-s)- 60%) var(--success-l));
---success-400__sat-700: hsl(var(--success-h) calc(var(--success-s)- 70%) var(--success-l));
---success-400__sat-800: hsl(var(--success-h) calc(var(--success-s)- 80%) var(--success-l));
---success-400__sat-900: hsl(var(--success-h) calc(var(--success-s)- 90%) var(--success-l));
+--success-400__sat-100: hsl(var(--success-h) calc(var(--success-s) - 10%) var(--success-l));
+--success-400__sat-200: hsl(var(--success-h) calc(var(--success-s) - 20%) var(--success-l));
+--success-400__sat-300: hsl(var(--success-h) calc(var(--success-s) - 30%) var(--success-l));
+--success-400__sat-400: hsl(var(--success-h) calc(var(--success-s) - 40%) var(--success-l));
+--success-400__sat-500: hsl(var(--success-h) calc(var(--success-s) - 50%) var(--success-l));
+--success-400__sat-600: hsl(var(--success-h) calc(var(--success-s) - 60%) var(--success-l));
+--success-400__sat-700: hsl(var(--success-h) calc(var(--success-s) - 70%) var(--success-l));
+--success-400__sat-800: hsl(var(--success-h) calc(var(--success-s) - 80%) var(--success-l));
+--success-400__sat-900: hsl(var(--success-h) calc(var(--success-s) - 90%) var(--success-l));
 
 /*  Success 500 */
 --success-500: hsl(var(--success-h) var(--success-s) 50%);
@@ -1685,15 +1685,15 @@
 --success-500__trans-900: hsl(var(--success-h) var(--success-s) 50% / 0.9);
 
 /* Saturations */
---success-500__sat-100: hsl(var(--success-h) calc(var(--success-s)- 10%) var(--success-l));
---success-500__sat-200: hsl(var(--success-h) calc(var(--success-s)- 20%) var(--success-l));
---success-500__sat-300: hsl(var(--success-h) calc(var(--success-s)- 30%) var(--success-l));
---success-500__sat-400: hsl(var(--success-h) calc(var(--success-s)- 40%) var(--success-l));
---success-500__sat-500: hsl(var(--success-h) calc(var(--success-s)- 50%) var(--success-l));
---success-500__sat-600: hsl(var(--success-h) calc(var(--success-s)- 60%) var(--success-l));
---success-500__sat-700: hsl(var(--success-h) calc(var(--success-s)- 70%) var(--success-l));
---success-500__sat-800: hsl(var(--success-h) calc(var(--success-s)- 80%) var(--success-l));
---success-500__sat-900: hsl(var(--success-h) calc(var(--success-s)- 90%) var(--success-l));
+--success-500__sat-100: hsl(var(--success-h) calc(var(--success-s) - 10%) var(--success-l));
+--success-500__sat-200: hsl(var(--success-h) calc(var(--success-s) - 20%) var(--success-l));
+--success-500__sat-300: hsl(var(--success-h) calc(var(--success-s) - 30%) var(--success-l));
+--success-500__sat-400: hsl(var(--success-h) calc(var(--success-s) - 40%) var(--success-l));
+--success-500__sat-500: hsl(var(--success-h) calc(var(--success-s) - 50%) var(--success-l));
+--success-500__sat-600: hsl(var(--success-h) calc(var(--success-s) - 60%) var(--success-l));
+--success-500__sat-700: hsl(var(--success-h) calc(var(--success-s) - 70%) var(--success-l));
+--success-500__sat-800: hsl(var(--success-h) calc(var(--success-s) - 80%) var(--success-l));
+--success-500__sat-900: hsl(var(--success-h) calc(var(--success-s) - 90%) var(--success-l));
 
 /*  Success 600 */
 --success-600: hsl(var(--success-h) var(--success-s) 60%);
@@ -1710,15 +1710,15 @@
 --success-600__trans-900: hsl(var(--success-h) var(--success-s) 60% / 0.9);
 
 /* Saturations */
---success-600__sat-100: hsl(var(--success-h) calc(var(--success-s)- 10%) var(--success-l));
---success-600__sat-200: hsl(var(--success-h) calc(var(--success-s)- 20%) var(--success-l));
---success-600__sat-300: hsl(var(--success-h) calc(var(--success-s)- 30%) var(--success-l));
---success-600__sat-400: hsl(var(--success-h) calc(var(--success-s)- 40%) var(--success-l));
---success-600__sat-500: hsl(var(--success-h) calc(var(--success-s)- 50%) var(--success-l));
---success-600__sat-600: hsl(var(--success-h) calc(var(--success-s)- 60%) var(--success-l));
---success-600__sat-700: hsl(var(--success-h) calc(var(--success-s)- 70%) var(--success-l));
---success-600__sat-800: hsl(var(--success-h) calc(var(--success-s)- 80%) var(--success-l));
---success-600__sat-900: hsl(var(--success-h) calc(var(--success-s)- 90%) var(--success-l));
+--success-600__sat-100: hsl(var(--success-h) calc(var(--success-s) - 10%) var(--success-l));
+--success-600__sat-200: hsl(var(--success-h) calc(var(--success-s) - 20%) var(--success-l));
+--success-600__sat-300: hsl(var(--success-h) calc(var(--success-s) - 30%) var(--success-l));
+--success-600__sat-400: hsl(var(--success-h) calc(var(--success-s) - 40%) var(--success-l));
+--success-600__sat-500: hsl(var(--success-h) calc(var(--success-s) - 50%) var(--success-l));
+--success-600__sat-600: hsl(var(--success-h) calc(var(--success-s) - 60%) var(--success-l));
+--success-600__sat-700: hsl(var(--success-h) calc(var(--success-s) - 70%) var(--success-l));
+--success-600__sat-800: hsl(var(--success-h) calc(var(--success-s) - 80%) var(--success-l));
+--success-600__sat-900: hsl(var(--success-h) calc(var(--success-s) - 90%) var(--success-l));
 
 /*  Success 700 */
 --success-700: hsl(var(--success-h) var(--success-s) 70%);
@@ -1735,15 +1735,15 @@
 --success-700__trans-900: hsl(var(--success-h) var(--success-s) 70% / 0.9);
 
 /* Saturations */
---success-700__sat-100: hsl(var(--success-h) calc(var(--success-s)- 10%) var(--success-l));
---success-700__sat-200: hsl(var(--success-h) calc(var(--success-s)- 20%) var(--success-l));
---success-700__sat-300: hsl(var(--success-h) calc(var(--success-s)- 30%) var(--success-l));
---success-700__sat-400: hsl(var(--success-h) calc(var(--success-s)- 40%) var(--success-l));
---success-700__sat-500: hsl(var(--success-h) calc(var(--success-s)- 50%) var(--success-l));
---success-700__sat-600: hsl(var(--success-h) calc(var(--success-s)- 60%) var(--success-l));
---success-700__sat-700: hsl(var(--success-h) calc(var(--success-s)- 70%) var(--success-l));
---success-700__sat-800: hsl(var(--success-h) calc(var(--success-s)- 80%) var(--success-l));
---success-700__sat-900: hsl(var(--success-h) calc(var(--success-s)- 90%) var(--success-l));
+--success-700__sat-100: hsl(var(--success-h) calc(var(--success-s) - 10%) var(--success-l));
+--success-700__sat-200: hsl(var(--success-h) calc(var(--success-s) - 20%) var(--success-l));
+--success-700__sat-300: hsl(var(--success-h) calc(var(--success-s) - 30%) var(--success-l));
+--success-700__sat-400: hsl(var(--success-h) calc(var(--success-s) - 40%) var(--success-l));
+--success-700__sat-500: hsl(var(--success-h) calc(var(--success-s) - 50%) var(--success-l));
+--success-700__sat-600: hsl(var(--success-h) calc(var(--success-s) - 60%) var(--success-l));
+--success-700__sat-700: hsl(var(--success-h) calc(var(--success-s) - 70%) var(--success-l));
+--success-700__sat-800: hsl(var(--success-h) calc(var(--success-s) - 80%) var(--success-l));
+--success-700__sat-900: hsl(var(--success-h) calc(var(--success-s) - 90%) var(--success-l));
 
 /*  Success 800 */
 
@@ -1759,15 +1759,15 @@
 --success-800__trans-900: hsl(var(--success-h) var(--success-s) 80% / 0.9);
 
 /* Saturations */
---success-800__sat-100: hsl(var(--success-h) calc(var(--success-s)- 10%) var(--success-l));
---success-800__sat-200: hsl(var(--success-h) calc(var(--success-s)- 20%) var(--success-l));
---success-800__sat-300: hsl(var(--success-h) calc(var(--success-s)- 30%) var(--success-l));
---success-800__sat-400: hsl(var(--success-h) calc(var(--success-s)- 40%) var(--success-l));
---success-800__sat-500: hsl(var(--success-h) calc(var(--success-s)- 50%) var(--success-l));
---success-800__sat-600: hsl(var(--success-h) calc(var(--success-s)- 60%) var(--success-l));
---success-800__sat-700: hsl(var(--success-h) calc(var(--success-s)- 70%) var(--success-l));
---success-800__sat-800: hsl(var(--success-h) calc(var(--success-s)- 80%) var(--success-l));
---success-800__sat-900: hsl(var(--success-h) calc(var(--success-s)- 90%) var(--success-l));
+--success-800__sat-100: hsl(var(--success-h) calc(var(--success-s) - 10%) var(--success-l));
+--success-800__sat-200: hsl(var(--success-h) calc(var(--success-s) - 20%) var(--success-l));
+--success-800__sat-300: hsl(var(--success-h) calc(var(--success-s) - 30%) var(--success-l));
+--success-800__sat-400: hsl(var(--success-h) calc(var(--success-s) - 40%) var(--success-l));
+--success-800__sat-500: hsl(var(--success-h) calc(var(--success-s) - 50%) var(--success-l));
+--success-800__sat-600: hsl(var(--success-h) calc(var(--success-s) - 60%) var(--success-l));
+--success-800__sat-700: hsl(var(--success-h) calc(var(--success-s) - 70%) var(--success-l));
+--success-800__sat-800: hsl(var(--success-h) calc(var(--success-s) - 80%) var(--success-l));
+--success-800__sat-900: hsl(var(--success-h) calc(var(--success-s) - 90%) var(--success-l));
 
 /*  Success 900 */
 
@@ -1783,15 +1783,15 @@
 --success-900__trans-900: hsl(var(--success-h) var(--success-s) 90% / 0.9);
 
 /* Saturations */
---success-900__sat-100: hsl(var(--success-h) calc(var(--success-s)- 10%) var(--success-l));
---success-900__sat-200: hsl(var(--success-h) calc(var(--success-s)- 20%) var(--success-l));
---success-900__sat-300: hsl(var(--success-h) calc(var(--success-s)- 30%) var(--success-l));
---success-900__sat-400: hsl(var(--success-h) calc(var(--success-s)- 40%) var(--success-l));
---success-900__sat-500: hsl(var(--success-h) calc(var(--success-s)- 50%) var(--success-l));
---success-900__sat-600: hsl(var(--success-h) calc(var(--success-s)- 60%) var(--success-l));
---success-900__sat-700: hsl(var(--success-h) calc(var(--success-s)- 70%) var(--success-l));
---success-900__sat-800: hsl(var(--success-h) calc(var(--success-s)- 80%) var(--success-l));
---success-900__sat-900: hsl(var(--success-h) calc(var(--success-s)- 90%) var(--success-l));
+--success-900__sat-100: hsl(var(--success-h) calc(var(--success-s) - 10%) var(--success-l));
+--success-900__sat-200: hsl(var(--success-h) calc(var(--success-s) - 20%) var(--success-l));
+--success-900__sat-300: hsl(var(--success-h) calc(var(--success-s) - 30%) var(--success-l));
+--success-900__sat-400: hsl(var(--success-h) calc(var(--success-s) - 40%) var(--success-l));
+--success-900__sat-500: hsl(var(--success-h) calc(var(--success-s) - 50%) var(--success-l));
+--success-900__sat-600: hsl(var(--success-h) calc(var(--success-s) - 60%) var(--success-l));
+--success-900__sat-700: hsl(var(--success-h) calc(var(--success-s) - 70%) var(--success-l));
+--success-900__sat-800: hsl(var(--success-h) calc(var(--success-s) - 80%) var(--success-l));
+--success-900__sat-900: hsl(var(--success-h) calc(var(--success-s) - 90%) var(--success-l));
 
 /* Tertiary800 */
 --success-800: hsl(var(--success-h) var(--success-s) 80%);
@@ -1807,15 +1807,15 @@
 
 
 /* Saturations */
---success-800__sat-100: hsl(var(--success-h) calc(var(--success-s)- 10%) var(--success-l));
---success-800__sat-200: hsl(var(--success-h) calc(var(--success-s)- 20%) var(--success-l));
---success-800__sat-300: hsl(var(--success-h) calc(var(--success-s)- 30%) var(--success-l));
---success-800__sat-400: hsl(var(--success-h) calc(var(--success-s)- 40%) var(--success-l));
---success-800__sat-500: hsl(var(--success-h) calc(var(--success-s)- 50%) var(--success-l));
---success-800__sat-600: hsl(var(--success-h) calc(var(--success-s)- 60%) var(--success-l));
---success-800__sat-700: hsl(var(--success-h) calc(var(--success-s)- 70%) var(--success-l));
---success-800__sat-800: hsl(var(--success-h) calc(var(--success-s)- 80%) var(--success-l));
---success-800__sat-900: hsl(var(--success-h) calc(var(--success-s)- 90%) var(--success-l));
+--success-800__sat-100: hsl(var(--success-h) calc(var(--success-s) - 10%) var(--success-l));
+--success-800__sat-200: hsl(var(--success-h) calc(var(--success-s) - 20%) var(--success-l));
+--success-800__sat-300: hsl(var(--success-h) calc(var(--success-s) - 30%) var(--success-l));
+--success-800__sat-400: hsl(var(--success-h) calc(var(--success-s) - 40%) var(--success-l));
+--success-800__sat-500: hsl(var(--success-h) calc(var(--success-s) - 50%) var(--success-l));
+--success-800__sat-600: hsl(var(--success-h) calc(var(--success-s) - 60%) var(--success-l));
+--success-800__sat-700: hsl(var(--success-h) calc(var(--success-s) - 70%) var(--success-l));
+--success-800__sat-800: hsl(var(--success-h) calc(var(--success-s) - 80%) var(--success-l));
+--success-800__sat-900: hsl(var(--success-h) calc(var(--success-s) - 90%) var(--success-l));
 
 /* Tertiary900*/
 --success-900: hsl(var(--success-h) var(--success-s) 90%);
@@ -1832,15 +1832,15 @@
 --success-900__trans-900: hsl(var(--success-h) var(--success-s) 90% / 0.9);
 
 /* Saturations */
---success-900__sat-100: hsl(var(--success-h) calc(var(--success-s)- 10%) var(--success-l));
---success-900__sat-200: hsl(var(--success-h) calc(var(--success-s)- 20%) var(--success-l));
---success-900__sat-300: hsl(var(--success-h) calc(var(--success-s)- 30%) var(--success-l));
---success-900__sat-400: hsl(var(--success-h) calc(var(--success-s)- 40%) var(--success-l));
---success-900__sat-500: hsl(var(--success-h) calc(var(--success-s)- 50%) var(--success-l));
---success-900__sat-600: hsl(var(--success-h) calc(var(--success-s)- 60%) var(--success-l));
---success-900__sat-700: hsl(var(--success-h) calc(var(--success-s)- 70%) var(--success-l));
---success-900__sat-800: hsl(var(--success-h) calc(var(--success-s)- 80%) var(--success-l));
---success-900__sat-900: hsl(var(--success-h) calc(var(--success-s)- 90%) var(--success-l));
+--success-900__sat-100: hsl(var(--success-h) calc(var(--success-s) - 10%) var(--success-l));
+--success-900__sat-200: hsl(var(--success-h) calc(var(--success-s) - 20%) var(--success-l));
+--success-900__sat-300: hsl(var(--success-h) calc(var(--success-s) - 30%) var(--success-l));
+--success-900__sat-400: hsl(var(--success-h) calc(var(--success-s) - 40%) var(--success-l));
+--success-900__sat-500: hsl(var(--success-h) calc(var(--success-s) - 50%) var(--success-l));
+--success-900__sat-600: hsl(var(--success-h) calc(var(--success-s) - 60%) var(--success-l));
+--success-900__sat-700: hsl(var(--success-h) calc(var(--success-s) - 70%) var(--success-l));
+--success-900__sat-800: hsl(var(--success-h) calc(var(--success-s) - 80%) var(--success-l));
+--success-900__sat-900: hsl(var(--success-h) calc(var(--success-s) - 90%) var(--success-l));
   
    /* Danger */
    --danger-h: 0;
@@ -1863,15 +1863,15 @@
 --danger-base__trans-900: hsl(var(--danger-h) var(--danger-s) var(--danger-l) / 0.9);
 
 /* Saturations */
---danger-base__sat-100: hsl(var(--danger-h) calc(var(--danger-s)- 10%) var(--danger-l));
---danger-base__sat-200: hsl(var(--danger-h) calc(var(--danger-s)- 20%) var(--danger-l));
---danger-base__sat-300: hsl(var(--danger-h) calc(var(--danger-s)- 30%) var(--danger-l));
---danger-base__sat-400: hsl(var(--danger-h) calc(var(--danger-s)- 40%) var(--danger-l));
---danger-base__sat-500: hsl(var(--danger-h) calc(var(--danger-s)- 50%) var(--danger-l));
---danger-base__sat-600: hsl(var(--danger-h) calc(var(--danger-s)- 60%) var(--danger-l));
---danger-base__sat-700: hsl(var(--danger-h) calc(var(--danger-s)- 70%) var(--danger-l));
---danger-base__sat-800: hsl(var(--danger-h) calc(var(--danger-s)- 80%) var(--danger-l));
---danger-base__sat-900: hsl(var(--danger-h) calc(var(--danger-s)- 90%) var(--danger-l));
+--danger-base__sat-100: hsl(var(--danger-h) calc(var(--danger-s) - 10%) var(--danger-l));
+--danger-base__sat-200: hsl(var(--danger-h) calc(var(--danger-s) - 20%) var(--danger-l));
+--danger-base__sat-300: hsl(var(--danger-h) calc(var(--danger-s) - 30%) var(--danger-l));
+--danger-base__sat-400: hsl(var(--danger-h) calc(var(--danger-s) - 40%) var(--danger-l));
+--danger-base__sat-500: hsl(var(--danger-h) calc(var(--danger-s) - 50%) var(--danger-l));
+--danger-base__sat-600: hsl(var(--danger-h) calc(var(--danger-s) - 60%) var(--danger-l));
+--danger-base__sat-700: hsl(var(--danger-h) calc(var(--danger-s) - 70%) var(--danger-l));
+--danger-base__sat-800: hsl(var(--danger-h) calc(var(--danger-s) - 80%) var(--danger-l));
+--danger-base__sat-900: hsl(var(--danger-h) calc(var(--danger-s) - 90%) var(--danger-l));
 
 --danger-100: hsl(var(--danger-h) var(--danger-s) 10%);
 
@@ -1887,15 +1887,15 @@
 --danger-100__trans-900: hsl(var(--danger-h) var(--danger-s) 10% / 0.9);
 
 /* Saturations */
---danger-100__sat-100: hsl(var(--danger-h) calc(var(--danger-s)- 10%) var(--danger-l));
---danger-100__sat-200: hsl(var(--danger-h) calc(var(--danger-s)- 20%) var(--danger-l));
---danger-100__sat-300: hsl(var(--danger-h) calc(var(--danger-s)- 30%) var(--danger-l));
---danger-100__sat-400: hsl(var(--danger-h) calc(var(--danger-s)- 40%) var(--danger-l));
---danger-100__sat-500: hsl(var(--danger-h) calc(var(--danger-s)- 50%) var(--danger-l));
---danger-100__sat-600: hsl(var(--danger-h) calc(var(--danger-s)- 60%) var(--danger-l));
---danger-100__sat-700: hsl(var(--danger-h) calc(var(--danger-s)- 70%) var(--danger-l));
---danger-100__sat-800: hsl(var(--danger-h) calc(var(--danger-s)- 80%) var(--danger-l));
---danger-100__sat-900: hsl(var(--danger-h) calc(var(--danger-s)- 90%) var(--danger-l));
+--danger-100__sat-100: hsl(var(--danger-h) calc(var(--danger-s) - 10%) var(--danger-l));
+--danger-100__sat-200: hsl(var(--danger-h) calc(var(--danger-s) - 20%) var(--danger-l));
+--danger-100__sat-300: hsl(var(--danger-h) calc(var(--danger-s) - 30%) var(--danger-l));
+--danger-100__sat-400: hsl(var(--danger-h) calc(var(--danger-s) - 40%) var(--danger-l));
+--danger-100__sat-500: hsl(var(--danger-h) calc(var(--danger-s) - 50%) var(--danger-l));
+--danger-100__sat-600: hsl(var(--danger-h) calc(var(--danger-s) - 60%) var(--danger-l));
+--danger-100__sat-700: hsl(var(--danger-h) calc(var(--danger-s) - 70%) var(--danger-l));
+--danger-100__sat-800: hsl(var(--danger-h) calc(var(--danger-s) - 80%) var(--danger-l));
+--danger-100__sat-900: hsl(var(--danger-h) calc(var(--danger-s) - 90%) var(--danger-l));
 
 /* Tertiary200 */
 --danger-200: hsl(var(--danger-h) var(--danger-s) 20%);
@@ -1912,15 +1912,15 @@
 --danger-200__trans-900: hsl(var(--danger-h) var(--danger-s) 20% / 0.9);
 
 /* Saturations */
---danger-200__sat-100: hsl(var(--danger-h) calc(var(--danger-s)- 10%) var(--danger-l));
---danger-200__sat-200: hsl(var(--danger-h) calc(var(--danger-s)- 20%) var(--danger-l));
---danger-200__sat-300: hsl(var(--danger-h) calc(var(--danger-s)- 30%) var(--danger-l));
---danger-200__sat-400: hsl(var(--danger-h) calc(var(--danger-s)- 40%) var(--danger-l));
---danger-200__sat-500: hsl(var(--danger-h) calc(var(--danger-s)- 50%) var(--danger-l));
---danger-200__sat-600: hsl(var(--danger-h) calc(var(--danger-s)- 60%) var(--danger-l));
---danger-200__sat-700: hsl(var(--danger-h) calc(var(--danger-s)- 70%) var(--danger-l));
---danger-200__sat-800: hsl(var(--danger-h) calc(var(--danger-s)- 80%) var(--danger-l));
---danger-200__sat-900: hsl(var(--danger-h) calc(var(--danger-s)- 90%) var(--danger-l));
+--danger-200__sat-100: hsl(var(--danger-h) calc(var(--danger-s) - 10%) var(--danger-l));
+--danger-200__sat-200: hsl(var(--danger-h) calc(var(--danger-s) - 20%) var(--danger-l));
+--danger-200__sat-300: hsl(var(--danger-h) calc(var(--danger-s) - 30%) var(--danger-l));
+--danger-200__sat-400: hsl(var(--danger-h) calc(var(--danger-s) - 40%) var(--danger-l));
+--danger-200__sat-500: hsl(var(--danger-h) calc(var(--danger-s) - 50%) var(--danger-l));
+--danger-200__sat-600: hsl(var(--danger-h) calc(var(--danger-s) - 60%) var(--danger-l));
+--danger-200__sat-700: hsl(var(--danger-h) calc(var(--danger-s) - 70%) var(--danger-l));
+--danger-200__sat-800: hsl(var(--danger-h) calc(var(--danger-s) - 80%) var(--danger-l));
+--danger-200__sat-900: hsl(var(--danger-h) calc(var(--danger-s) - 90%) var(--danger-l));
 
 /*  Danger 300 */
 --danger-300: hsl(var(--danger-h) var(--danger-s) 30%);
@@ -1937,15 +1937,15 @@
 --danger-300__trans-900: hsl(var(--danger-h) var(--danger-s) 30% / 0.9);
 
 /* Saturations */
---danger-300__sat-100: hsl(var(--danger-h) calc(var(--danger-s)- 10%) var(--danger-l));
---danger-300__sat-200: hsl(var(--danger-h) calc(var(--danger-s)- 20%) var(--danger-l));
---danger-300__sat-300: hsl(var(--danger-h) calc(var(--danger-s)- 30%) var(--danger-l));
---danger-300__sat-400: hsl(var(--danger-h) calc(var(--danger-s)- 40%) var(--danger-l));
---danger-300__sat-500: hsl(var(--danger-h) calc(var(--danger-s)- 50%) var(--danger-l));
---danger-300__sat-600: hsl(var(--danger-h) calc(var(--danger-s)- 60%) var(--danger-l));
---danger-300__sat-700: hsl(var(--danger-h) calc(var(--danger-s)- 70%) var(--danger-l));
---danger-300__sat-800: hsl(var(--danger-h) calc(var(--danger-s)- 80%) var(--danger-l));
---danger-300__sat-900: hsl(var(--danger-h) calc(var(--danger-s)- 90%) var(--danger-l));
+--danger-300__sat-100: hsl(var(--danger-h) calc(var(--danger-s) - 10%) var(--danger-l));
+--danger-300__sat-200: hsl(var(--danger-h) calc(var(--danger-s) - 20%) var(--danger-l));
+--danger-300__sat-300: hsl(var(--danger-h) calc(var(--danger-s) - 30%) var(--danger-l));
+--danger-300__sat-400: hsl(var(--danger-h) calc(var(--danger-s) - 40%) var(--danger-l));
+--danger-300__sat-500: hsl(var(--danger-h) calc(var(--danger-s) - 50%) var(--danger-l));
+--danger-300__sat-600: hsl(var(--danger-h) calc(var(--danger-s) - 60%) var(--danger-l));
+--danger-300__sat-700: hsl(var(--danger-h) calc(var(--danger-s) - 70%) var(--danger-l));
+--danger-300__sat-800: hsl(var(--danger-h) calc(var(--danger-s) - 80%) var(--danger-l));
+--danger-300__sat-900: hsl(var(--danger-h) calc(var(--danger-s) - 90%) var(--danger-l));
 
 /*  Danger 400/
 --danger-400: hsl(var(--danger-h) var(--danger-s) 40%);
@@ -1962,15 +1962,15 @@
 --danger-400__trans-900: hsl(var(--danger-h) var(--danger-s) 40% / 0.9);
 
 /* Saturations */
---danger-400__sat-100: hsl(var(--danger-h) calc(var(--danger-s)- 10%) var(--danger-l));
---danger-400__sat-200: hsl(var(--danger-h) calc(var(--danger-s)- 20%) var(--danger-l));
---danger-400__sat-300: hsl(var(--danger-h) calc(var(--danger-s)- 30%) var(--danger-l));
---danger-400__sat-400: hsl(var(--danger-h) calc(var(--danger-s)- 40%) var(--danger-l));
---danger-400__sat-500: hsl(var(--danger-h) calc(var(--danger-s)- 50%) var(--danger-l));
---danger-400__sat-600: hsl(var(--danger-h) calc(var(--danger-s)- 60%) var(--danger-l));
---danger-400__sat-700: hsl(var(--danger-h) calc(var(--danger-s)- 70%) var(--danger-l));
---danger-400__sat-800: hsl(var(--danger-h) calc(var(--danger-s)- 80%) var(--danger-l));
---danger-400__sat-900: hsl(var(--danger-h) calc(var(--danger-s)- 90%) var(--danger-l));
+--danger-400__sat-100: hsl(var(--danger-h) calc(var(--danger-s) - 10%) var(--danger-l));
+--danger-400__sat-200: hsl(var(--danger-h) calc(var(--danger-s) - 20%) var(--danger-l));
+--danger-400__sat-300: hsl(var(--danger-h) calc(var(--danger-s) - 30%) var(--danger-l));
+--danger-400__sat-400: hsl(var(--danger-h) calc(var(--danger-s) - 40%) var(--danger-l));
+--danger-400__sat-500: hsl(var(--danger-h) calc(var(--danger-s) - 50%) var(--danger-l));
+--danger-400__sat-600: hsl(var(--danger-h) calc(var(--danger-s) - 60%) var(--danger-l));
+--danger-400__sat-700: hsl(var(--danger-h) calc(var(--danger-s) - 70%) var(--danger-l));
+--danger-400__sat-800: hsl(var(--danger-h) calc(var(--danger-s) - 80%) var(--danger-l));
+--danger-400__sat-900: hsl(var(--danger-h) calc(var(--danger-s) - 90%) var(--danger-l));
 
 /*  Danger 500 */
 --danger-500: hsl(var(--danger-h) var(--danger-s) 50%);
@@ -1985,15 +1985,15 @@
 --danger-500__trans-900: hsl(var(--danger-h) var(--danger-s) 50% / 0.9);
 
 /* Saturations */
---danger-500__sat-100: hsl(var(--danger-h) calc(var(--danger-s)- 10%) var(--danger-l));
---danger-500__sat-200: hsl(var(--danger-h) calc(var(--danger-s)- 20%) var(--danger-l));
---danger-500__sat-300: hsl(var(--danger-h) calc(var(--danger-s)- 30%) var(--danger-l));
---danger-500__sat-400: hsl(var(--danger-h) calc(var(--danger-s)- 40%) var(--danger-l));
---danger-500__sat-500: hsl(var(--danger-h) calc(var(--danger-s)- 50%) var(--danger-l));
---danger-500__sat-600: hsl(var(--danger-h) calc(var(--danger-s)- 60%) var(--danger-l));
---danger-500__sat-700: hsl(var(--danger-h) calc(var(--danger-s)- 70%) var(--danger-l));
---danger-500__sat-800: hsl(var(--danger-h) calc(var(--danger-s)- 80%) var(--danger-l));
---danger-500__sat-900: hsl(var(--danger-h) calc(var(--danger-s)- 90%) var(--danger-l));
+--danger-500__sat-100: hsl(var(--danger-h) calc(var(--danger-s) - 10%) var(--danger-l));
+--danger-500__sat-200: hsl(var(--danger-h) calc(var(--danger-s) - 20%) var(--danger-l));
+--danger-500__sat-300: hsl(var(--danger-h) calc(var(--danger-s) - 30%) var(--danger-l));
+--danger-500__sat-400: hsl(var(--danger-h) calc(var(--danger-s) - 40%) var(--danger-l));
+--danger-500__sat-500: hsl(var(--danger-h) calc(var(--danger-s) - 50%) var(--danger-l));
+--danger-500__sat-600: hsl(var(--danger-h) calc(var(--danger-s) - 60%) var(--danger-l));
+--danger-500__sat-700: hsl(var(--danger-h) calc(var(--danger-s) - 70%) var(--danger-l));
+--danger-500__sat-800: hsl(var(--danger-h) calc(var(--danger-s) - 80%) var(--danger-l));
+--danger-500__sat-900: hsl(var(--danger-h) calc(var(--danger-s) - 90%) var(--danger-l));
 
 /*  Danger 600 */
 --danger-600: hsl(var(--danger-h) var(--danger-s) 60%);
@@ -2010,15 +2010,15 @@
 --danger-600__trans-900: hsl(var(--danger-h) var(--danger-s) 60% / 0.9);
 
 /* Saturations */
---danger-600__sat-100: hsl(var(--danger-h) calc(var(--danger-s)- 10%) var(--danger-l));
---danger-600__sat-200: hsl(var(--danger-h) calc(var(--danger-s)- 20%) var(--danger-l));
---danger-600__sat-300: hsl(var(--danger-h) calc(var(--danger-s)- 30%) var(--danger-l));
---danger-600__sat-400: hsl(var(--danger-h) calc(var(--danger-s)- 40%) var(--danger-l));
---danger-600__sat-500: hsl(var(--danger-h) calc(var(--danger-s)- 50%) var(--danger-l));
---danger-600__sat-600: hsl(var(--danger-h) calc(var(--danger-s)- 60%) var(--danger-l));
---danger-600__sat-700: hsl(var(--danger-h) calc(var(--danger-s)- 70%) var(--danger-l));
---danger-600__sat-800: hsl(var(--danger-h) calc(var(--danger-s)- 80%) var(--danger-l));
---danger-600__sat-900: hsl(var(--danger-h) calc(var(--danger-s)- 90%) var(--danger-l));
+--danger-600__sat-100: hsl(var(--danger-h) calc(var(--danger-s) - 10%) var(--danger-l));
+--danger-600__sat-200: hsl(var(--danger-h) calc(var(--danger-s) - 20%) var(--danger-l));
+--danger-600__sat-300: hsl(var(--danger-h) calc(var(--danger-s) - 30%) var(--danger-l));
+--danger-600__sat-400: hsl(var(--danger-h) calc(var(--danger-s) - 40%) var(--danger-l));
+--danger-600__sat-500: hsl(var(--danger-h) calc(var(--danger-s) - 50%) var(--danger-l));
+--danger-600__sat-600: hsl(var(--danger-h) calc(var(--danger-s) - 60%) var(--danger-l));
+--danger-600__sat-700: hsl(var(--danger-h) calc(var(--danger-s) - 70%) var(--danger-l));
+--danger-600__sat-800: hsl(var(--danger-h) calc(var(--danger-s) - 80%) var(--danger-l));
+--danger-600__sat-900: hsl(var(--danger-h) calc(var(--danger-s) - 90%) var(--danger-l));
 
 /*  Danger 700 */
 --danger-700: hsl(var(--danger-h) var(--danger-s) 70%);
@@ -2035,15 +2035,15 @@
 --danger-700__trans-900: hsl(var(--danger-h) var(--danger-s) 70% / 0.9);
 
 /* Saturations */
---danger-700__sat-100: hsl(var(--danger-h) calc(var(--danger-s)- 10%) var(--danger-l));
---danger-700__sat-200: hsl(var(--danger-h) calc(var(--danger-s)- 20%) var(--danger-l));
---danger-700__sat-300: hsl(var(--danger-h) calc(var(--danger-s)- 30%) var(--danger-l));
---danger-700__sat-400: hsl(var(--danger-h) calc(var(--danger-s)- 40%) var(--danger-l));
---danger-700__sat-500: hsl(var(--danger-h) calc(var(--danger-s)- 50%) var(--danger-l));
---danger-700__sat-600: hsl(var(--danger-h) calc(var(--danger-s)- 60%) var(--danger-l));
---danger-700__sat-700: hsl(var(--danger-h) calc(var(--danger-s)- 70%) var(--danger-l));
---danger-700__sat-800: hsl(var(--danger-h) calc(var(--danger-s)- 80%) var(--danger-l));
---danger-700__sat-900: hsl(var(--danger-h) calc(var(--danger-s)- 90%) var(--danger-l));
+--danger-700__sat-100: hsl(var(--danger-h) calc(var(--danger-s) - 10%) var(--danger-l));
+--danger-700__sat-200: hsl(var(--danger-h) calc(var(--danger-s) - 20%) var(--danger-l));
+--danger-700__sat-300: hsl(var(--danger-h) calc(var(--danger-s) - 30%) var(--danger-l));
+--danger-700__sat-400: hsl(var(--danger-h) calc(var(--danger-s) - 40%) var(--danger-l));
+--danger-700__sat-500: hsl(var(--danger-h) calc(var(--danger-s) - 50%) var(--danger-l));
+--danger-700__sat-600: hsl(var(--danger-h) calc(var(--danger-s) - 60%) var(--danger-l));
+--danger-700__sat-700: hsl(var(--danger-h) calc(var(--danger-s) - 70%) var(--danger-l));
+--danger-700__sat-800: hsl(var(--danger-h) calc(var(--danger-s) - 80%) var(--danger-l));
+--danger-700__sat-900: hsl(var(--danger-h) calc(var(--danger-s) - 90%) var(--danger-l));
 
 /*  Danger 800 */
 
@@ -2059,15 +2059,15 @@
 --danger-800__trans-900: hsl(var(--danger-h) var(--danger-s) 80% / 0.9);
 
 /* Saturations */
---danger-800__sat-100: hsl(var(--danger-h) calc(var(--danger-s)- 10%) var(--danger-l));
---danger-800__sat-200: hsl(var(--danger-h) calc(var(--danger-s)- 20%) var(--danger-l));
---danger-800__sat-300: hsl(var(--danger-h) calc(var(--danger-s)- 30%) var(--danger-l));
---danger-800__sat-400: hsl(var(--danger-h) calc(var(--danger-s)- 40%) var(--danger-l));
---danger-800__sat-500: hsl(var(--danger-h) calc(var(--danger-s)- 50%) var(--danger-l));
---danger-800__sat-600: hsl(var(--danger-h) calc(var(--danger-s)- 60%) var(--danger-l));
---danger-800__sat-700: hsl(var(--danger-h) calc(var(--danger-s)- 70%) var(--danger-l));
---danger-800__sat-800: hsl(var(--danger-h) calc(var(--danger-s)- 80%) var(--danger-l));
---danger-800__sat-900: hsl(var(--danger-h) calc(var(--danger-s)- 90%) var(--danger-l));
+--danger-800__sat-100: hsl(var(--danger-h) calc(var(--danger-s) - 10%) var(--danger-l));
+--danger-800__sat-200: hsl(var(--danger-h) calc(var(--danger-s) - 20%) var(--danger-l));
+--danger-800__sat-300: hsl(var(--danger-h) calc(var(--danger-s) - 30%) var(--danger-l));
+--danger-800__sat-400: hsl(var(--danger-h) calc(var(--danger-s) - 40%) var(--danger-l));
+--danger-800__sat-500: hsl(var(--danger-h) calc(var(--danger-s) - 50%) var(--danger-l));
+--danger-800__sat-600: hsl(var(--danger-h) calc(var(--danger-s) - 60%) var(--danger-l));
+--danger-800__sat-700: hsl(var(--danger-h) calc(var(--danger-s) - 70%) var(--danger-l));
+--danger-800__sat-800: hsl(var(--danger-h) calc(var(--danger-s) - 80%) var(--danger-l));
+--danger-800__sat-900: hsl(var(--danger-h) calc(var(--danger-s) - 90%) var(--danger-l));
 
 /*  Danger 900 */
 
@@ -2083,15 +2083,15 @@
 --danger-900__trans-900: hsl(var(--danger-h) var(--danger-s) 90% / 0.9);
 
 /* Saturations */
---danger-900__sat-100: hsl(var(--danger-h) calc(var(--danger-s)- 10%) var(--danger-l));
---danger-900__sat-200: hsl(var(--danger-h) calc(var(--danger-s)- 20%) var(--danger-l));
---danger-900__sat-300: hsl(var(--danger-h) calc(var(--danger-s)- 30%) var(--danger-l));
---danger-900__sat-400: hsl(var(--danger-h) calc(var(--danger-s)- 40%) var(--danger-l));
---danger-900__sat-500: hsl(var(--danger-h) calc(var(--danger-s)- 50%) var(--danger-l));
---danger-900__sat-600: hsl(var(--danger-h) calc(var(--danger-s)- 60%) var(--danger-l));
---danger-900__sat-700: hsl(var(--danger-h) calc(var(--danger-s)- 70%) var(--danger-l));
---danger-900__sat-800: hsl(var(--danger-h) calc(var(--danger-s)- 80%) var(--danger-l));
---danger-900__sat-900: hsl(var(--danger-h) calc(var(--danger-s)- 90%) var(--danger-l));
+--danger-900__sat-100: hsl(var(--danger-h) calc(var(--danger-s) - 10%) var(--danger-l));
+--danger-900__sat-200: hsl(var(--danger-h) calc(var(--danger-s) - 20%) var(--danger-l));
+--danger-900__sat-300: hsl(var(--danger-h) calc(var(--danger-s) - 30%) var(--danger-l));
+--danger-900__sat-400: hsl(var(--danger-h) calc(var(--danger-s) - 40%) var(--danger-l));
+--danger-900__sat-500: hsl(var(--danger-h) calc(var(--danger-s) - 50%) var(--danger-l));
+--danger-900__sat-600: hsl(var(--danger-h) calc(var(--danger-s) - 60%) var(--danger-l));
+--danger-900__sat-700: hsl(var(--danger-h) calc(var(--danger-s) - 70%) var(--danger-l));
+--danger-900__sat-800: hsl(var(--danger-h) calc(var(--danger-s) - 80%) var(--danger-l));
+--danger-900__sat-900: hsl(var(--danger-h) calc(var(--danger-s) - 90%) var(--danger-l));
 
 /* Tertiary800 */
 --danger-800: hsl(var(--danger-h) var(--danger-s) 80%);
@@ -2107,15 +2107,15 @@
 
 
 /* Saturations */
---danger-800__sat-100: hsl(var(--danger-h) calc(var(--danger-s)- 10%) var(--danger-l));
---danger-800__sat-200: hsl(var(--danger-h) calc(var(--danger-s)- 20%) var(--danger-l));
---danger-800__sat-300: hsl(var(--danger-h) calc(var(--danger-s)- 30%) var(--danger-l));
---danger-800__sat-400: hsl(var(--danger-h) calc(var(--danger-s)- 40%) var(--danger-l));
---danger-800__sat-500: hsl(var(--danger-h) calc(var(--danger-s)- 50%) var(--danger-l));
---danger-800__sat-600: hsl(var(--danger-h) calc(var(--danger-s)- 60%) var(--danger-l));
---danger-800__sat-700: hsl(var(--danger-h) calc(var(--danger-s)- 70%) var(--danger-l));
---danger-800__sat-800: hsl(var(--danger-h) calc(var(--danger-s)- 80%) var(--danger-l));
---danger-800__sat-900: hsl(var(--danger-h) calc(var(--danger-s)- 90%) var(--danger-l));
+--danger-800__sat-100: hsl(var(--danger-h) calc(var(--danger-s) - 10%) var(--danger-l));
+--danger-800__sat-200: hsl(var(--danger-h) calc(var(--danger-s) - 20%) var(--danger-l));
+--danger-800__sat-300: hsl(var(--danger-h) calc(var(--danger-s) - 30%) var(--danger-l));
+--danger-800__sat-400: hsl(var(--danger-h) calc(var(--danger-s) - 40%) var(--danger-l));
+--danger-800__sat-500: hsl(var(--danger-h) calc(var(--danger-s) - 50%) var(--danger-l));
+--danger-800__sat-600: hsl(var(--danger-h) calc(var(--danger-s) - 60%) var(--danger-l));
+--danger-800__sat-700: hsl(var(--danger-h) calc(var(--danger-s) - 70%) var(--danger-l));
+--danger-800__sat-800: hsl(var(--danger-h) calc(var(--danger-s) - 80%) var(--danger-l));
+--danger-800__sat-900: hsl(var(--danger-h) calc(var(--danger-s) - 90%) var(--danger-l));
 
 /* Tertiary900*/
 --danger-900: hsl(var(--danger-h) var(--danger-s) 90%);
@@ -2132,15 +2132,15 @@
 --danger-900__trans-900: hsl(var(--danger-h) var(--danger-s) 90% / 0.9);
 
 /* Saturations */
---danger-900__sat-100: hsl(var(--danger-h) calc(var(--danger-s)- 10%) var(--danger-l));
---danger-900__sat-200: hsl(var(--danger-h) calc(var(--danger-s)- 20%) var(--danger-l));
---danger-900__sat-300: hsl(var(--danger-h) calc(var(--danger-s)- 30%) var(--danger-l));
---danger-900__sat-400: hsl(var(--danger-h) calc(var(--danger-s)- 40%) var(--danger-l));
---danger-900__sat-500: hsl(var(--danger-h) calc(var(--danger-s)- 50%) var(--danger-l));
---danger-900__sat-600: hsl(var(--danger-h) calc(var(--danger-s)- 60%) var(--danger-l));
---danger-900__sat-700: hsl(var(--danger-h) calc(var(--danger-s)- 70%) var(--danger-l));
---danger-900__sat-800: hsl(var(--danger-h) calc(var(--danger-s)- 80%) var(--danger-l));
---danger-900__sat-900: hsl(var(--danger-h) calc(var(--danger-s)- 90%) var(--danger-l));
+--danger-900__sat-100: hsl(var(--danger-h) calc(var(--danger-s) - 10%) var(--danger-l));
+--danger-900__sat-200: hsl(var(--danger-h) calc(var(--danger-s) - 20%) var(--danger-l));
+--danger-900__sat-300: hsl(var(--danger-h) calc(var(--danger-s) - 30%) var(--danger-l));
+--danger-900__sat-400: hsl(var(--danger-h) calc(var(--danger-s) - 40%) var(--danger-l));
+--danger-900__sat-500: hsl(var(--danger-h) calc(var(--danger-s) - 50%) var(--danger-l));
+--danger-900__sat-600: hsl(var(--danger-h) calc(var(--danger-s) - 60%) var(--danger-l));
+--danger-900__sat-700: hsl(var(--danger-h) calc(var(--danger-s) - 70%) var(--danger-l));
+--danger-900__sat-800: hsl(var(--danger-h) calc(var(--danger-s) - 80%) var(--danger-l));
+--danger-900__sat-900: hsl(var(--danger-h) calc(var(--danger-s) - 90%) var(--danger-l));
   
    /* Warning */
    --warning-h: 33;
@@ -2163,15 +2163,15 @@
 --warning-base__trans-900: hsl(var(--warning-h) var(--warning-s) var(--warning-l) / 0.9);
 
 /* Saturations */
---warning-base__sat-100: hsl(var(--warning-h) calc(var(--warning-s)- 10%) var(--warning-l));
---warning-base__sat-200: hsl(var(--warning-h) calc(var(--warning-s)- 20%) var(--warning-l));
---warning-base__sat-300: hsl(var(--warning-h) calc(var(--warning-s)- 30%) var(--warning-l));
---warning-base__sat-400: hsl(var(--warning-h) calc(var(--warning-s)- 40%) var(--warning-l));
---warning-base__sat-500: hsl(var(--warning-h) calc(var(--warning-s)- 50%) var(--warning-l));
---warning-base__sat-600: hsl(var(--warning-h) calc(var(--warning-s)- 60%) var(--warning-l));
---warning-base__sat-700: hsl(var(--warning-h) calc(var(--warning-s)- 70%) var(--warning-l));
---warning-base__sat-800: hsl(var(--warning-h) calc(var(--warning-s)- 80%) var(--warning-l));
---warning-base__sat-900: hsl(var(--warning-h) calc(var(--warning-s)- 90%) var(--warning-l));
+--warning-base__sat-100: hsl(var(--warning-h) calc(var(--warning-s) - 10%) var(--warning-l));
+--warning-base__sat-200: hsl(var(--warning-h) calc(var(--warning-s) - 20%) var(--warning-l));
+--warning-base__sat-300: hsl(var(--warning-h) calc(var(--warning-s) - 30%) var(--warning-l));
+--warning-base__sat-400: hsl(var(--warning-h) calc(var(--warning-s) - 40%) var(--warning-l));
+--warning-base__sat-500: hsl(var(--warning-h) calc(var(--warning-s) - 50%) var(--warning-l));
+--warning-base__sat-600: hsl(var(--warning-h) calc(var(--warning-s) - 60%) var(--warning-l));
+--warning-base__sat-700: hsl(var(--warning-h) calc(var(--warning-s) - 70%) var(--warning-l));
+--warning-base__sat-800: hsl(var(--warning-h) calc(var(--warning-s) - 80%) var(--warning-l));
+--warning-base__sat-900: hsl(var(--warning-h) calc(var(--warning-s) - 90%) var(--warning-l));
 
 --warning-100: hsl(var(--warning-h) var(--warning-s) 10%);
 
@@ -2187,15 +2187,15 @@
 --warning-100__trans-900: hsl(var(--warning-h) var(--warning-s) 10% / 0.9);
 
 /* Saturations */
---warning-100__sat-100: hsl(var(--warning-h) calc(var(--warning-s)- 10%) var(--warning-l));
---warning-100__sat-200: hsl(var(--warning-h) calc(var(--warning-s)- 20%) var(--warning-l));
---warning-100__sat-300: hsl(var(--warning-h) calc(var(--warning-s)- 30%) var(--warning-l));
---warning-100__sat-400: hsl(var(--warning-h) calc(var(--warning-s)- 40%) var(--warning-l));
---warning-100__sat-500: hsl(var(--warning-h) calc(var(--warning-s)- 50%) var(--warning-l));
---warning-100__sat-600: hsl(var(--warning-h) calc(var(--warning-s)- 60%) var(--warning-l));
---warning-100__sat-700: hsl(var(--warning-h) calc(var(--warning-s)- 70%) var(--warning-l));
---warning-100__sat-800: hsl(var(--warning-h) calc(var(--warning-s)- 80%) var(--warning-l));
---warning-100__sat-900: hsl(var(--warning-h) calc(var(--warning-s)- 90%) var(--warning-l));
+--warning-100__sat-100: hsl(var(--warning-h) calc(var(--warning-s) - 10%) var(--warning-l));
+--warning-100__sat-200: hsl(var(--warning-h) calc(var(--warning-s) - 20%) var(--warning-l));
+--warning-100__sat-300: hsl(var(--warning-h) calc(var(--warning-s) - 30%) var(--warning-l));
+--warning-100__sat-400: hsl(var(--warning-h) calc(var(--warning-s) - 40%) var(--warning-l));
+--warning-100__sat-500: hsl(var(--warning-h) calc(var(--warning-s) - 50%) var(--warning-l));
+--warning-100__sat-600: hsl(var(--warning-h) calc(var(--warning-s) - 60%) var(--warning-l));
+--warning-100__sat-700: hsl(var(--warning-h) calc(var(--warning-s) - 70%) var(--warning-l));
+--warning-100__sat-800: hsl(var(--warning-h) calc(var(--warning-s) - 80%) var(--warning-l));
+--warning-100__sat-900: hsl(var(--warning-h) calc(var(--warning-s) - 90%) var(--warning-l));
 
 /* Tertiary200 */
 --warning-200: hsl(var(--warning-h) var(--warning-s) 20%);
@@ -2212,15 +2212,15 @@
 --warning-200__trans-900: hsl(var(--warning-h) var(--warning-s) 20% / 0.9);
 
 /* Saturations */
---warning-200__sat-100: hsl(var(--warning-h) calc(var(--warning-s)- 10%) var(--warning-l));
---warning-200__sat-200: hsl(var(--warning-h) calc(var(--warning-s)- 20%) var(--warning-l));
---warning-200__sat-300: hsl(var(--warning-h) calc(var(--warning-s)- 30%) var(--warning-l));
---warning-200__sat-400: hsl(var(--warning-h) calc(var(--warning-s)- 40%) var(--warning-l));
---warning-200__sat-500: hsl(var(--warning-h) calc(var(--warning-s)- 50%) var(--warning-l));
---warning-200__sat-600: hsl(var(--warning-h) calc(var(--warning-s)- 60%) var(--warning-l));
---warning-200__sat-700: hsl(var(--warning-h) calc(var(--warning-s)- 70%) var(--warning-l));
---warning-200__sat-800: hsl(var(--warning-h) calc(var(--warning-s)- 80%) var(--warning-l));
---warning-200__sat-900: hsl(var(--warning-h) calc(var(--warning-s)- 90%) var(--warning-l));
+--warning-200__sat-100: hsl(var(--warning-h) calc(var(--warning-s) - 10%) var(--warning-l));
+--warning-200__sat-200: hsl(var(--warning-h) calc(var(--warning-s) - 20%) var(--warning-l));
+--warning-200__sat-300: hsl(var(--warning-h) calc(var(--warning-s) - 30%) var(--warning-l));
+--warning-200__sat-400: hsl(var(--warning-h) calc(var(--warning-s) - 40%) var(--warning-l));
+--warning-200__sat-500: hsl(var(--warning-h) calc(var(--warning-s) - 50%) var(--warning-l));
+--warning-200__sat-600: hsl(var(--warning-h) calc(var(--warning-s) - 60%) var(--warning-l));
+--warning-200__sat-700: hsl(var(--warning-h) calc(var(--warning-s) - 70%) var(--warning-l));
+--warning-200__sat-800: hsl(var(--warning-h) calc(var(--warning-s) - 80%) var(--warning-l));
+--warning-200__sat-900: hsl(var(--warning-h) calc(var(--warning-s) - 90%) var(--warning-l));
 
 /*  Warning  300 */
 --warning-300: hsl(var(--warning-h) var(--warning-s) 30%);
@@ -2237,15 +2237,15 @@
 --warning-300__trans-900: hsl(var(--warning-h) var(--warning-s) 30% / 0.9);
 
 /* Saturations */
---warning-300__sat-100: hsl(var(--warning-h) calc(var(--warning-s)- 10%) var(--warning-l));
---warning-300__sat-200: hsl(var(--warning-h) calc(var(--warning-s)- 20%) var(--warning-l));
---warning-300__sat-300: hsl(var(--warning-h) calc(var(--warning-s)- 30%) var(--warning-l));
---warning-300__sat-400: hsl(var(--warning-h) calc(var(--warning-s)- 40%) var(--warning-l));
---warning-300__sat-500: hsl(var(--warning-h) calc(var(--warning-s)- 50%) var(--warning-l));
---warning-300__sat-600: hsl(var(--warning-h) calc(var(--warning-s)- 60%) var(--warning-l));
---warning-300__sat-700: hsl(var(--warning-h) calc(var(--warning-s)- 70%) var(--warning-l));
---warning-300__sat-800: hsl(var(--warning-h) calc(var(--warning-s)- 80%) var(--warning-l));
---warning-300__sat-900: hsl(var(--warning-h) calc(var(--warning-s)- 90%) var(--warning-l));
+--warning-300__sat-100: hsl(var(--warning-h) calc(var(--warning-s) - 10%) var(--warning-l));
+--warning-300__sat-200: hsl(var(--warning-h) calc(var(--warning-s) - 20%) var(--warning-l));
+--warning-300__sat-300: hsl(var(--warning-h) calc(var(--warning-s) - 30%) var(--warning-l));
+--warning-300__sat-400: hsl(var(--warning-h) calc(var(--warning-s) - 40%) var(--warning-l));
+--warning-300__sat-500: hsl(var(--warning-h) calc(var(--warning-s) - 50%) var(--warning-l));
+--warning-300__sat-600: hsl(var(--warning-h) calc(var(--warning-s) - 60%) var(--warning-l));
+--warning-300__sat-700: hsl(var(--warning-h) calc(var(--warning-s) - 70%) var(--warning-l));
+--warning-300__sat-800: hsl(var(--warning-h) calc(var(--warning-s) - 80%) var(--warning-l));
+--warning-300__sat-900: hsl(var(--warning-h) calc(var(--warning-s) - 90%) var(--warning-l));
 
 /*  Warning  400/
 --warning-400: hsl(var(--warning-h) var(--warning-s) 40%);
@@ -2262,15 +2262,15 @@
 --warning-400__trans-900: hsl(var(--warning-h) var(--warning-s) 40% / 0.9);
 
 /* Saturations */
---warning-400__sat-100: hsl(var(--warning-h) calc(var(--warning-s)- 10%) var(--warning-l));
---warning-400__sat-200: hsl(var(--warning-h) calc(var(--warning-s)- 20%) var(--warning-l));
---warning-400__sat-300: hsl(var(--warning-h) calc(var(--warning-s)- 30%) var(--warning-l));
---warning-400__sat-400: hsl(var(--warning-h) calc(var(--warning-s)- 40%) var(--warning-l));
---warning-400__sat-500: hsl(var(--warning-h) calc(var(--warning-s)- 50%) var(--warning-l));
---warning-400__sat-600: hsl(var(--warning-h) calc(var(--warning-s)- 60%) var(--warning-l));
---warning-400__sat-700: hsl(var(--warning-h) calc(var(--warning-s)- 70%) var(--warning-l));
---warning-400__sat-800: hsl(var(--warning-h) calc(var(--warning-s)- 80%) var(--warning-l));
---warning-400__sat-900: hsl(var(--warning-h) calc(var(--warning-s)- 90%) var(--warning-l));
+--warning-400__sat-100: hsl(var(--warning-h) calc(var(--warning-s) - 10%) var(--warning-l));
+--warning-400__sat-200: hsl(var(--warning-h) calc(var(--warning-s) - 20%) var(--warning-l));
+--warning-400__sat-300: hsl(var(--warning-h) calc(var(--warning-s) - 30%) var(--warning-l));
+--warning-400__sat-400: hsl(var(--warning-h) calc(var(--warning-s) - 40%) var(--warning-l));
+--warning-400__sat-500: hsl(var(--warning-h) calc(var(--warning-s) - 50%) var(--warning-l));
+--warning-400__sat-600: hsl(var(--warning-h) calc(var(--warning-s) - 60%) var(--warning-l));
+--warning-400__sat-700: hsl(var(--warning-h) calc(var(--warning-s) - 70%) var(--warning-l));
+--warning-400__sat-800: hsl(var(--warning-h) calc(var(--warning-s) - 80%) var(--warning-l));
+--warning-400__sat-900: hsl(var(--warning-h) calc(var(--warning-s) - 90%) var(--warning-l));
 
 /*  Warning  500 */
 --warning-500: hsl(var(--warning-h) var(--warning-s) 50%);
@@ -2285,15 +2285,15 @@
 --warning-500__trans-900: hsl(var(--warning-h) var(--warning-s) 50% / 0.9);
 
 /* Saturations */
---warning-500__sat-100: hsl(var(--warning-h) calc(var(--warning-s)- 10%) var(--warning-l));
---warning-500__sat-200: hsl(var(--warning-h) calc(var(--warning-s)- 20%) var(--warning-l));
---warning-500__sat-300: hsl(var(--warning-h) calc(var(--warning-s)- 30%) var(--warning-l));
---warning-500__sat-400: hsl(var(--warning-h) calc(var(--warning-s)- 40%) var(--warning-l));
---warning-500__sat-500: hsl(var(--warning-h) calc(var(--warning-s)- 50%) var(--warning-l));
---warning-500__sat-600: hsl(var(--warning-h) calc(var(--warning-s)- 60%) var(--warning-l));
---warning-500__sat-700: hsl(var(--warning-h) calc(var(--warning-s)- 70%) var(--warning-l));
---warning-500__sat-800: hsl(var(--warning-h) calc(var(--warning-s)- 80%) var(--warning-l));
---warning-500__sat-900: hsl(var(--warning-h) calc(var(--warning-s)- 90%) var(--warning-l));
+--warning-500__sat-100: hsl(var(--warning-h) calc(var(--warning-s) - 10%) var(--warning-l));
+--warning-500__sat-200: hsl(var(--warning-h) calc(var(--warning-s) - 20%) var(--warning-l));
+--warning-500__sat-300: hsl(var(--warning-h) calc(var(--warning-s) - 30%) var(--warning-l));
+--warning-500__sat-400: hsl(var(--warning-h) calc(var(--warning-s) - 40%) var(--warning-l));
+--warning-500__sat-500: hsl(var(--warning-h) calc(var(--warning-s) - 50%) var(--warning-l));
+--warning-500__sat-600: hsl(var(--warning-h) calc(var(--warning-s) - 60%) var(--warning-l));
+--warning-500__sat-700: hsl(var(--warning-h) calc(var(--warning-s) - 70%) var(--warning-l));
+--warning-500__sat-800: hsl(var(--warning-h) calc(var(--warning-s) - 80%) var(--warning-l));
+--warning-500__sat-900: hsl(var(--warning-h) calc(var(--warning-s) - 90%) var(--warning-l));
 
 /*  Warning  600 */
 --warning-600: hsl(var(--warning-h) var(--warning-s) 60%);
@@ -2310,15 +2310,15 @@
 --warning-600__trans-900: hsl(var(--warning-h) var(--warning-s) 60% / 0.9);
 
 /* Saturations */
---warning-600__sat-100: hsl(var(--warning-h) calc(var(--warning-s)- 10%) var(--warning-l));
---warning-600__sat-200: hsl(var(--warning-h) calc(var(--warning-s)- 20%) var(--warning-l));
---warning-600__sat-300: hsl(var(--warning-h) calc(var(--warning-s)- 30%) var(--warning-l));
---warning-600__sat-400: hsl(var(--warning-h) calc(var(--warning-s)- 40%) var(--warning-l));
---warning-600__sat-500: hsl(var(--warning-h) calc(var(--warning-s)- 50%) var(--warning-l));
---warning-600__sat-600: hsl(var(--warning-h) calc(var(--warning-s)- 60%) var(--warning-l));
---warning-600__sat-700: hsl(var(--warning-h) calc(var(--warning-s)- 70%) var(--warning-l));
---warning-600__sat-800: hsl(var(--warning-h) calc(var(--warning-s)- 80%) var(--warning-l));
---warning-600__sat-900: hsl(var(--warning-h) calc(var(--warning-s)- 90%) var(--warning-l));
+--warning-600__sat-100: hsl(var(--warning-h) calc(var(--warning-s) - 10%) var(--warning-l));
+--warning-600__sat-200: hsl(var(--warning-h) calc(var(--warning-s) - 20%) var(--warning-l));
+--warning-600__sat-300: hsl(var(--warning-h) calc(var(--warning-s) - 30%) var(--warning-l));
+--warning-600__sat-400: hsl(var(--warning-h) calc(var(--warning-s) - 40%) var(--warning-l));
+--warning-600__sat-500: hsl(var(--warning-h) calc(var(--warning-s) - 50%) var(--warning-l));
+--warning-600__sat-600: hsl(var(--warning-h) calc(var(--warning-s) - 60%) var(--warning-l));
+--warning-600__sat-700: hsl(var(--warning-h) calc(var(--warning-s) - 70%) var(--warning-l));
+--warning-600__sat-800: hsl(var(--warning-h) calc(var(--warning-s) - 80%) var(--warning-l));
+--warning-600__sat-900: hsl(var(--warning-h) calc(var(--warning-s) - 90%) var(--warning-l));
 
 /*  Warning  700 */
 --warning-700: hsl(var(--warning-h) var(--warning-s) 70%);
@@ -2335,15 +2335,15 @@
 --warning-700__trans-900: hsl(var(--warning-h) var(--warning-s) 70% / 0.9);
 
 /* Saturations */
---warning-700__sat-100: hsl(var(--warning-h) calc(var(--warning-s)- 10%) var(--warning-l));
---warning-700__sat-200: hsl(var(--warning-h) calc(var(--warning-s)- 20%) var(--warning-l));
---warning-700__sat-300: hsl(var(--warning-h) calc(var(--warning-s)- 30%) var(--warning-l));
---warning-700__sat-400: hsl(var(--warning-h) calc(var(--warning-s)- 40%) var(--warning-l));
---warning-700__sat-500: hsl(var(--warning-h) calc(var(--warning-s)- 50%) var(--warning-l));
---warning-700__sat-600: hsl(var(--warning-h) calc(var(--warning-s)- 60%) var(--warning-l));
---warning-700__sat-700: hsl(var(--warning-h) calc(var(--warning-s)- 70%) var(--warning-l));
---warning-700__sat-800: hsl(var(--warning-h) calc(var(--warning-s)- 80%) var(--warning-l));
---warning-700__sat-900: hsl(var(--warning-h) calc(var(--warning-s)- 90%) var(--warning-l));
+--warning-700__sat-100: hsl(var(--warning-h) calc(var(--warning-s) - 10%) var(--warning-l));
+--warning-700__sat-200: hsl(var(--warning-h) calc(var(--warning-s) - 20%) var(--warning-l));
+--warning-700__sat-300: hsl(var(--warning-h) calc(var(--warning-s) - 30%) var(--warning-l));
+--warning-700__sat-400: hsl(var(--warning-h) calc(var(--warning-s) - 40%) var(--warning-l));
+--warning-700__sat-500: hsl(var(--warning-h) calc(var(--warning-s) - 50%) var(--warning-l));
+--warning-700__sat-600: hsl(var(--warning-h) calc(var(--warning-s) - 60%) var(--warning-l));
+--warning-700__sat-700: hsl(var(--warning-h) calc(var(--warning-s) - 70%) var(--warning-l));
+--warning-700__sat-800: hsl(var(--warning-h) calc(var(--warning-s) - 80%) var(--warning-l));
+--warning-700__sat-900: hsl(var(--warning-h) calc(var(--warning-s) - 90%) var(--warning-l));
 
 /*  Warning  800 */
 
@@ -2359,15 +2359,15 @@
 --warning-800__trans-900: hsl(var(--warning-h) var(--warning-s) 80% / 0.9);
 
 /* Saturations */
---warning-800__sat-100: hsl(var(--warning-h) calc(var(--warning-s)- 10%) var(--warning-l));
---warning-800__sat-200: hsl(var(--warning-h) calc(var(--warning-s)- 20%) var(--warning-l));
---warning-800__sat-300: hsl(var(--warning-h) calc(var(--warning-s)- 30%) var(--warning-l));
---warning-800__sat-400: hsl(var(--warning-h) calc(var(--warning-s)- 40%) var(--warning-l));
---warning-800__sat-500: hsl(var(--warning-h) calc(var(--warning-s)- 50%) var(--warning-l));
---warning-800__sat-600: hsl(var(--warning-h) calc(var(--warning-s)- 60%) var(--warning-l));
---warning-800__sat-700: hsl(var(--warning-h) calc(var(--warning-s)- 70%) var(--warning-l));
---warning-800__sat-800: hsl(var(--warning-h) calc(var(--warning-s)- 80%) var(--warning-l));
---warning-800__sat-900: hsl(var(--warning-h) calc(var(--warning-s)- 90%) var(--warning-l));
+--warning-800__sat-100: hsl(var(--warning-h) calc(var(--warning-s) - 10%) var(--warning-l));
+--warning-800__sat-200: hsl(var(--warning-h) calc(var(--warning-s) - 20%) var(--warning-l));
+--warning-800__sat-300: hsl(var(--warning-h) calc(var(--warning-s) - 30%) var(--warning-l));
+--warning-800__sat-400: hsl(var(--warning-h) calc(var(--warning-s) - 40%) var(--warning-l));
+--warning-800__sat-500: hsl(var(--warning-h) calc(var(--warning-s) - 50%) var(--warning-l));
+--warning-800__sat-600: hsl(var(--warning-h) calc(var(--warning-s) - 60%) var(--warning-l));
+--warning-800__sat-700: hsl(var(--warning-h) calc(var(--warning-s) - 70%) var(--warning-l));
+--warning-800__sat-800: hsl(var(--warning-h) calc(var(--warning-s) - 80%) var(--warning-l));
+--warning-800__sat-900: hsl(var(--warning-h) calc(var(--warning-s) - 90%) var(--warning-l));
 
 /*  Warning  900 */
 
@@ -2383,15 +2383,15 @@
 --warning-900__trans-900: hsl(var(--warning-h) var(--warning-s) 90% / 0.9);
 
 /* Saturations */
---warning-900__sat-100: hsl(var(--warning-h) calc(var(--warning-s)- 10%) var(--warning-l));
---warning-900__sat-200: hsl(var(--warning-h) calc(var(--warning-s)- 20%) var(--warning-l));
---warning-900__sat-300: hsl(var(--warning-h) calc(var(--warning-s)- 30%) var(--warning-l));
---warning-900__sat-400: hsl(var(--warning-h) calc(var(--warning-s)- 40%) var(--warning-l));
---warning-900__sat-500: hsl(var(--warning-h) calc(var(--warning-s)- 50%) var(--warning-l));
---warning-900__sat-600: hsl(var(--warning-h) calc(var(--warning-s)- 60%) var(--warning-l));
---warning-900__sat-700: hsl(var(--warning-h) calc(var(--warning-s)- 70%) var(--warning-l));
---warning-900__sat-800: hsl(var(--warning-h) calc(var(--warning-s)- 80%) var(--warning-l));
---warning-900__sat-900: hsl(var(--warning-h) calc(var(--warning-s)- 90%) var(--warning-l));
+--warning-900__sat-100: hsl(var(--warning-h) calc(var(--warning-s) - 10%) var(--warning-l));
+--warning-900__sat-200: hsl(var(--warning-h) calc(var(--warning-s) - 20%) var(--warning-l));
+--warning-900__sat-300: hsl(var(--warning-h) calc(var(--warning-s) - 30%) var(--warning-l));
+--warning-900__sat-400: hsl(var(--warning-h) calc(var(--warning-s) - 40%) var(--warning-l));
+--warning-900__sat-500: hsl(var(--warning-h) calc(var(--warning-s) - 50%) var(--warning-l));
+--warning-900__sat-600: hsl(var(--warning-h) calc(var(--warning-s) - 60%) var(--warning-l));
+--warning-900__sat-700: hsl(var(--warning-h) calc(var(--warning-s) - 70%) var(--warning-l));
+--warning-900__sat-800: hsl(var(--warning-h) calc(var(--warning-s) - 80%) var(--warning-l));
+--warning-900__sat-900: hsl(var(--warning-h) calc(var(--warning-s) - 90%) var(--warning-l));
 
 /* Tertiary800 */
 --warning-800: hsl(var(--warning-h) var(--warning-s) 80%);
@@ -2407,15 +2407,15 @@
 
 
 /* Saturations */
---warning-800__sat-100: hsl(var(--warning-h) calc(var(--warning-s)- 10%) var(--warning-l));
---warning-800__sat-200: hsl(var(--warning-h) calc(var(--warning-s)- 20%) var(--warning-l));
---warning-800__sat-300: hsl(var(--warning-h) calc(var(--warning-s)- 30%) var(--warning-l));
---warning-800__sat-400: hsl(var(--warning-h) calc(var(--warning-s)- 40%) var(--warning-l));
---warning-800__sat-500: hsl(var(--warning-h) calc(var(--warning-s)- 50%) var(--warning-l));
---warning-800__sat-600: hsl(var(--warning-h) calc(var(--warning-s)- 60%) var(--warning-l));
---warning-800__sat-700: hsl(var(--warning-h) calc(var(--warning-s)- 70%) var(--warning-l));
---warning-800__sat-800: hsl(var(--warning-h) calc(var(--warning-s)- 80%) var(--warning-l));
---warning-800__sat-900: hsl(var(--warning-h) calc(var(--warning-s)- 90%) var(--warning-l));
+--warning-800__sat-100: hsl(var(--warning-h) calc(var(--warning-s) - 10%) var(--warning-l));
+--warning-800__sat-200: hsl(var(--warning-h) calc(var(--warning-s) - 20%) var(--warning-l));
+--warning-800__sat-300: hsl(var(--warning-h) calc(var(--warning-s) - 30%) var(--warning-l));
+--warning-800__sat-400: hsl(var(--warning-h) calc(var(--warning-s) - 40%) var(--warning-l));
+--warning-800__sat-500: hsl(var(--warning-h) calc(var(--warning-s) - 50%) var(--warning-l));
+--warning-800__sat-600: hsl(var(--warning-h) calc(var(--warning-s) - 60%) var(--warning-l));
+--warning-800__sat-700: hsl(var(--warning-h) calc(var(--warning-s) - 70%) var(--warning-l));
+--warning-800__sat-800: hsl(var(--warning-h) calc(var(--warning-s) - 80%) var(--warning-l));
+--warning-800__sat-900: hsl(var(--warning-h) calc(var(--warning-s) - 90%) var(--warning-l));
 
 /* Tertiary900*/
 --warning-900: hsl(var(--warning-h) var(--warning-s) 90%);
@@ -2432,15 +2432,15 @@
 --warning-900__trans-900: hsl(var(--warning-h) var(--warning-s) 90% / 0.9);
 
 /* Saturations */
---warning-900__sat-100: hsl(var(--warning-h) calc(var(--warning-s)- 10%) var(--warning-l));
---warning-900__sat-200: hsl(var(--warning-h) calc(var(--warning-s)- 20%) var(--warning-l));
---warning-900__sat-300: hsl(var(--warning-h) calc(var(--warning-s)- 30%) var(--warning-l));
---warning-900__sat-400: hsl(var(--warning-h) calc(var(--warning-s)- 40%) var(--warning-l));
---warning-900__sat-500: hsl(var(--warning-h) calc(var(--warning-s)- 50%) var(--warning-l));
---warning-900__sat-600: hsl(var(--warning-h) calc(var(--warning-s)- 60%) var(--warning-l));
---warning-900__sat-700: hsl(var(--warning-h) calc(var(--warning-s)- 70%) var(--warning-l));
---warning-900__sat-800: hsl(var(--warning-h) calc(var(--warning-s)- 80%) var(--warning-l));
---warning-900__sat-900: hsl(var(--warning-h) calc(var(--warning-s)- 90%) var(--warning-l));
+--warning-900__sat-100: hsl(var(--warning-h) calc(var(--warning-s) - 10%) var(--warning-l));
+--warning-900__sat-200: hsl(var(--warning-h) calc(var(--warning-s) - 20%) var(--warning-l));
+--warning-900__sat-300: hsl(var(--warning-h) calc(var(--warning-s) - 30%) var(--warning-l));
+--warning-900__sat-400: hsl(var(--warning-h) calc(var(--warning-s) - 40%) var(--warning-l));
+--warning-900__sat-500: hsl(var(--warning-h) calc(var(--warning-s) - 50%) var(--warning-l));
+--warning-900__sat-600: hsl(var(--warning-h) calc(var(--warning-s) - 60%) var(--warning-l));
+--warning-900__sat-700: hsl(var(--warning-h) calc(var(--warning-s) - 70%) var(--warning-l));
+--warning-900__sat-800: hsl(var(--warning-h) calc(var(--warning-s) - 80%) var(--warning-l));
+--warning-900__sat-900: hsl(var(--warning-h) calc(var(--warning-s) - 90%) var(--warning-l));
 
     /* Semantic colours */
     --site-color: var(--primary-base);

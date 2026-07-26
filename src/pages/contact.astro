@@ -2,15 +2,13 @@
 import MainTemplate from "../templates/main-template.astro";
 import Container from "../components/container.astro";
 import ContactAlpha from "../components/frames/contact-alpha.astro";
-import { imageConfig } from "astro:assets";
 
 // Loops
 import methods from "../loops/contact-methods.json"
-import { Image } from "astro:assets";
 import { Icon } from "astro-icon/components";
 ---
 
-<MainTemplate title="McLean Mylymok | Contact" description="If you want get in touch with me, you can do so here. I would love to hear from you, and hear about your projects. " noCta author="McLean Mylymok" keywords={[
+<MainTemplate title="McLean Mylymok | Contact" lede="If you want get in touch with me, you can do so here. I would love to hear from you, and hear about your projects. " noCta author="McLean Mylymok" keywords={[
     "Contact",
     "Get in touch",
     "Contact McLean Mylymok",
@@ -33,7 +31,7 @@ import { Icon } from "astro-icon/components";
     <!-- methods  -->
      <section class="methods">
         <Container width="standard" customClass="methods__inner">
-            <h2 class="methods__heading">Other Ways You Can Reach Me!</h2>
+            <h2 class="methods__heading">Other Ways You Can Reach Meee!</h2>
             <ul class="methods__list">
                 {
                     methods.map((m) => (
@@ -44,6 +42,7 @@ import { Icon } from "astro-icon/components";
                                 <figure class="icon-card__icon-wrapper">
                                     <Icon name={m.icon.src} alt={m.icon.alt} title={m.icon.alt} width={35} height={35}/>
                                 </figure>
+
                             </article>
                         </li>
                     ))

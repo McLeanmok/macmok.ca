@@ -7,18 +7,18 @@ import CtaParksville from "../components/frames/cta-parksville.astro";
 
 interface Props {
     title: string;
-    description?: string;
+    lede?: string;
     author?: string;
     keywords?: string[];
     noCta?: boolean;
     noHeader?: boolean;
     noFooter?: boolean;
 }
-const { title, description, author, keywords, noCta = false , noHeader = false, noFooter = false} = Astro.props;
+const { title, lede, author, keywords, noCta = false , noHeader = false, noFooter = false} = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="en">
-	<HeadTag {title} {description} {author} {keywords}/>
+	<HeadTag {title} {lede} {author} {keywords}/>
 	<body>
         <a href="#main" class="skip">Skip to Main content</a>
         <a href="#footer" class="skip">Skip to footer</a>
@@ -28,7 +28,7 @@ const { title, description, author, keywords, noCta = false , noHeader = false, 
         <!-- {!noCta && <CtaParksville /> } -->
         {!noFooter && <Footer />}
         <style is:global lang="scss">
-            @import '../css/index.scss';
+            @use '../css/index.scss';
         </style>
 
         <script>

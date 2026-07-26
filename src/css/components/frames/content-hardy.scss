@@ -4,7 +4,7 @@
 // hero section
 .content-hardy__inner {
   @include bp-up("md") {
-    @include text-align();
+    @include text-align(center);
   }
 }
 

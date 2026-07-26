@@ -1,13 +1,13 @@
 // Styling related to the contact alpha frame
-// Grabbing abstracts 
+// Grabbing abstracts
 @use "../../custom/index.scss" as *;
 
 .contact-alpha__content {
-    @include bp-up("md") {
-        @include text-align()
-    }
+  @include bp-up("md") {
+    @include text-align(center);
+  }
 }
 
 .contact-alpha__body {
-    max-inline-size: 60ch;
+  max-inline-size: 60ch;
 }

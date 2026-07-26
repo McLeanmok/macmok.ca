@@ -15,8 +15,5 @@
     "astro-purgecss": "^7.0.0",
     "purgecss": "^8.0.0",
     "sass": "^1.93.2"
-  },
-  "devDependencies": {
-    "wrangler": "^4.103.0"
   }
 }

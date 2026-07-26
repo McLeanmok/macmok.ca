@@ -1,18 +1,17 @@
-// styles for Call to Action: Parksville frame. This is the main call to action for the site 
+// styles for Call to Action: Parksville frame. This is the main call to action for the site
 
-// Grabbing abstracts 
+// Grabbing abstracts
 @use "../../custom/index" as *;
 
 // Component styles
 
-
 .cta-parksville__heading {
-    @include bp-up("md"){
-        inline-size: var(--heading-width);
-    }
+  @include bp-up("md") {
+    inline-size: var(--heading-width);
+  }
 }
 .cta-parksville__inner {
-    @include bp-up("md") {
-        @include text-align();
-    }
+  @include bp-up("md") {
+    @include text-align(center);
+  }
 }
