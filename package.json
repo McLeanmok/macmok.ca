@@ -9,7 +9,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^12.6.13",
     "@astrojs/partytown": "^2.1.4",
     "astro": "^5.14.1",
     "astro-icon": "^1.1.5",
@@ -17,7 +16,5 @@
     "purgecss": "^7.0.2",
     "sass": "^1.93.2"
   },
-  "devDependencies": {
-    "wrangler": "^4.104.0"
-  }
+  "devDependencies": {}
 }

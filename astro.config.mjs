@@ -1,9 +1,7 @@
-import { defineConfig } from 'astro/config';
-import purgecss from 'astro-purgecss';
-import partytown from '@astrojs/partytown';
-import icon from 'astro-icon';
-
-import cloudflare from '@astrojs/cloudflare';
+import { defineConfig } from "astro/config";
+import purgecss from "astro-purgecss";
+import partytown from "@astrojs/partytown";
+import icon from "astro-icon";
 
 export default defineConfig({
   integrations: [
@@ -21,16 +19,14 @@ export default defineConfig({
     }),
   ],
 
-  outDir: 'build',
+  outDir: "build",
 
   build: {
-    format: 'preserve',
-    inlineStylesheets: 'never'
+    format: "preserve",
+    inlineStylesheets: "never",
   },
 
   assets: {
     basePath: "/",
   },
-
-  adapter: cloudflare()
 });
