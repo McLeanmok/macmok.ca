@@ -23,7 +23,7 @@
     padding: var(--primary-btn__padding);
     font-weight: var(--primary-btn__font-weight);
     border-radius: var(--primary-btn__radius);
-    border: 0;
+   outline: 0;
     transition: var(--primary-btn__animation);
 
     &:hover,
@@ -64,7 +64,7 @@
     @if $outline == "primary" {
       --btn-theme: var(--primary-400);
 
-      border: 5px solid var(--btn-theme);
+     outline: 5px solid var(--btn-theme);
       background-color: transparent;
       color: var(--btn-theme);
       &:hover,
@@ -75,7 +75,7 @@
     } @else if $outline == "secondary" {
       --btn-theme: var(--secondary-400);
 
-      border: 5px solid var(--btn-theme);
+     outline: 5px solid var(--btn-theme);
       background-color: transparent;
       color: var(--btn-theme);
       &:hover,
@@ -86,7 +86,7 @@
     } @else if $outline == "tertiary" {
       --btn-theme: var(--tertiary-400);
 
-      border: 5px solid var(--btn-theme);
+     outline: 5px solid var(--btn-theme);
       background-color: transparent;
       color: var(--btn-theme);
       &:hover,
@@ -97,7 +97,7 @@
     } @else if $outline == "neutral" {
       --btn-theme: var(--surface-200);
 
-      border: 5px solid var(--btn-theme);
+     outline: 5px solid var(--btn-theme);
       background-color: transparent;
       color: var(--btn-theme);
       &:hover,
