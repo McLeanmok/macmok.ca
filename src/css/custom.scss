@@ -5,7 +5,9 @@
 :root {
   --ff-headings: "Kanit", sans-serif;
   --ff-body: "Kanit", sans-serif;
+   --lh-p: clamp(2rem, 0.956vw + 0.694rem, 6.5rem);
 
+   // pallette 
   --primary-h: 14;
   --primary-s: 74%;
   --primary-l: 55%;
@@ -18,7 +20,6 @@
   --tertiary-s: 85%;
   --tertiary-s: 71%;
 
-  --lh-p: clamp(1.3rem, 0.956vw + 0.694rem, 1.7rem);
   --lh-headings: clamp(4rem, 1.53vw + 1.194rem, 4.5rem);
 
   //   Scrollbar

@@ -1,0 +1,34 @@
+---
+import Container from "../components/container.astro";
+import MainTemplate from "../templates/main-template.astro";
+import Intro from "../components/intro/index.astro"
+import labs from "../loops/labs.json"
+---
+
+<MainTemplate title="Web Production Labs" description="A simple list of smaller projects I build to explore different techniques" keywords={["labs","web production", "web projects","experiments"]} author="McLean Mylymok" noCta>
+    <section class="hero-hardy">
+        <Container width="standard" customClass="hero-hardy__inner">
+            <Intro
+            hasEyebrow={false}
+            theme="dark"
+            blockName="hero-hardy"
+            marketingHeading="Web Production Labs"
+            lede="This is the home of all my labs. Labs are raw projects that explore different techniques and code."
+            />
+        </Container>
+    </section>
+
+    <!-- labs -->
+     <section class="labs">
+        <Container customClass="labs__inner" smartSpacing width="standard">
+            <h2 class="labs__heading">Lab Links</h2>
+            <ul class="labs__list">
+                {
+                    labs.map((l) => (
+                        <li><a href={l.link} title={"Go to the Github repo for the" + l.title + "lab project"} target="_blank">{l.title}</a></li>
+                    ))
+                }
+            </ul>
+        </Container>
+     </section>
+</MainTemplate>
