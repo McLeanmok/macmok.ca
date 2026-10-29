@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shoulder 2 Shoulder | Website Discovery Brief</title>
+<style>
+  @page {
+    size: Letter;
+    margin: 0.72in 0.76in;
+  }
+
+  :root {
+    --navy: #17344a;
+    --blue: #39738b;
+    --ice: #eaf2f4;
+    --gold: #d9a64a;
+    --ink: #263640;
+    --muted: #61717a;
+    --line: #d6e0e3;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    background: #f4f7f8;
+    color: var(--ink);
+    font: 10.5pt/1.48 "Segoe UI", Arial, sans-serif;
+  }
+
+  .document {
+    inline-size: 100%;
+    max-inline-size: 8.5in;
+    min-block-size: 100vh;
+    margin-inline: auto;
+    padding: 0.72in 0.76in;
+    background: white;
+  }
+
+  h1,
+  h2,
+  h3 {
+    color: var(--navy);
+    line-height: 1.18;
+  }
+
+  h1 {
+    margin: 0 0 12pt;
+    font-size: 34pt;
+    letter-spacing: -1.1pt;
+  }
+
+  h2 {
+    margin: 0 0 14pt;
+    font-size: 20pt;
+  }
+
+  h3 {
+    margin: 14pt 0 5pt;
+    font-size: 12pt;
+  }
+
+  p {
+    margin: 0 0 8pt;
+  }
+
+  ul,
+  ol {
+    margin: 4pt 0 9pt;
+    padding-inline-start: 18pt;
+  }
+
+  li {
+    margin-block-end: 4pt;
+  }
+
+  strong {
+    color: var(--navy);
+  }
+
+  .cover {
+    display: flex;
+    min-block-size: 9.2in;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5in 0 0.2in;
+    page-break-after: always;
+  }
+
+  .eyebrow {
+    color: var(--blue);
+    font-size: 9pt;
+    font-weight: 700;
+    letter-spacing: 2pt;
+    text-transform: uppercase;
+  }
+
+  .cover-title {
+    margin-block-start: 1.6in;
+  }
+
+  .cover-title .brand {
+    margin-block-end: 20pt;
+    color: var(--blue);
+    font-size: 14pt;
+    font-weight: 700;
+  }
+
+  .subtitle {
+    max-inline-size: 440pt;
+    color: var(--muted);
+    font-size: 15pt;
+  }
+
+  .cover-band {
+    max-inline-size: 470pt;
+    border-inline-start: 5px solid var(--gold);
+    padding: 14pt 17pt;
+    background: var(--ice);
+  }
+
+  .cover-meta {
+    border-block-start: 1px solid var(--line);
+    padding-block-start: 10pt;
+    color: var(--muted);
+    font-size: 9pt;
+  }
+
+  .page {
+    page-break-before: always;
+  }
+
+  .section-label {
+    margin-block-end: 6pt;
+    color: var(--blue);
+    font-size: 8pt;
+    font-weight: 700;
+    letter-spacing: 1.5pt;
+    text-transform: uppercase;
+  }
+
+  .lead {
+    margin-block-end: 15pt;
+    color: var(--muted);
+    font-size: 13pt;
+  }
+
+  .card {
+    margin: 9pt 0;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 12pt 14pt;
+  }
+
+  .tint {
+    border: 0;
+    background: var(--ice);
+  }
+
+  .callout {
+    margin: 11pt 0;
+    border-inline-start: 4px solid var(--gold);
+    padding: 10pt 12pt;
+    background: #fbf7ef;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 9pt;
+  }
+
+  .tag {
+    display: inline-block;
+    margin: 0 4pt 5pt 0;
+    border-radius: 12px;
+    padding: 3pt 8pt;
+    background: var(--ice);
+    color: var(--navy);
+    font-size: 8pt;
+    font-weight: 700;
+  }
+
+  table {
+    inline-size: 100%;
+    margin: 8pt 0 12pt;
+    border-collapse: collapse;
+    font-size: 9.5pt;
+  }
+
+  th {
+    padding: 7pt;
+    background: var(--navy);
+    color: white;
+    text-align: left;
+  }
+
+  td {
+    border-block-end: 1px solid var(--line);
+    padding: 7pt;
+    vertical-align: top;
+  }
+
+  .note {
+    color: var(--muted);
+    font-size: 9pt;
+  }
+
+  .questions {
+    padding-inline-start: 20pt;
+  }
+
+  .question {
+    border-block-end: 1px solid var(--line);
+    padding: 8pt 0;
+  }
+
+  .question strong {
+    display: block;
+    margin-block-end: 2pt;
+  }
+
+  a {
+    color: var(--blue);
+    overflow-wrap: anywhere;
+    text-decoration: none;
+  }
+
+  .sources li {
+    margin-block-end: 7pt;
+    font-size: 8.5pt;
+  }
+
+  .footer-note {
+    margin-block-start: 16pt;
+    border-block-start: 1px solid var(--line);
+    padding-block-start: 8pt;
+    color: var(--muted);
+    font-size: 8pt;
+  }
+
+  .small {
+    font-size: 9pt;
+  }
+
+  .big-number {
+    color: var(--blue);
+    font-size: 22pt;
+    font-weight: 700;
+  }
+
+  @media (max-width: 640px) {
+    .document {
+      padding: 1.5rem;
+    }
+
+    .grid {
+      grid-template-columns: 1fr;
+    }
+
+    table {
+      font-size: 8.5pt;
+    }
+
+    th,
+    td {
+      padding: 5pt;
+    }
+  }
+
+  @media print {
+    .document {
+      max-inline-size: none;
+      min-block-size: 0;
+      margin: 0;
+      padding: 0;
+    }
+  }
+</style>
+</head>
+<body>
+<main class="document">
+  <header class="cover">
+    <div class="eyebrow">Website redesign · Initial discovery</div>
+    <div class="cover-title">
+      <div class="brand">SHOULDER 2 SHOULDER</div>
+      <h1>Discovery<br>Brief</h1>
+      <p class="subtitle">A research-led starting point for rebuilding the website around the organization’s mission, camps, and the people they serve.</p>
+    </div>
+    <div class="cover-band">
+      <strong>Prepared for client review</strong><br>
+      This document summarizes publicly available website information and identifies the decisions still needed to shape the redesign.
+    </div>
+    <div class="cover-meta">shoulder2shoulder.ca &nbsp;·&nbsp; Prepared October 21, 2026 &nbsp;·&nbsp; Draft for discussion</div>
+  </header>
+
+  <section>
+    <div class="section-label">01 · Executive summary</div>
+    <h2>A meaningful experience, clearly explained</h2>
+    <p class="lead">Shoulder 2 Shoulder creates “Snow Therapy” camp experiences that bring injured Canadian Armed Forces Veterans, RCMP members, and their support persons together for respite, connection, challenge, and time in the mountains.</p>
+    <div class="grid">
+      <div class="card tint"><div class="section-label">Core offer</div><strong>Snow Therapy camps</strong><p class="small">Shared mountain experiences delivered with CADS, alpine resorts, volunteers, and local partners. The site says participants and their support person can take part without financial strain.</p></div>
+      <div class="card tint"><div class="section-label">Primary audience</div><strong>Potential participants and support people</strong><p class="small">Veterans and RCMP members are central in the mission statement. A recent camp announcement also names First Responders; confirm whether this is an eligibility expansion.</p></div>
+      <div class="card"><div class="section-label">Visible actions</div><strong>Apply · Donate · Connect</strong><p class="small">Applications appear to be the participant journey’s main action; donations support camp delivery; Connect provides a general contact route.</p></div>
+      <div class="card"><div class="section-label">Near-term context</div><strong>2027 camp season</strong><p class="small">The site lists six sessions across five mountain destinations. A September 2026 post says registration opened October 1, 2026; current availability should be confirmed.</p></div>
+    </div>
+    <div class="callout"><strong>Strategic opportunity:</strong> make it immediately clear who can apply, what the camp experience includes, how support persons participate, what it costs, and what happens after applying—while giving donors and partners their own clear paths.</div>
+    <p class="note">This is a desk-research snapshot, not a completed stakeholder interview or approved strategy. Statements below are distinguished as published facts, observations, or hypotheses.</p>
+  </section>
+
+  <section class="page">
+    <div class="section-label">02 · Organization &amp; offer</div>
+    <h2>What the organization does</h2>
+    <p>The public site describes an opportunity to step away from daily pressures, find respite, reconnect with nature, and challenge oneself through snow sports. It emphasizes friendship, shared experience, confidence, renewed possibility, and not feeling alone.</p>
+    <h3>How the program is presented</h3>
+    <ul>
+      <li><strong>Program language:</strong> “Snow Therapy” healing camps for injured Veterans, RCMP members, and a support person.</li>
+      <li><strong>Experience:</strong> snow sports and time in mountain settings, supported by volunteers and local partners.</li>
+      <li><strong>Financial access:</strong> the site says the opportunity is provided without financial strain; confirm exactly which costs are covered and any participant responsibilities.</li>
+      <li><strong>Delivery network:</strong> a stated partnership with CADS and alpine resorts across Canada.</li>
+      <li><strong>Funding:</strong> donations are solicited through Zeffy. The homepage states 100% of donations go to support a CF Veteran or RCMP member and their support person; confirm the precise wording and accounting basis before carrying it into new copy.</li>
+    </ul>
+    <h3>Published 2027 schedule</h3>
+    <table>
+      <thead><tr><th>Destination</th><th>Published dates</th><th>Region</th></tr></thead>
+      <tbody>
+        <tr><td>Sun Peaks</td><td>January 3–8 and January 10–15, 2027</td><td>Kamloops, British Columbia</td></tr>
+        <tr><td>Silver Star</td><td>February 7–12, 2027</td><td>Vernon, British Columbia</td></tr>
+        <tr><td>Mt. Washington</td><td>February 21–26, 2027</td><td>Comox Valley, British Columbia</td></tr>
+        <tr><td>Poley Mountain</td><td>March 7–12, 2027</td><td>Waterford, New Brunswick</td></tr>
+        <tr><td>Mt. Norquay</td><td>April 4–9, 2027</td><td>Banff, Alberta</td></tr>
+      </tbody>
+    </table>
+    <p class="note">Schedule and registration details are reproduced from a September 29, 2026 news post and the homepage. Verify dates, capacity, application status, and locations before publication or launch.</p>
+    <div class="callout"><strong>Important eligibility question:</strong> the mission and goal name Veterans and RCMP members; the 2027 announcement additionally names First Responders. Confirm the current eligibility policy, geographic reach, and any service-specific criteria.</div>
+  </section>
+
+  <section class="page">
+    <div class="section-label">03 · Audience &amp; decision journey</div>
+    <h2>People arrive with different needs</h2>
+    <p class="lead">The website speaks to participants, support people, donors, and community partners. These audiences need distinct information and next steps.</p>
+    <table>
+      <thead><tr><th>Audience</th><th>Likely question to answer</th><th>Best next step</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Veterans / RCMP members</strong></td><td>Am I eligible? What is the experience like? Is this right for me?</td><td>Review eligibility and apply</td></tr>
+        <tr><td><strong>Support person / caregiver</strong></td><td>Can I attend too? What will I be expected to do? What support is available?</td><td>Understand the shared experience and application</td></tr>
+        <tr><td><strong>Donors</strong></td><td>What does my gift make possible? How is it used?</td><td>Donate and see impact</td></tr>
+        <tr><td><strong>Partners / volunteers</strong></td><td>How can our organization or skills contribute?</td><td>Connect with the team</td></tr>
+      </tbody>
+    </table>
+    <h3>Audience insight (hypothesis to validate)</h3>
+    <p>Someone considering a camp may be interested but uncertain about eligibility, logistics, ability level, privacy, or whether they will feel comfortable. The website should reduce uncertainty with candid practical detail and a welcoming, non-pressuring tone. These are research prompts—not confirmed participant quotes or findings.</p>
+    <h3>Potential before → after story</h3>
+    <div class="card tint"><strong>Before:</strong> carrying day-to-day pressure and feeling disconnected or unsure about trying something new.<br><strong>After:</strong> having shared time outdoors, a chance to challenge oneself, and new connection and confidence to carry forward.</div>
+    <p class="note">This transformation reflects the organization’s published mission language. Do not promise clinical or therapeutic outcomes unless the organization can substantiate and approve them.</p>
+    <h3>Likely conversion journeys</h3>
+    <ol>
+      <li>Participant discovers the program → understands eligibility and camp details → submits an application → receives confirmation and next-step communication.</li>
+      <li>Support person evaluates participation → understands role and logistics → joins the participant’s application or contacts the team.</li>
+      <li>Donor learns what camps make possible → sees credible impact and partner proof → donates.</li>
+      <li>Potential partner or volunteer learns how the program works → sees current needs → connects with the organization.</li>
+    </ol>
+  </section>
+
+  <section class="page">
+    <div class="section-label">04 · Current website &amp; content</div>
+    <h2>What exists today</h2>
+    <table>
+      <thead><tr><th>Page / area</th><th>Visible purpose</th><th>Redesign consideration</th></tr></thead>
+      <tbody>
+        <tr><td>Home / About</td><td>Mission, goal, camps, donation prompt, sponsor marks</td><td>Separate paths for applicants, donors, and partners; surface the current season and clear eligibility.</td></tr>
+        <tr><td>Apply</td><td>Primary application route linked prominently from navigation</td><td>Confirm the live form, required details, eligibility, deadline/capacity, confirmation, and follow-up process.</td></tr>
+        <tr><td>Connect</td><td>Contact form and direct phone/email details</td><td>Identify the right contact route for participant, donor, partner, and media questions.</td></tr>
+        <tr><td>News</td><td>Camp announcements, updates, and capacity information</td><td>Make dated updates easy to find; keep time-sensitive status accurate and visible near Apply.</td></tr>
+        <tr><td>Gallery</td><td>Mt. Washington camp imagery</td><td>Use approved participant photography and captions with informed consent.</td></tr>
+        <tr><td>Donate</td><td>External Zeffy donation form</td><td>Explain impact before sending donors off-site; confirm donation claims and receipts.</td></tr>
+      </tbody>
+    </table>
+    <h3>Current navigation</h3>
+    <p><span class="tag">About</span><span class="tag">Apply Now</span><span class="tag">Donate</span><span class="tag">Connect</span><span class="tag">News</span></p>
+    <h3>Existing proof and assets</h3>
+    <ul>
+      <li>Named delivery partners: CADS, alpine resorts, volunteers, and local partners.</li>
+      <li>Past and present sponsor logos are displayed, including Old House Hotel, Spartan Wellness, Lockheed Martin, and Boeing; confirm current partner names, logo permissions, and preferred order.</li>
+      <li>A camp gallery and mountain imagery provide an opportunity to show the experience, subject to privacy and consent review.</li>
+      <li>Public contact details: connect@shoulder2shoulder.ca · +1 (780) 813-3997.</li>
+    </ul>
+    <div class="callout"><strong>Content observation:</strong> the site has the essential story and a clear Apply action, but the publicly accessible text reviewed does not establish the full application process, selection criteria, inclusions, accessibility accommodations, or participant stories. Confirm what is available in the live form and what can be published.</div>
+  </section>
+
+  <section class="page">
+    <div class="section-label">05 · Brand, positioning &amp; opportunity</div>
+    <h2>What feels distinctive—and what to clarify</h2>
+    <h3>Publicly expressed brand qualities</h3>
+    <p><span class="tag">Welcoming</span><span class="tag">Resilient</span><span class="tag">Supportive</span><span class="tag">Outdoors-oriented</span><span class="tag">Community-led</span></p>
+    <p>Voice is warm, hopeful, direct, and grounded in shared experience. The “Shoulder to Shoulder. On the mountain. Together.” line captures companionship and place. Balance inspirational language with plain, practical answers.</p>
+    <h3>Working positioning hypothesis</h3>
+    <div class="card tint"><strong>For injured Veterans and RCMP members—and the people who support them—Shoulder 2 Shoulder offers welcoming snow-sport camp experiences that create room for respite, connection, and renewed possibility, with a companion by their side.</strong></div>
+    <p class="note">Working hypothesis derived from public copy; needs client approval, audience validation, and careful review of who is eligible.</p>
+    <h3>Potential differentiators to substantiate</h3>
+    <ul>
+      <li>The participant attends with a support person or caregiver.</li>
+      <li>Costs are structured to avoid financial strain for participants.</li>
+      <li>Snow-sport experiences are enabled by a cross-country network of CADS, resorts, volunteers, and donors.</li>
+    </ul>
+    <h3>Market and evidence gaps</h3>
+    <ul>
+      <li>No competitor or alternative-program research was supplied or verified. Do not claim uniqueness until comparable programs and the “do nothing” alternative are understood.</li>
+      <li>Collect approved participant stories, testimonials, program outcomes, camp photos, and partner endorsements where consent permits.</li>
+      <li>Clarify what “Snow Therapy” means operationally; distinguish the program’s supportive intent from regulated clinical care or guaranteed health outcomes.</li>
+    </ul>
+    <h3>Redesign priorities suggested by this research</h3>
+    <ol>
+      <li>Put the audience, eligibility, and core promise in the first screen.</li>
+      <li>Make the participant pathway and application status unmistakable.</li>
+      <li>Explain the camp experience, support-person role, logistics, costs, and what happens after applying.</li>
+      <li>Give donors a concise, credible impact story and a clear donation action.</li>
+      <li>Show real people and partner credibility with permissions, captions, and accessible alternatives.</li>
+      <li>Keep seasonal schedules, deadlines, and capacity easy to update and verify.</li>
+    </ol>
+  </section>
+
+  <section class="page">
+    <div class="section-label">06 · Client discovery</div>
+    <h2>Questions to complete the brief</h2>
+    <p class="lead">These are the remaining decisions that need the client’s knowledge. A short interview will turn this research snapshot into an agreed strategy.</p>
+    <ol class="questions">
+      <li class="question"><strong>What is the single most important result of the new website?</strong>More eligible applications, donations, partner/volunteer leads, awareness—or a ranked combination?</li>
+      <li class="question"><strong>What's the most common objection that participants have when applying?</strong> Do they feel like this program is for "special" people? Do they feel that they don't have the skills to participate? Are they insecure that the program will suit their needs?</li>
+      <li class="question"><strong>Who is eligible to apply today?</strong>Veterans, RCMP members, First Responders, and which service statuses, regions, or injury criteria? Is a support person required or optional?</li>
+      <li class="question"><strong>What exactly is included in a camp?</strong>Accommodation, meals, equipment, instruction, lift tickets, travel, accessibility support, and any participant costs or requirements?</li>
+      <li class="question"><strong>How does the application and selection process work?</strong>Where does the form go, what happens after submission, how are places allocated, when are decisions made, and what happens if a camp is full?</li>
+      <li class="question"><strong>What is the current 2027 status?</strong>Are applications open? Which locations have space or waitlists? Is the published schedule final?</li>
+      <li class="question"><strong>What real participant language and evidence may we use?</strong>Approved quotes, testimonials, outcomes, return-participant stories, photos, partner endorsements, and consent constraints?</li>
+      <li class="question"><strong>What should a donor understand about impact?</strong>What does a typical gift fund? Is “100% of donations go to support a participant and support person” exact, current, and approved wording?</li>
+      <li class="question"><strong>What makes the organization meaningfully different?</strong>What alternatives do applicants consider, and why do participants, caregivers, and partners choose Shoulder 2 Shoulder?</li>
+      <li class="question"><strong>What are the brand and operational constraints?</strong>Who approves voice/design, what existing identity assets must remain, what privacy/accessibility/legal requirements apply, and who maintains seasonal content?</li>
+      <li class="question"><strong>Which pages or capabilities are in scope?</strong>Keep or replace the current site structure? Any application integrations, donor tools, volunteer/partner information, FAQs, galleries, or account needs?</li>
+      <li class="question"><strong>What's the most sensible organization for the website?</strong> Do you feel we need multiple pages - why? How can we make the website as easy as possible to use and navigate?</li>
+      <li class="question"><strong>What's the primary access method?</strong> How will users acess the website? On the computer? Phone? Tablet? Do they use a screen reader Or Text-to-Speech software? Do the users have any acessabillity requirements that need to be accounted for??</li>
+      <li class="question"><strong>Are there any other sites in this niche?</strong> In your opinion, what are they doing well? Where do they fall short? Please send over <b>3-5</b/>links</li>
+    </ol>
+    <div class="footer-note">Once these answers are confirmed, update the project brief and review it with the client before moving into messaging, page structure, wireframes, or visual design.</div>
+  </section>
+
+  <section class="page">
+    <div class="section-label">07 · Sources &amp; confidence</div>
+    <h2>Source notes</h2>
+    <p>This snapshot was prepared from public pages on <strong>October 21, 2026</strong>. It reflects what those pages stated at the time of review; schedules and application availability may change.</p>
+    <h3>Pages reviewed</h3>
+    <ul class="sources">
+      <li>Home / mission, goal, camps, donation message, partner logos: <a href="https://shoulder2shoulder.ca/">shoulder2shoulder.ca</a></li>
+      <li>2027 camp announcement, eligibility wording, schedule, registration opening: <a href="https://shoulder2shoulder.ca/2026/09/29/apply-today/">Apply Today · September 29, 2026</a></li>
+      <li>Program operations update and prior-season changes: <a href="https://shoulder2shoulder.ca/2026/02/19/update-from-shoulder-2-shoulder/">Update from Shoulder 2 Shoulder · February 19, 2026</a></li>
+      <li>News listing: <a href="https://shoulder2shoulder.ca/news/">shoulder2shoulder.ca/news/</a></li>
+      <li>Application route: <a href="https://shoulder2shoulder.ca/apply/">shoulder2shoulder.ca/apply/</a></li>
+      <li>Contact details: <a href="https://shoulder2shoulder.ca/connect/">shoulder2shoulder.ca/connect/</a></li>
+      <li>Mt. Washington photo gallery: <a href="https://shoulder2shoulder.ca/mt-washington-gallery/">shoulder2shoulder.ca/mt-washington-gallery/</a></li>
+      <li>Donation platform linked from the site: <a href="https://www.zeffy.com/en-CA/donation-form/shoulder-2-shoulder-camps">Zeffy · Shoulder 2 Shoulder Camps</a></li>
+    </ul>
+    <h3>What is confirmed vs. not yet confirmed</h3>
+    <div class="grid">
+      <div class="card"><strong>Published facts</strong><p class="small">Mission language, stated program purpose, 2027 dates/locations, site navigation, listed contact details, partner references, and donation statement as publicly presented.</p></div>
+      <div class="card"><strong>Needs client validation</strong><p class="small">Eligibility, current camp capacity, exact inclusions and costs, application workflow, outcomes, differentiators, donor impact language, brand preferences, and redesign success measures.</p></div>
+    </div>
+    <div class="callout"><strong>Important:</strong> this is not a completed discovery interview, competitor audit, accessibility audit, analytics review, legal review, or confirmation that all site information is current. Recommendations and audience insights are working hypotheses, not client-approved facts.</div>
+    <p class="note">Prepared as a discussion document for the Shoulder 2 Shoulder website rebuild. Please confirm any operational, eligibility, financial, health-related, and time-sensitive statements with the organization before reusing them publicly.</p>
+  </section>
+</main>
+</body>
+</html>
